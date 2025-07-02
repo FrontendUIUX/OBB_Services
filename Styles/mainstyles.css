@@ -19,7 +19,8 @@ html:not(.designer) [name="OBB_header"]{
 	left: 19rem;
 	width: calc(100vw - 21rem);
 	z-index: 3;
-	height: 5.3rem;
+	height: 4rem;
+	padding: 1rem!important;
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
@@ -33,7 +34,6 @@ html:not(.designer) [name="HeaderTitleContainer"] [name="HeaderTitle"]{
 	font-size: 1.7rem;
 	font-family:var(--regularFont);
 	color:black;
-	margin-bottom: 1rem;
 }
 html:not(.designer) [name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
 	font-size:1rem;
