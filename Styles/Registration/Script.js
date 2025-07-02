@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sidebar.append(logoContainer);
 
     // Sidebar title
-    sidebar.append(`<div class="sidebar-section">${isArabic ? "القائمة" : "MENU"}</div>`);
+    sidebar.append(`<div class="sidebar-section topic">${isArabic ? "القائمة" : "MENU"}</div>`);
 
     // Menu items
 	
