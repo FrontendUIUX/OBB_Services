@@ -272,6 +272,20 @@ display:flex;
 .sidebar .nav-link.has-children.expanded::after{
 	transform: translateY(-50%) rotate(180deg);
 }
+.sidebar .sidebar-submenu {
+	padding:0 1rem 1rem;
+	display:flex;
+	flex-direction:column;
+	border-bottom:1px solid rgb(255 255 255 / 30%);
+	margin-bottom:1rem;
+}
+.sidebar .sidebar-submenu .sidebar-link.sub-link{
+	font-size:1rem;
+	text-decoration:none;
+	color:white;
+	width:100%;
+	margin:.5rem 0
+}
 html:not(.designer) [name*="OBB_Collapse"]{
 	border:1px solid #E8E8E8;
 	border-radius:1rem!important;
