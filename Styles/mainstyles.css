@@ -258,12 +258,19 @@ display:flex;
 .sidebar .nav-link.has-children::after{
 	content:"";
 	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg");
-	heigth:1rem;
+	height: 1rem;
 	width:1rem;
 	background-repeat:no-repeat;
 	background-position:center;
+	background-size: contain;
 	position:absolute;
 	right:0;
+	top: 50%;
+	transform: translateY(-50%);
+	transition:var(--transition);
+}
+.sidebar .nav-link.has-children.expanded::after{
+	transform: translateY(-50%) rotate(180deg);
 }
 html:not(.designer) [name*="OBB_Collapse"]{
 	border:1px solid #E8E8E8;
