@@ -220,7 +220,7 @@ display:flex;
     padding: 2rem;
     z-index: 1;
     height: 100vh;
-    background-image: url("https://frontenduiux.github.io/OBB_ETenders/Images/Registration%20Background.png");
+    background-image: url("https://frontenduiux.github.io/OBB_Services/Images/Registration%20Background.png");
     background-size: cover;
     background-position: top;
 }
@@ -245,6 +245,7 @@ display:flex;
 	margin-bottom:1rem;
 	text-decoration:none;
 	opacity:0.9;
+	position:relative;
 }
 .sidebar .nav-link .icon{
 	height: 1.5rem;
@@ -253,6 +254,16 @@ display:flex;
 }
 .sidebar .nav-link .nav-link-text{
 	color:#ffffff;
+}
+.sidebar .nav-link.has-children::after{
+	content:"";
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg");
+	heigth:1rem;
+	width:1rem;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:absolute;
+	right:0;
 }
 html:not(.designer) [name*="OBB_Collapse"]{
 	border:1px solid #E8E8E8;
