@@ -10,10 +10,14 @@
 }
 @font-face {
     font-family:"Co Headline" ;
-    src: url("https://frontenduiux.github.io/OBB_ETenders/fonts/Co%20Headline.otf");
+    src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
 .button.help{
 	display:none;
+}
+.sidebar .nav-link{
+	color:white;
+	transition:var(--transition);
 }
 html:not(.designer) .page-title{
 	font-size: 2rem;
