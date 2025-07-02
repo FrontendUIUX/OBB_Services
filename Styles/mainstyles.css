@@ -1,0 +1,396 @@
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --aqua:#00A8B5;
+    --orange:#E57431;
+    --description:#3E3E3E;
+    --borderColor:#E3E3E3;
+    --regularFont:"Co Headline";
+    --transition:all .3s ease-in-out;
+}
+@font-face {
+    font-family:"Co Headline" ;
+    src: url("https://frontenduiux.github.io/OBB_ETenders/fonts/Co%20Headline.otf");
+}
+.button.help{
+	display:none;
+}
+html:not(.designer) .page-title{
+	font-size: 2rem;
+    font-family: var(--regularFont);
+    color: black;
+}
+html:not(.designer) header{
+	background-color:#F2F2F6;
+	position:fixed;
+	top:0;
+	left:20rem;
+	width:calc(100% - 20rem);
+}
+html:not(.designer){
+    font-size:16px!important;
+}
+html:not(.designer) body{
+    margin:0;
+    padding:0;
+    font-family: var(--regularFont);
+    background-color: white;
+}
+html:not(.designer) .theme-entry.sidebarAvailable{
+	left: 19rem;
+	width: calc(100%  - 19rem);
+	padding: 0 1rem;
+	position: relative;
+}
+html:not(.designer) .runtime-content{
+    margin:0!important;
+}
+html:not(.designer) [name*="OBB_asterik"]{
+    color:var(--aqua)!important;
+}
+html:not(.designer) [name*="OBB_label"]{
+    color:var(--black)!important;
+    font-size:1rem!important;
+    font-family: var(--regularFont);
+}
+html:not(.designer) [name="SignUpButton"]{
+    background-color:var(--orange)!important;
+    border:none!important;
+    box-shadow:none!important;
+    font-family: var(--regularFont);
+    color: white!important;
+    min-height: unset;
+    height: unset;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+html:not(.designer) .panel-body{
+    background-color:transparent!important;
+    box-shadow:none!important;
+}
+html:not(.designer) [name*="OBB_textbox"],
+.filterTxt .input-control-m-c{
+    border:1px solid var(--borderColor)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
+html:not(.designer) [name*="OBB_textarea"]{
+	  border:1px solid var(--borderColor)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+}
+html:not(.designer) .input-control.text-input .input-control-m-c{
+	border:none!important
+}
+html:not(.designer) .readonly[name*="OBB_textbox"],
+html:not(.designer) .empty[name*="OBB_textbox"],
+html:not(.designer) .disabled[name*="OBB_textbox"],
+.ui-lookupbox-disabled{
+	background-color:#f7f7f7!important;
+}
+html:not(.designer) [name*="OBB_dropdown"] .select-box,
+html:not(.designer) .select-box[name*="OBB_calendar"],
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
+.searchDdl .select-box{
+    border:1px solid var(--borderColor)!important;
+    border-radius:.5rem!important;
+    height:2.9rem;
+    min-height:2.9rem;
+    overflow: hidden;
+}
+html:not(.designer) .input-control.text-input.control-group-container .input-control-m-c{
+	border:1px solid var(--borderColor)!important;
+    border-radius:.5rem;
+	height:3.2rem;
+	min-height:3.2rem;
+}
+html:not(.designer) [name*="OBB_dropdown"] .select-box .input-control-m-c,
+html:not(.designer) [name*="OBB_dropdown"] .select-box  .input-control-buttons,
+html:not(.designer) .select-box[name*="OBB_calendar"] .input-control-m-c,
+html:not(.designer) .select-box[name*="OBB_calendar"]  .input-control-buttons,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-buttons,
+.searchDdl .select-box .input-control-m-c,
+.searchDdl .select-box .input-control-buttons{
+    border:none!important;
+}
+.filterLabel{
+	font-size:1rem;
+}
+.searchDdl .select-box{
+	margin-top:.5rem;
+	margin-bottom:.5rem;
+}
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15rem;
+    padding: 2rem;
+    z-index: 1;
+    height: 100vh;
+    background-image: url("https://frontenduiux.github.io/OBB_ETenders/Images/Registration%20Background.png");
+    background-size: cover;
+    background-position: top;
+}
+.navbarBrand a{width: 9rem;display: block;margin: auto;}
+.navbarBrand a img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+}
+.sidebar .topic{
+	margin-top:4rem;
+	margin-bottom:2rem;
+	text-transform:uppercase;
+	color:#FDFDFD;
+	opacity: .8;
+	font-weight:300;
+	font-family: var(--regularFont);
+	letter-spacing: 0.23rem;
+}
+.sidebar .nav-link{
+	display:block;
+	margin-bottom:1rem;
+	text-decoration:none;
+	opacity:0.9;
+}
+.sidebar .nav-link .icon{
+	height: 1.5rem;
+	widtH: 1.5rem;
+	margin-right: 1rem;
+}
+.sidebar .nav-link .nav-link-text{
+	color:#ffffff;
+}
+html:not(.designer) [name*="OBB_Collapse"]{
+	border:1px solid #E8E8E8;
+	border-radius:1rem!important;
+	overflow:hidden;
+	margin-bottom: 1rem;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper,
+html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
+	border-bottom:1px solid #E8E8E8;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-header{
+	height: 5rem;
+	background-color:transparent;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper,
+html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
+	padding:1rem 2rem;
+	background-color:white;
+	width: calc(100% - 4rem);
+	height:100%;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text,
+html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper .grid-header-text{
+	font-size:1.6rem;
+	font-family:var(--regularFont);
+	padding: 0;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-body{
+	padding: 1rem 2rem;
+}
+td#\38 045da8e-fbf6-2785-88ce-9edf65552682,
+td#c2b54e05-058a-e4e8-00d1-406cf875ab16,
+td#\37 dbd9ea0-a3af-08f8-cd42-1be157d6274d,
+td#eb4aa284-91ee-abc7-1932-9e5f938473b7{
+    width: fit-content;
+    margin-left: auto;
+    display: block;
+}
+html:not(.designer) [name*="OBB_button"],
+html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
+	border-radius:.5rem;
+	margin-left: 1rem;
+	border:none;
+	transition:var(--transition);
+	font-family:var(--regularFont);
+}
+html:not(.designer) [name*="OBB_button OBB_primary_button"],
+html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
+	background-color:var(--orange)!important;
+	color:white!important;
+}
+html:not(.designer) [name="RFQTenderCreation_Button  OBB_button OBB_primary_button"]{
+	margin:0;
+}
+html:not(.designer) .SourceCode-Forms-Controls-Web-Button[name*="OBB_button OBB_secondary_button"]{
+	color:var(--orange)!important;
+	border:1px solid var(--orange);
+	background-color:white!important;
+}
+html:not(.designer) .theme-entry .input-control.style-aware.radio  span{
+	height:unset!important;
+	font-size:1rem;
+	font-family:var(--regularFont);
+}
+html:not(.designer) [name*="OBB_WorkList"]{
+	border-radius:1rem!important;
+	border:1px solid var(--borderColor);
+}
+html:not(.designer) [name*="OBB_WorkList"] .SourceCodeFormsControlsWorklist{
+	border:none!important;
+}
+.theme-entry span.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry h1.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry h2.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry h3.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry h4.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry label.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry p.SourceCode-Forms-Controls-Web-Label.disabled, 
+.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry h1.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry h2.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry h3.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry h4.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry label.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry p.SourceCode-Forms-Controls-Web-DataLabel.disabled, 
+.theme-entry span.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry h1.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry h2.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry h3.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry h4.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry label.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry p.SourceCode-Forms-Controls-Web-Label.preview, 
+.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry h1.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry h2.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry h3.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry h4.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry label.SourceCode-Forms-Controls-Web-DataLabel.preview, 
+.theme-entry p.SourceCode-Forms-Controls-Web-DataLabel.preview,
+.theme-entry .input-control.disabled, 
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.disabled, 
+.theme-entry .textbox-style-wrapper.disabled, 
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.preview, 
+.theme-entry .textbox-style-wrapper.preview, 
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-RadioButton.preview{
+	opacity:1;
+}
+.ui-lookupbox-disabled .input-control-buttons {
+	display:none!important;
+}
+.empty-grid .grid-content-cell-wrapper{
+	margin: 1rem auto;
+	font-size: 1rem;
+	font-family: var(--regularFont);
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button,
+.theme-entry .grid .grid-footer  .toolbar-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.styling-font{
+	font-size:1rem;
+	font-family:var(--regularFont);
+}
+.input-control.style-aware.radio svg{
+	height: 1.4rem!important;
+}
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text{
+	max-width:fit-content!important;
+	white-space:nowrap!important;
+}
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control{
+	width:fit-content!important;
+	display: flex;
+	align-items: center;
+}
+@media(min-width:1600px){
+.sidebar {
+    width: 12vw;
+    padding: 2vw;
+}
+.navbarBrand a{width: 9vw;}
+}

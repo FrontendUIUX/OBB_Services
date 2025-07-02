@@ -1,0 +1,18 @@
+[name="HeaderTitleContainer"] [name="HeaderTitle"]{
+	font-size:2rem;
+	font-family:var(--regularFont);
+	color:black;
+}
+[name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
+	font-size:1rem;
+	color:var(--description);
+	font-family:var(--regularFont);
+}
+@media(min-width:1600px){
+ [name="HeaderTitleContainer"] [name="HeaderTitle"]{
+	 font-size:2vw;
+ }
+ [name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
+	 font-size:1vw;
+ }
+}

@@ -1,0 +1,100 @@
+
+html:not(.designer) span[name*="SignUpTitle"] span[name="HeaderTitle"] {
+    font-size: 2.5rem !important;
+    color:var(--black);
+    font-family: var(--regularFont);
+}
+html:not(.designer) span[name*="SignUpDescription"] span[name*="SubHeader"]{
+    color:var(--description);
+    font-size:1rem;
+    font-family: var(--regularFont);
+}
+html:not(.designer) [name="SignUpButton"]{
+    background-color:var(--orange)!important;
+    border:none!important;
+    box-shadow:none!important;
+    font-family: var(--regularFont);
+    color: white!important;
+    min-height: unset;
+    height: unset;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+html:not(.designer) .panel-body,
+[name="SignUp.Form Area Item"]{
+    background-color:transparent!important;
+    box-shadow:none!important;
+}
+[name="LoginButton"]{
+    background-color:transparent!important;
+    border:none!IMPORTANT;
+    box-shadow:none!important;
+    color:var(--orange)!important;
+    font-size:1rem!important;
+    padding: 0!important;
+    min-width: fit-content!important;
+    margin-left: .7rem;
+    font-family: var(--regularFont)!important;
+    min-height: unset!important;
+}
+html:not(.designer) .IntroSection{
+    height:100vh;
+    display: flex;
+}
+html:not(.designer) .video-container{
+    background-image:url("https://frontenduiux.github.io/OBB_ETenders/Images/Registration%20Background.png");
+    background-size:cover;
+    background-position: top;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 50%;
+}
+html:not(.designer) .form-wrapper{
+    width: 50%;
+}
+html:not(.designer) .video-container .intro{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: -webkit-fill-available;
+    padding:2rem;
+}
+html:not(.designer) .video-container .intro h2{
+    color:white;
+    width: 90%;
+    font-family: var(--regularFont);
+}
+html:not(.designer) [name="RegistrationLowerSection"] [name="QuestionLabel"]{
+      font-family:var(--regularFont);
+    font-size:1rem;
+}
+span#f26272d5-f664-befc-2ead-d3513424ee2c{
+    display:flex;
+    align-items:center;
+}
+html:not(.designer) .theme-entry .form{
+   height:100%;
+   padding: 3vw 4vw;
+}
+[name="RegistrationLowerSection"]{
+    margin-top:1rem;
+}
+@media(min-width:1600px){
+    html:not(.designer) .video-container .intro{
+        padding:2vw;
+    }
+    html:not(.designer)  .theme-entry .form{
+    padding: 3vw 4vw;
+}
+	html:not(.designer) .video-container .intro h2{
+    width: 66%;
+}
+    [name="RegistrationLowerSection"]{
+    margin-top:1vw;
+}
+}
+html:not(.designer) [name="LoginButton"].SourceCode-Forms-Controls-Web-Button{
+    background-color:transparent!important;
+    color:var(--orange)!important;
+}
