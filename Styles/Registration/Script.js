@@ -144,6 +144,7 @@ const currentUrl = window.location.href;
 
             parentLink.on('click', function () {
                 submenu.slideToggle(200);
+		$(".sidebar-link").removeClass("expanded");
                 $(this).toggleClass('expanded');
             });
         }
