@@ -15,10 +15,19 @@
 html:not(.designer) [name="OBB_header"]{
 	background-color:#F2F2F6;
 }
+html:not(.designer) [name="OBB_header"] > div{
+	display:flex!important;
+	align-items:center;
+	justify-content:space-between;
+	width:100%;
+}
+html:not(.designer) [name="HeaderTitleContainer"]{
+width:80%;}
 html:not(.designer) [name="HeaderTitleContainer"] [name="HeaderTitle"]{
-	font-size:2rem;
+	font-size: 1.7rem;
 	font-family:var(--regularFont);
 	color:black;
+	margin-bottom: 1rem;
 }
 html:not(.designer) [name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
 	font-size:1rem;
