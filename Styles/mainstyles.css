@@ -12,6 +12,9 @@
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
+html:not(.designer) [name="OBB_header"]{
+	background-color:#F2F2F6;
+}
 .button.help{
 	display:none;
 }
