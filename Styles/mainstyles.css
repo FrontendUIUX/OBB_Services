@@ -14,6 +14,12 @@
 }
 html:not(.designer) [name="OBB_header"]{
 	background-color:#F2F2F6;
+	position: fixed;
+	top: 0;
+	left: 19rem;
+	width: calc(100vw - 21rem);
+	z-index: 3;
+	height: 5.3rem;
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
@@ -58,9 +64,11 @@ html:not(.designer){
 }
 html:not(.designer) body{
     margin:0;
-    padding:0;
+    padding: 1rem;
     font-family: var(--regularFont);
     background-color: white;
+    margin-top: 4rem;
+    height: calc(100% - 4rem);
 }
 html:not(.designer) .theme-entry.sidebarAvailable{
 	left: 19rem;
