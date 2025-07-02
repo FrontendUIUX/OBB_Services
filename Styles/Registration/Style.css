@@ -77,8 +77,7 @@ span#f26272d5-f664-befc-2ead-d3513424ee2c{
     align-items:center;
 }
 html:not(.designer) .theme-entry .form{
-   height:100%;
-   padding: 3vw 4vw;
+   padding:0;
 }
 [name="RegistrationLowerSection"]{
     margin-top:1rem;
