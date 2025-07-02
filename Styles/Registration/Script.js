@@ -122,7 +122,7 @@ const currentUrl = window.location.href;
 
         const parentLink = $('<a>')
             .attr('href', hasChildren ? 'javascript:void(0)' : item.url)
-            .addClass('sidebar-link')
+            .addClass('sidebar-link nav-link')
             .toggleClass('has-children', hasChildren)
             .append($('<span>').text(item.text));
 
