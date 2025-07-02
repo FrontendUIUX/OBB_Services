@@ -15,6 +15,16 @@
 html:not(.designer) [name="OBB_header"]{
 	background-color:#F2F2F6;
 }
+html:not(.designer) [name="HeaderTitleContainer"] [name="HeaderTitle"]{
+	font-size:2rem;
+	font-family:var(--regularFont);
+	color:black;
+}
+html:not(.designer) [name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
+	font-size:1rem;
+	color:var(--description);
+	font-family:var(--regularFont);
+}
 .button.help{
 	display:none;
 }
