@@ -1,4 +1,7 @@
-
+html:not(.designer) body{
+    margin-left: 19rem!important;
+    width: calc(100vw - 19rem)!important;
+}
 html:not(.designer) span[name*="SignUpTitle"] span[name="HeaderTitle"] {
     font-size: 2.5rem !important;
     color:var(--black);
