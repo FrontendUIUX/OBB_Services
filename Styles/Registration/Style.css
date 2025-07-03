@@ -32,6 +32,9 @@ html:not(.designer) .panel-body,
 html:not(.designer) a#\30 0000000-0000-0000-0000-000000000000_4de18d52-c5f8-7dc5-7aaf-08b06c414f64{
     margin:1rem 0;
 }
+span#\38 d56ce58-bd47-8d4b-686a-e1c3db6d5a6c_ddfd82b9-fb42-e6dd-c8ec-bb14f3f30f36 {
+    padding-bottom: 0;
+}
 [name="LoginButton"]{
     background-color:transparent!important;
     border:none!IMPORTANT;
