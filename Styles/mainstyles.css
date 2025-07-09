@@ -19,11 +19,15 @@ html:not(.designer) [name="OBB_header"]{
 	background-color:#F2F2F6;
 	position: fixed;
 	top: 0;
-	left: 19rem;
-	width: calc(100vw - 21rem);
+	left:0;
+	width:100%;
 	z-index: 3;
 	height: 4rem;
 	padding: 1rem!important;
+}
+html:not(.designer) .sidebarVisible [name="OBB_header"]{
+	left: 19rem;
+	width: calc(100vw - 21rem);
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
