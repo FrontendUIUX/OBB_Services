@@ -234,6 +234,7 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
 
     // Add sidebar to body
     $('body').append(sidebar);
+    $('body').addClass('sidebarVisible');
 });
 
 
