@@ -1,4 +1,4 @@
-html:not(.designer) body{
+html:not(.designer) body.sidebarVisible{
     margin-left: 19rem!important;
     width: calc(100vw - 19rem)!important;
 }
