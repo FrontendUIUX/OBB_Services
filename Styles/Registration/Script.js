@@ -41,7 +41,82 @@ const currentUrl = window.location.href;
      
 	
 
-	if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
+	// if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
+	//    menuItems = [
+    //     { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/ArchivingLandingForm/" },
+    //     { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPTaskListForm/" },
+
+    //     { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPCompletedForm/" },
+    //     { text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPInProgressForm/" },
+	// 	{ text: "Archived Requests", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPArchivedForm/" }
+    // ];
+	// } else if (currentUrl.includes("VRM")  ) {
+	// 	menuItems = [
+    //     { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRM.LandingForm/" },
+    //     { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMTaskListForm/" },
+    //     { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMCompletedForm/" },
+	// 	{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMInProgressForm/" },
+    //     { text: "Archived Records", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
+    // ];
+	// } else if(currentUrl.includes("Letter")) {
+	// 			menuItems = [
+    //     { text: "Home", url: "" },
+    //     { text: "Tasks List", url: "" },
+    //     { text: "Archived", url: "" }
+    // ];
+	// }else if (currentUrl.includes("SAWP"))
+	// {
+	// 	if (currentUrl.includes("SAWPInternal")){
+	// 		menuItems = [
+	// 			{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+	// 			{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+	// 			{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalInProgressForm/" },
+	// 			{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalCompletedForm/" }
+	// 		];		
+	// 	}else if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm")){
+	// 		menuItems = [
+	// 			{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternal.LandingForm/" },
+	// 			{
+	// 				text: "New Request", url: "", children: [
+	// 					{ text: "Site Access", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+	// 					{ text: "Work Permit", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+	// 				]
+	// 			},
+	// 			{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
+	// 			{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalInProgressForm/" },
+	// 			{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalCompletedForm/" }
+	// 		];
+	// 	}
+	// }
+	// else{
+		
+	// 	menuItems = [
+    //     { text: "Home", url: "" },
+    //     { text: "Tasks List", url: "" },
+    //     {
+    //         text: "Create documents", url: "", children: [
+    //             { text: "In Progress", url: "/in-progress" },
+    //             { text: "Completed", url: "/completed" }
+    //         ]
+    //     },
+    //     {
+    //         text: "Archive documents", url: "", children: [
+    //             { text: "In Progress", url: "/in-progress" },
+    //             { text: "Completed", url: "/completed" }
+    //         ]
+    //     },
+    //     {
+    //         text: "Request access", url: "", children: [
+    //             { text: "In Progress", url: "/in-progress" },
+    //             { text: "Completed", url: "/completed" }
+    //         ]
+    //     },
+    //     { text: "Archived", url: "" }
+    // ];		
+	// }
+
+    //
+if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
 	   menuItems = [
         { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/ArchivingLandingForm/" },
         { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPTaskListForm/" },
@@ -87,8 +162,14 @@ const currentUrl = window.location.href;
 				{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalCompletedForm/" }
 			];
 		}
-	}
-	else{
+	}else if(currentUrl.includes("Visitor")) {
+				menuItems = [
+        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorLandingForm/" },
+        { text: "New Request", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
+        { text: "History", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorHistory.Form/" }
+                ];
+    }
+    else{
 		
 		menuItems = [
         { text: "Home", url: "" },
@@ -114,8 +195,7 @@ const currentUrl = window.location.href;
         { text: "Archived", url: "" }
     ];		
 	}
-
-
+    //
     // Build menu
     menuItems.forEach(item => {
         const hasChildren = Array.isArray(item.children) && item.children.length > 0;
