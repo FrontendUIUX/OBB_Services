@@ -470,6 +470,9 @@ html:not(.designer) [name*="OBB_WorkList"] .SourceCodeFormsControlsWorklist{
     align-content: center !important;
     padding-top: 3.5rem !important;
 }
+[name*= "OBB_checkbox noPadding"] {
+    padding-top: 0rem !important;
+}
 @media(min-width:1600px){
 .sidebar {
     width: 12vw;
