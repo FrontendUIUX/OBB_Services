@@ -88,11 +88,11 @@ html:not(.designer) .theme-entry .form{
 [name="RegistrationLowerSection"]{
     margin-top:1rem;
 }
-span#f1ca746c-ae93-27da-d92d-2c8290a9a154 {
+body:not(.sidebarVisible) span#f1ca746c-ae93-27da-d92d-2c8290a9a154 {
     padding-bottom: 0;
 }
 
-span#\35 2ba53b4-bcdc-519c-28c9-5844b8e63f76 {
+body:not(.sidebarVisible) span#\35 2ba53b4-bcdc-519c-28c9-5844b8e63f76 {
     padding-top: 0;
 }
 @media(min-width:1600px){
