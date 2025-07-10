@@ -25,6 +25,10 @@ html:not(.designer) [name="OBB_header"]{
 	height: 4rem;
 	padding: 1rem!important;
 }
+html:not(.designer) .dropdown-box .input-control-m-c{
+	display: flex;
+	align-items:center;
+}
 html:not(.designer) .sidebarVisible [name="OBB_header"]{
 	left: 19rem;
 	width: calc(100vw - 21rem);
