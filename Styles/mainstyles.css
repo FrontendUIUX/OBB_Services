@@ -470,14 +470,15 @@ html:not(.designer) [name*="OBB_WorkList"] .SourceCodeFormsControlsWorklist{
     align-content: center !important;
     padding-top: 3.5rem !important;
 }
-[name*="Button marginBottom"]{
+[name="Button marginBottom"]{
 	margin-bottom:1rem;
-}
-[name*="OBB_Collapse marginTop PaddingTop"]{
-	padding-top:1rem;
 }
 [name*= "OBB_checkbox noPadding"] {
     padding-top: 0rem !important;
+}
+tr.selected .runtime-list-item,
+tr.selected .runtime-list-item-wrap{
+	color:white!important;
 }
 @media(min-width:1600px){
 .sidebar {
