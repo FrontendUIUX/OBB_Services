@@ -91,7 +91,12 @@ html:not(.designer) .theme-entry .form{
 body:not(.sidebarVisible) span#f1ca746c-ae93-27da-d92d-2c8290a9a154 {
     padding-bottom: 0;
 }
-
+a#b486c4ee-7712-23a8-8a4a-c4b2b22b690d_8778f609-6c4b-004e-7f89-80cc20e9fb9d{
+    margin-bottom:1rem;
+}
+div#b486c4ee-7712-23a8-8a4a-c4b2b22b690d_2c28ca31-a4c9-4759-9799-0304b4775adf_filter .filterContainer{
+    padding:0 1rem;
+}
 body:not(.sidebarVisible) span#\35 2ba53b4-bcdc-519c-28c9-5844b8e63f76 {
     padding-top: 0;
 }
