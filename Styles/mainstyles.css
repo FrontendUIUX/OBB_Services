@@ -476,6 +476,9 @@ html:not(.designer) [name*="OBB_WorkList"] .SourceCodeFormsControlsWorklist{
 [name*= "OBB_checkbox noPadding"] {
     padding-top: 0rem !important;
 }
+[name*="OBB_Collapse marginTop PaddingTop"]{
+	padding-top:1rem;
+}
 tr.selected .runtime-list-item,
 tr.selected .runtime-list-item-wrap{
 	color:white!important;
