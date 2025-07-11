@@ -378,6 +378,12 @@ html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
 	background-color:var(--orange)!important;
 	color:white!important;
 }
+html:not(.designer) [name*="paddingTop"]{
+	padding-top:1rem !important;
+}
+html:not(.designer) [name*="paddingBottom"]{
+	padding-bottom:1rem!important;
+}
 html:not(.designer) [name="RFQTenderCreation_Button  OBB_button OBB_primary_button"]{
 	margin:0;
 }
