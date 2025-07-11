@@ -25,6 +25,15 @@ html:not(.designer) [name="OBB_header"]{
 	height: 4rem;
 	padding: 1rem!important;
 }
+html:not(.designer) [name*="p-0"]{
+	padding:0!important;
+}
+html:not(.designer) [name*="pb-0"]{
+	padding-bottom:0!important;
+}
+html:not(.designer) [name*="pt-0"]{
+	padding-top:0!important;
+}
 html:not(.designer) .dropdown-box .input-control-m-c{
 	display: flex;
 	align-items:center;
