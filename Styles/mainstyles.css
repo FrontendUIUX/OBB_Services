@@ -680,6 +680,7 @@ html:not(.designer) [name*="OBB_WorkList"] .SourceCodeFormsControlsWorklist{
 }
 [name*= "OBB_checkbox"] *{
 	font-family:var(--regularFont);
+	font-size: 1rem!important;
 }
 [name*= "OBB_Collapse marginTop PaddingTop"]{
 	padding-top:1rem!important;
