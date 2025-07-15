@@ -318,7 +318,8 @@ html:not(.designer) .readonly[name*="OBB_textbox"],
 html:not(.designer) .empty[name*="OBB_textbox"],
 html:not(.designer) .disabled[name*="OBB_textbox"],
 .ui-lookupbox-disabled,
-.input-control.select-box.read-only .input-control-m-c{
+.input-control.select-box.read-only .input-control-m-c,
+.read-only textarea{
 	background-color:#f7f7f7!important;
 }
 .input-control.select-box.read-only  .input-control-buttons{
