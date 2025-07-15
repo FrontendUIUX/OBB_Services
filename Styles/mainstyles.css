@@ -19,6 +19,11 @@ html:not(.designer) .SourceCodeFormsControlsWorklist{
 html:not(.designer) [name="UserName"]{
 	font-size: 1rem;
 }
+html:not(.designer) [name*="OBB_link"]{
+	font-size:.9rem;
+	font-family:var(--regularFont);
+	margin-left:.5rem;
+}
 html:not(.designer) [name="OBB_header"]{
 	background-color:#F2F2F6;
 	position: fixed;
