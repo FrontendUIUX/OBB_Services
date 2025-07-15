@@ -58,9 +58,10 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
     ];
 	} else if(currentUrl.includes("Letter")) {
 				menuItems = [
-        { text: "Home", url: "" },
-        { text: "Tasks List", url: "" },
-        { text: "Archived", url: "" }
+        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterLandingForm/" },
+        { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterTaskListForm/" },
+        { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterCompletedForm/" },
+        { text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterPendingForm/" }
     ];
 	}else if (currentUrl.includes("SAWP"))
 	{
@@ -68,12 +69,18 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
 			menuItems = [
 				{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
 				{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+                {
+					text: "New Request", url: "", children: [
+						{ text: "Site Access", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+						{ text: "Work Permit", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+					]
+				},
 				{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalInProgressForm/" },
 				{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalCompletedForm/" }
 			];		
 		}else if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm")){
 			menuItems = [
-				{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternal.LandingForm/" },
+				{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWP.LandingForm/" },
 				{
 					text: "New Request", url: "", children: [
 						{ text: "Site Access", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
