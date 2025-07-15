@@ -12,6 +12,10 @@
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
+html:not(.designer) .SourceCodeFormsControlsWorklist{
+	border-radius:1rem!important;
+	overflow:hidden;
+}
 html:not(.designer) [name="UserName"]{
 	font-size: 1rem;
 }
