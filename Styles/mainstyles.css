@@ -318,8 +318,11 @@ html:not(.designer) .readonly[name*="OBB_textbox"],
 html:not(.designer) .empty[name*="OBB_textbox"],
 html:not(.designer) .disabled[name*="OBB_textbox"],
 .ui-lookupbox-disabled,
-.input-control.select-box.read-only{
+.input-control.select-box.read-only .input-control-m-c{
 	background-color:#f7f7f7!important;
+}
+.input-control.select-box.read-only  .input-control-buttons{
+display:none;
 }
 html:not(.designer) [name*="OBB_dropdown"] .select-box,
 html:not(.designer) .select-box[name*="OBB_calendar"],
