@@ -317,7 +317,8 @@ html:not(.designer) .input-control.text-input .input-control-m-c{
 html:not(.designer) .readonly[name*="OBB_textbox"],
 html:not(.designer) .empty[name*="OBB_textbox"],
 html:not(.designer) .disabled[name*="OBB_textbox"],
-.ui-lookupbox-disabled{
+.ui-lookupbox-disabled,
+.input-control.select-box.read-only{
 	background-color:#f7f7f7!important;
 }
 html:not(.designer) [name*="OBB_dropdown"] .select-box,
