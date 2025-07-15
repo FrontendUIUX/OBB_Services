@@ -41,7 +41,7 @@ const currentUrl = window.location.href;
 
 if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
 	   menuItems = [
-        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/ArchivingLandingForm/" },
+        { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
         { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPTaskListForm/" },
 
         { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPCompletedForm/" },
