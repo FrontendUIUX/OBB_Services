@@ -53,7 +53,7 @@ html:not(.designer) .dropdown-box .input-control-m-c{
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"]{
 	left: 15rem;
-	width: calc(100vw - 17rem);
+	width: calc(100vw - 18rem);
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
@@ -97,7 +97,7 @@ html:not(.designer){
 }
 html:not(.designer) body{
     margin:0;
-    padding: 1rem;
+    padding: 1rem 0;
     font-family: var(--regularFont);
     background-color: white;
     margin-top: 4rem;
