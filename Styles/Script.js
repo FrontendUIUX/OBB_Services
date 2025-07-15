@@ -60,3 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
         $('body').addClass("sidebarAvailable").append(sidebar);
     }
 });
+$(document).ready(function(){
+    $("[name='btnOutgoing']").click(function(){
+        $(this).addClass("active");
+        $("[name='btnIncoming']").removeClass("active");
+    })
+})
