@@ -521,9 +521,15 @@ html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
 }
 html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text,
 html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper .grid-header-text{
-	font-size:1.6rem;
+	font-size: 1.6rem;
 	font-family:var(--regularFont);
 	padding: 0;
+	height: unset;
+	min-height: unset;
+}
+html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text > span,
+html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper .grid-header-text> span{
+	min-height: 3rem;
 }
 html:not(.designer) [name*="OBB_Collapse"] .panel-body{
 	padding: 1rem 2rem;
