@@ -558,7 +558,7 @@ td#eb4aa284-91ee-abc7-1932-9e5f938473b7{
 html:not(.designer) [name*="OBB_button"],
 html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
 	border-radius:.5rem;
-	margin-left: 1rem;
+	/* margin-left: 1rem; */
 	border:none;
 	transition:var(--transition);
 	font-family:var(--regularFont);
