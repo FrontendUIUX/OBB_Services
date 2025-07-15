@@ -1,6 +1,6 @@
 html:not(.designer) body.sidebarVisible{
     margin-left: 15rem!important;
-    width: calc(100vw - 15rem)!important;
+    width: calc(100vw - 16rem)!important;
     padding: 1rem;
 }
 html:not(.designer) span[name*="SignUpTitle"] span[name="HeaderTitle"] {
