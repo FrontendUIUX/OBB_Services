@@ -65,4 +65,8 @@ $(document).ready(function(){
         $(this).addClass("active");
         $("[name='btnIncoming']").removeClass("active");
     })
+    $("[name='btnIncoming']").click(function(){
+        $(this).addClass("active");
+        $("[name='btnOutgoing']").removeClass("active");
+    })
 })
