@@ -525,5 +525,9 @@ tr.selected .runtime-list-item-wrap{
     width: 12vw;
     padding: 2vw;
 }
+html:not(.designer) .sidebarVisible [name="OBB_header"] {
+    left: 19.1rem;
+    width: calc(100vw - 21.9rem);
+}
 .navbarBrand a{width: 9vw;}
 }
