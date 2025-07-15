@@ -345,6 +345,10 @@ html:not(.designer) .select-box[name*="OBB_calendar"]  .input-control-buttons,
 .searchDdl .select-box .input-control-buttons{
     border:none!important;
 }
+html:not(.designer) .select-box[name*="OBB_calendar"] *{
+	font-family:var(--regularFont);
+	font-size:1rem!important;
+}
 .filterLabel{
 	font-size:1rem;
 }
