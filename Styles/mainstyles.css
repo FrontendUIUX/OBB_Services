@@ -12,6 +12,10 @@
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
+html:not(.Designer) [name="btnOutgoing"]:focus .button-text,
+html:not(.Designer) [name="btnIncoming"]:focus .button-text{
+	color:var(--aqua)!important;
+}
 html:not(.designer) .SourceCodeFormsControlsWorklist{
 	border-radius:1rem!important;
 	overflow:hidden;
