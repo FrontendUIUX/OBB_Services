@@ -310,6 +310,7 @@ html:not(.designer) [name*="OBB_textarea"]{
     font-family: var(--regularFont)!important;
     width: 100%;
 }
+
 html:not(.designer) .input-control.text-input .input-control-m-c{
 	border:none!important
 }
@@ -345,7 +346,10 @@ html:not(.designer) .select-box[name*="OBB_calendar"]  .input-control-buttons,
 .searchDdl .select-box .input-control-buttons{
     border:none!important;
 }
-html:not(.designer) .select-box[name*="OBB_calendar"] *{
+html:not(.designer) .select-box[name*="OBB_calendar"] *,
+[name*="OBB_textbox"],[name*="OBB_textarea"] ,textarea,
+.input-control-watermark,
+[name*="OBB_dropdown"] *{
 	font-family:var(--regularFont);
 	font-size:1rem!important;
 }
