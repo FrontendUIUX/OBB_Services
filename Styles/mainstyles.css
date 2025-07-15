@@ -52,8 +52,8 @@ html:not(.designer) .dropdown-box .input-control-m-c{
 	align-items:center;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"]{
-	left: 15rem;
-	width: calc(100vw - 17rem);
+	left: 19.1rem;
+	width: calc(100vw - 21.9rem);
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
