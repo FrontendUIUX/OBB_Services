@@ -42,61 +42,61 @@ const currentUrl = window.location.href;
 if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
 	   menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
-        { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPTaskListForm/" },
+        { text: "Tasks List", url: "/Runtime/Runtime/Form/RAPTaskListForm/" },
 
-        { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPCompletedForm/" },
-        { text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPInProgressForm/" },
-		{ text: "Archived Requests", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/RAPArchivedForm/" }
+        { text: "Completed", url: "/Runtime/Runtime/Form/RAPCompletedForm/" },
+        { text: "In Progress", url: "/Runtime/Runtime/Form/RAPInProgressForm/" },
+		{ text: "Archived Requests", url: "/Runtime/Runtime/Form/RAPArchivedForm/" }
     ];
 	} else if (currentUrl.includes("VRM")  ) {
 		menuItems = [
-        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRM.LandingForm/" },
-        { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMTaskListForm/" },
-        { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMCompletedForm/" },
-		{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMInProgressForm/" },
-        { text: "Archived Records", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
+        { text: "Home", url: "/Runtime/Runtime/Form/VRM.LandingForm/" },
+        { text: "Tasks List", url: "/Runtime/Runtime/Form/VRMTaskListForm/" },
+        { text: "Completed", url: "/Runtime/Runtime/Form/VRMCompletedForm/" },
+		{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMInProgressForm/" },
+        { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
     ];
 	} else if(currentUrl.includes("Letter")) {
 				menuItems = [
-        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterLandingForm/" },
-        { text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterTaskListForm/" },
-        { text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterCompletedForm/" },
-        { text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/LetterPendingForm/" }
+        { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
+        { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
+        { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
+        { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
     ];
 	}else if (currentUrl.includes("SAWP"))
 	{
 		if (currentUrl.includes("SAWPInternal")){
 			menuItems = [
-				{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+				{ text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
 				{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
                 {
 					text: "New Request", url: "", children: [
-						{ text: "Site Access", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
-						{ text: "Work Permit", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+						{ text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+						{ text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
 					]
 				},
-				{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalInProgressForm/" },
-				{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalCompletedForm/" }
+				{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPInternalInProgressForm/" },
+				{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPInternalCompletedForm/" }
 			];		
 		}else if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm")){
 			menuItems = [
-				{ text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWP.LandingForm/" },
+				{ text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
 				{
 					text: "New Request", url: "", children: [
-						{ text: "Site Access", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
-						{ text: "Work Permit", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+						{ text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+						{ text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
 					]
 				},
-				{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
-				{ text: "In Progress", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalInProgressForm/" },
-				{ text: "Completed", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPExternalCompletedForm/" }
+				{ text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
+				{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPExternalInProgressForm/" },
+				{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPExternalCompletedForm/" }
 			];
 		}
 	}else if(currentUrl.includes("Visitor")) {
 				menuItems = [
-        { text: "Home", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorLandingForm/" },
-        { text: "New Request", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
-        { text: "History", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/VisitorHistory.Form/" }
+        { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
+        { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
+        { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
                 ];
     }
     else{
