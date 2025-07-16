@@ -751,7 +751,7 @@ border-bottom:none!important
 	transition:all .3s ease-in-out;
 }
 [name*="OBB_Service"]:hover{
-background-color:var(--aqua);
+background-color:#00a9b550;;
 }
 [name*="OBB_ServiceIcon"]{
 	width:4rem!important;
@@ -760,6 +760,7 @@ background-color:var(--aqua);
 	/* margin:auto!important; */
 	border-radius: 0;
 	display: block;
+	background-color: transparent!important;
 }
 [name*="OBB_ServiceIcon"] img{
 	height:100%!important;
