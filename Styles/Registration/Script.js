@@ -51,6 +51,12 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
 	} else if (currentUrl.includes("VRM")  ) {
 		menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/VRM.LandingForm/" },
+        {
+					text: "New Request", url: "", children: [
+						{ text: "New Document", url: "/Runtime/Runtime/Form/NewDocCreation.SubmitForm/" },
+						{ text: "Archiving Document", url: "/Runtime/Runtime/Form/ArchivingDoc.SubmitForm/" }
+					]
+				},
         { text: "Tasks List", url: "/Runtime/Runtime/Form/VRMTaskListForm/" },
         { text: "Completed", url: "/Runtime/Runtime/Form/VRMCompletedForm/" },
 		{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMInProgressForm/" },
@@ -68,7 +74,7 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
 		if (currentUrl.includes("SAWPInternal")){
 			menuItems = [
 				{ text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
-				{ text: "Tasks List", url: "https://win-0q5t2palbof/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+				{ text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
                 {
 					text: "New Request", url: "", children: [
 						{ text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
