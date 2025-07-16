@@ -731,6 +731,12 @@ border-bottom:none!important
 .popup.dialog .popup-header .popup-header-text{
     font-size:1.4rem;
 }
+.theme-entry .message-box-content.error:before{
+    background-image:url("https://frontenduiux.github.io/OBB_Services/Images/error.svg");
+    background-size:3rem;
+    background-repeat:no-repeat;
+    background-position:center;
+}
 /* POPUP BRANDING END */
 /* OBB SERVICES START */
 [name*="OBB_Service"]{
@@ -745,7 +751,7 @@ border-bottom:none!important
 	transition:all .3s ease-in-out;
 }
 [name*="OBB_Service"]:hover{
-backrgound-color:var(--aqua);
+background-color:var(--aqua);
 }
 [name*="OBB_ServiceIcon"]{
 	width:4rem!important;
