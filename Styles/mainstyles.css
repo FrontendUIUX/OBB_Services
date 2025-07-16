@@ -743,6 +743,7 @@ border-bottom:none!important
 	height:14rem;
 	width:14rem;
 	border-radius:1rem;
+	cursor: pointer;
 	background-color:#f1f1f1;
 	display: flex!important;
 	flex-direction:column;
