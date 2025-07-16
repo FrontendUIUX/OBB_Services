@@ -69,7 +69,7 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
     ];
-	}else if (currentUrl.includes("SAWP"))
+	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess"))
 	{
 		if (currentUrl.includes("SAWPInternal")){
 			menuItems = [
