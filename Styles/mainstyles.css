@@ -171,6 +171,9 @@ html:not(.designer) .SourceCodeFormsControlsWorklist{
 html:not(.designer) [name="UserName"]{
 	font-size: 1rem;
 }
+html:not(.designer) div#d0e5951c-04b1-41f6-8482-bbb98c34e8cc_4d2cd33e-2345-417c-9d62-5b2ab67d9e55_a78c6f88-5c20-8a61-b557-643873abfd8f_1eb89a2d-3c0d-45b9-92bb-874012efeb68 {
+    margin-top: -3rem;
+}
 html:not(.designer) [name*="OBB_link"]{
 	font-size:.9rem;
 	font-family:var(--regularFont);
