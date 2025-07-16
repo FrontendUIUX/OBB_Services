@@ -695,6 +695,43 @@ tr.selected .runtime-list-item,
 tr.selected .runtime-list-item-wrap{
 	color:white!important;
 }
+/* POPUP BRANDING START */
+.theme-entry .message-box-content,
+.theme-entry .dialog .popup-body{
+    height: fit-content;
+}
+.theme-entry .popup-header,
+.theme-entry .popup-body,
+.theme-entry .popup-footer{
+position:relative!important;
+top:unset!important;
+bottom:unset!important;
+left:unset!important;
+right:unset!important;
+width:100%;
+height:fit-content!important;
+}
+.theme-entry .popup-header{
+    padding:1rem 2rem;
+    background-color:#f7f7f7;
+}
+.theme-entry .popup-body{
+padding:1rem 2rem 0;
+border-bottom:none!important
+}
+.theme-entry .popup-footer{
+    padding:0rem 2rem 1rem;
+    border-top:none!important;
+}
+.popup.dialog{
+    height:fit-content!important;
+    border-radius:1rem!important;
+    overflow:hidden;
+}
+.popup.dialog .popup-header .popup-header-text{
+    font-size:1.4rem;
+}
+/* POPUP BRANDING END */
 @media(min-width:1600px){
 .sidebar {
     width: 12vw;
