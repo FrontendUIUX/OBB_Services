@@ -768,7 +768,7 @@ background-color:#00a9b550;;
 	object-fit:contain;
 }
 [name*="OBB_Service"] [name*="OBB_ServiceName"]{
-	display: block!important;
+	display: block;
 	width:80%!important;
 	position:relative!important;
 	margin:auto;
