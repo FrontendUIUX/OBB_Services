@@ -778,6 +778,32 @@ background-color:#00a9b550;;
 	background: transparent;
 }
 /* OBB SERVICES END */
+/* TABLE BRANDING START */
+html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
+	background-color: transparent!important;
+	border-right: 1px solid rgb(220 220 220 / 80%);
+	cursor: pointer;
+}
+html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
+	border:none!important;
+}
+html:not(.designer) .theme-entry table.grid-column-header-table {
+    border: 1px solid rgb(220 220 220 / 80%);
+    border-bottom: none;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color:transparent!important;
+}
+html:not(.designer) .theme-entry  .grid-column-headers{
+background-color:transparent!important;
+}
+html:not(.designer) .theme-entry .grid .grid-column-header-text{
+	font-family:var(--regularFont);
+}
+html:not(.designer) .theme-entry .grid .grid-column-header-cell{
+	padding:1rem 1.4rem;
+}
+/* TABLE BRANDING END */
 @media(min-width:1600px){
 .sidebar {
     width: 12vw;
