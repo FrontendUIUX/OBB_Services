@@ -803,6 +803,10 @@ html:not(.designer) .theme-entry .grid .grid-column-header-text{
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding:1rem 1.4rem;
 }
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
+	background-color: transparent!important;
+	padding:1rem 0!important;
+}
 /* TABLE BRANDING END */
 @media(min-width:1600px){
 .sidebar {
