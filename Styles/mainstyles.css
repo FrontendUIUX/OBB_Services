@@ -792,7 +792,7 @@ html:not(.designer) body.sidebarVisible {
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
     left: 16vw;
-    width: calc(100vw - 18vw);
+    width: calc(100vw - 17vw);
 }
 .navbarBrand a{width: 9vw;}
 }
