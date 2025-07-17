@@ -786,7 +786,8 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 }
 html:not(.designer) .theme-entry  td span{
 	font-family: var(--regularFont)!important;
-	font-weight: 400!important;
+	font-weight: 300!important;
+	padding: 1.3rem .6rem!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
 	border:none!important;
@@ -812,7 +813,7 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	padding:1rem 0!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
-	background-color:rgb(242 242 246 / 50%)!important;
+	background-color:#F2F2F6!important;
 }
 html:not(.designer) .grid-body{
 	margin: 1rem!important;
