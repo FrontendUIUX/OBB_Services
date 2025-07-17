@@ -785,6 +785,11 @@ background-color:#00a9b550;;
     width: 12vw;
     padding: 2vw;
 }
+html:not(.designer) body.sidebarVisible {
+    margin-left: 16vw !important;
+    width: calc(100vw - 17vw) !important;
+    padding: 1vw;
+}
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
     left: 16vw;
     width: calc(100vw - 18vw);
