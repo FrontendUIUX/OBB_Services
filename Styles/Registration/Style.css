@@ -108,9 +108,6 @@ a#\30 0000000-0000-0000-0000-000000000000_37b4955b-5f5f-98b1-ded0-b101dc7c3e21 {
     html:not(.designer) .video-container .intro{
         padding:2vw;
     }
-    html:not(.designer)  .theme-entry .form{
-    padding: 3vw 4vw;
-}
 	html:not(.designer) .video-container .intro h2{
     width: 66%;
 }
