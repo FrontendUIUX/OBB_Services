@@ -758,7 +758,6 @@ background-color:#00a9b550;;
 	width:4rem!important;
 	height:auto!important;
 	position:relative!important;
-	/* margin:auto!important; */
 	border-radius: 0;
 	display: block;
 	background-color: transparent!important;
@@ -769,7 +768,6 @@ background-color:#00a9b550;;
 	object-fit:contain;
 }
 [name*="OBB_Service"] [name*="OBB_ServiceName"]{
-	/* margin-top:5rem!important; */
 	display: block!important;
 	width:80%!important;
 	position:relative!important;
@@ -794,5 +792,7 @@ html:not(.designer) .sidebarVisible [name="OBB_header"] {
     left: 16vw;
     width: calc(100vw - 17vw);
 }
-.navbarBrand a{width: 9vw;}
+.navbarBrand a{
+	width: 9vw;
+}
 }
