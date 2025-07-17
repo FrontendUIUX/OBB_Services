@@ -788,10 +788,10 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-ch
 	border:none!important;
 }
 html:not(.designer) .theme-entry table.grid-column-header-table {
-    border: 1px solid rgb(220 220 220 / 80%);
+    /* border: 1px solid rgb(220 220 220 / 80%);
     border-bottom: none;
     border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-right-radius: 2rem; */
     background-color:transparent!important;
 }
 html:not(.designer) .theme-entry  .grid-column-headers{
@@ -806,6 +806,12 @@ html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent!important;
 	padding:1rem 0!important;
+}
+html:not(.designer) .grid-body{
+	margin: 1rem;
+    width: calc(100% - 2rem);
+    border: 1px solid rgb(220 220 220 / 80%);
+    border-radius: 2rem;
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
