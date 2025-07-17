@@ -739,7 +739,7 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
 }
 /* POPUP BRANDING END */
 /* OBB SERVICES START */
-[name*="OBB_Service"]{
+.SFC[name*="OBB_Service"]{
 	height:14rem;
 	width:14rem;
 	border-radius:1rem;
