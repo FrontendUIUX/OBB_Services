@@ -808,10 +808,10 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	padding:1rem 0!important;
 }
 html:not(.designer) .grid-body{
-	margin: 1rem;
-    width: calc(100% - 2rem);
-    border: 1px solid rgb(220 220 220 / 80%);
-    border-radius: 2rem;
+	margin: 1rem!important;
+	width: calc(100% - 2rem);
+	border: 1px solid rgb(220 220 220 / 80%)!important;
+	border-radius: 2rem;
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
