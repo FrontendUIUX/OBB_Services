@@ -788,8 +788,8 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-ch
 	border:none!important;
 }
 html:not(.designer) .theme-entry table.grid-column-header-table {
-    /* border: 1px solid rgb(220 220 220 / 80%);
-    border-bottom: none;
+    border-bottom: 1px solid rgb(220 220 220 / 80%);
+   /* border-bottom: none;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem; */
     background-color:transparent!important;
