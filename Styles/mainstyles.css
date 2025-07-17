@@ -812,7 +812,7 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	padding:1rem 0!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
-	background-color:#F2F2F6!important;
+	background-color:rgb(242 242 246 / 50%)!important;
 }
 html:not(.designer) .grid-body{
 	margin: 1rem!important;
