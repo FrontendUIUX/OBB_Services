@@ -804,8 +804,11 @@ html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding:1rem 1.4rem;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
-	background-color: transparent!important;
+	background-color: transparent;
 	padding:1rem 0!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
+	background-color:#F2F2F6!important;
 }
 html:not(.designer) .grid-body{
 	margin: 1rem!important;
