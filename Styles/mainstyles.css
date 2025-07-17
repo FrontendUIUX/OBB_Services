@@ -784,7 +784,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
 }
-html:not(.designer) .theme-entry .grid table.grid-column-header-table td span{
+html:not(.designer) .theme-entry  td span{
 	font-family: var(--regularFont)!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
