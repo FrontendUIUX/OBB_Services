@@ -860,7 +860,7 @@ html:not(.designer) .grid-body{
 }
 .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
 	background-color:#F4EBEE;
-	background-color:#ebe53f8f!important;
+	color:801533!important;
 	padding: 0.6rem 1.2rem!important;
 }
 .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
