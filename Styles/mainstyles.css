@@ -833,9 +833,12 @@ html:not(.designer) .grid-body{
 	vertical-align:middle;
 	height: 4.4rem!important;
 }
-.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item{
-	background-color:#DCFCE7;
-	color:#17A34A!important;
+.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Open"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Approve"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item {
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -843,25 +846,19 @@ html:not(.designer) .grid-body{
 	padding: 0.6rem 2rem!important;
 	width:fit-content!important;
 }
+.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item{
+	background-color:#DCFCE7;
+	color:#17A34A!important;
+}
 .grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
 	background-color:#dcfcfa;
 	color:var(--aqua)!important;
-	border-radius:2rem;
-	min-height:unset!important;
-	height:unset!important;
-	line-height:unset!important;
 	padding: 0.6rem 1.2rem!important;
-	width:fit-content!important;
 }
 .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
 	background-color:#F4EBEE;
 	color:#801533!important;
-	border-radius:2rem;
-	min-height:unset!important;
-	height:unset!important;
-	line-height:unset!important;
 	padding: 0.6rem 1.2rem!important;
-	width:fit-content!important;
 }
 tr.selected img{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
