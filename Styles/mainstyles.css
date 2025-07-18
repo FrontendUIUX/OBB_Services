@@ -822,7 +822,8 @@ html:not(.designer) .grid-body{
 	border-radius: 2rem;
 }
 .grid-content-cell-wrapper[title*="Saved"],
-.grid-content-cell-wrapper[title*="Submitted"]{
+.grid-content-cell-wrapper[title*="Submitted"],
+.grid-content-cell-wrapper[title*="Rejected"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -842,6 +843,16 @@ html:not(.designer) .grid-body{
 .grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
 	background-color:#dcfcfa;
 	color:var(--aqua)!important;
+	border-radius:2rem;
+	min-height:unset!important;
+	height:unset!important;
+	line-height:unset!important;
+	padding: 0.6rem 1.2rem!important;
+	width:fit-content!important;
+}
+.grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
+	background-color:#F4EBEE;
+	color:#801533!important;
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
