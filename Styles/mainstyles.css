@@ -861,8 +861,14 @@ html:not(.designer) .grid-body{
 	color:#801533!important;
 	padding: 0.6rem 1.2rem!important;
 }
-tr.selected img{
+tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
+}
+html:not(.designer) .grid-content-cell-wrapper span{
+	color:#131313!important;
+}
+html:not(.designer)  tr.selected .grid-content-cell-wrapper span{
+	color:#ffffff!important;
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
