@@ -823,7 +823,10 @@ html:not(.designer) .grid-body{
 }
 .grid-content-cell-wrapper[title*="Saved"],
 .grid-content-cell-wrapper[title*="Submitted"],
-.grid-content-cell-wrapper[title*="Rejected"]{
+.grid-content-cell-wrapper[title*="Rejected"],
+.grid-content-cell-wrapper[title*="Open"],
+.grid-content-cell-wrapper[title*="Approve"],
+.grid-content-cell-wrapper[title*="Completed"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
