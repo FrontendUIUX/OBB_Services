@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	let menuItems;
 const currentUrl = window.location.href;
 
-
 if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval")) {
 	   menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
@@ -59,25 +58,8 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
 					]
 				},
         { text: "Tasks List", url: "/Runtime/Runtime/Form/VRMTaskListForm/" },
-        {
-					text: "New Document", url: "", children: [
-						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMNewDocCompletedForm/" },
-						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMNewDocInProgressForm/" }
-					]
-				},
-        {
-					text: "Archiving Document", url: "", children: [
-						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMArchivingCompletedForm/" },
-						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMArchivingInProgressForm/" }
-					]
-				},
-        {
-					text: "Request Access", url: "", children: [
-						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMRequestAccessCompletedForm/" },
-						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMRequestAccessInProgressForm/" }
-					]
-				},
-
+        { text: "Completed", url: "/Runtime/Runtime/Form/VRMCompletedForm/" },
+		{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMInProgressForm/" },
         { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
     ];
 	} else if(currentUrl.includes("Letter")) {
@@ -149,6 +131,7 @@ if (currentUrl.includes("Archiving") ||  currentUrl.includes("RAP") || currentUr
         { text: "Archived", url: "" }
     ];		
 	}
+    //
     // Build menu
     menuItems.forEach(item => {
         const hasChildren = Array.isArray(item.children) && item.children.length > 0;
