@@ -783,6 +783,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: transparent!important;
 	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
+	position: relative;
 }
 html:not(.designer) .theme-entry  td span{
 	font-family: var(--regularFont)!important;
@@ -807,6 +808,7 @@ html:not(.designer) .theme-entry .grid .grid-column-header-text{
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding:1rem 1.4rem;
+	width: 100%!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
