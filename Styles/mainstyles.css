@@ -846,7 +846,8 @@ html:not(.designer) .grid-body{
 	padding: 0.6rem 2rem!important;
 	width:fit-content!important;
 }
-.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item{
+.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item{
 	background-color:#DCFCE7;
 	color:#17A34A!important;
 }
