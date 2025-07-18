@@ -821,6 +821,23 @@ html:not(.designer) .grid-body{
 	border: 1px solid rgb(220 220 220 / 80%)!important;
 	border-radius: 2rem;
 }
+.grid-content-cell-wrapper[title*="Saved"]{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	vertical-align:middle;
+	height: 4.4rem!important;
+}
+.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item{
+	background-color:#DCFCE7;
+	color:#17A34A!important;
+	border-radius:2rem;
+	min-height:unset!important;
+	height:unset!important;
+	line-height:unset!important;
+	padding: 0.6rem 2rem!important;
+	width:fit-content!important;
+}
 /* TABLE BRANDING END */
 @media(min-width:1600px){
 .sidebar {
