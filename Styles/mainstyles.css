@@ -826,7 +826,8 @@ html:not(.designer) .grid-body{
 .grid-content-cell-wrapper[title*="Rejected"],
 .grid-content-cell-wrapper[title*="Open"],
 .grid-content-cell-wrapper[title*="Approve"],
-.grid-content-cell-wrapper[title*="Completed"]{
+.grid-content-cell-wrapper[title*="Completed"],
+.grid-content-cell-wrapper[title*="Waiting RM Approval"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -838,7 +839,8 @@ html:not(.designer) .grid-body{
 .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item,
 .grid-content-cell-wrapper[title*="Open"] >span.runtime-list-item,
 .grid-content-cell-wrapper[title*="Approve"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item {
+.grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item,
+.grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -858,17 +860,17 @@ html:not(.designer) .grid-body{
 }
 .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
 	background-color:#F4EBEE;
-	color:#801533!important;
+	background-color:#ebe53f8f!important;
 	padding: 0.6rem 1.2rem!important;
 }
+.grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
+	color:#a3a628fc!important;
+	background-color:#ebe53f8f!important;
+	padding: 0.6rem 1.2rem!important;
+}
+
 tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
-}
-html:not(.designer) .grid-content-cell-wrapper span{
-	color:#131313!important;
-}
-html:not(.designer)  tr.selected .grid-content-cell-wrapper span{
-	color:#ffffff!important;
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
