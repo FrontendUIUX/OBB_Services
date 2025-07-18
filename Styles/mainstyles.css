@@ -840,3 +840,14 @@ html:not(.designer) .sidebarVisible [name="OBB_header"] {
 	width: 9vw;
 }
 }
+html:not(.designer) .theme-entry .toolbars.double .toolbar table td{
+	height:unset!important;
+}
+html:not(.designer) .theme-entry a.toolbar-button[name*="toolbarButton"]{
+	min-height:unset!important;
+	line-height:unset!important;
+}
+html:not(.designer) [name*="toolbarButton"] .button-c,
+html:not(.designer) [name*="toolbarButton"] .button-c .button-text{
+ padding:0!important;
+}
