@@ -849,6 +849,9 @@ html:not(.designer) .grid-body{
 	padding: 0.6rem 1.2rem!important;
 	width:fit-content!important;
 }
+tr.selected img{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
+}
 /* TABLE BRANDING END */
 @media(min-width:1600px){
 .sidebar {
