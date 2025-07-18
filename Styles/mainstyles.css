@@ -821,7 +821,8 @@ html:not(.designer) .grid-body{
 	border: 1px solid rgb(220 220 220 / 80%)!important;
 	border-radius: 2rem;
 }
-.grid-content-cell-wrapper[title*="Saved"]{
+.grid-content-cell-wrapper[title*="Saved"],
+.grid-content-cell-wrapper[title*="Submitted"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -836,6 +837,16 @@ html:not(.designer) .grid-body{
 	height:unset!important;
 	line-height:unset!important;
 	padding: 0.6rem 2rem!important;
+	width:fit-content!important;
+}
+.grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
+	background-color:#dcfcfa;
+	color:var(--aqua)!important;
+	border-radius:2rem;
+	min-height:unset!important;
+	height:unset!important;
+	line-height:unset!important;
+	padding: 0.6rem 1.2rem!important;
 	width:fit-content!important;
 }
 /* TABLE BRANDING END */
