@@ -827,7 +827,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Completed"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting Return"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -840,7 +841,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"] 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Open"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting Return"] >span.runtime-list-item{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -854,8 +856,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM 
 	color:#17A34A!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
-	background-color:#dcfcfa;
-	color:var(--aqua)!important;
+	background-color:#ECEEF8;
+	color:#3F51B5!important;
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
@@ -864,11 +866,25 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"] 
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span{
-	color:#a3a628fc!important;
-	background-color:#ebe53f8f!important;
+	color:#FF9800!important;
+	background-color:#FFF5E5!important;
 	padding: 0.6rem 1.2rem!important;
 }
-
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title*="Waiting Return"] >span{
+	color:#D19D00!important;
+	background-color:#FAF5E5!important;
+	padding: 0.6rem 1.2rem!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title*="Approve"] >span{
+	color:#009688!important;
+	background-color:#E5F4F3!important;
+	padding: 0.6rem 1.2rem!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title*="Open"] >span{
+	color:#2196F3!important;
+	background-color:#E9F4FE!important;
+	padding: 0.6rem 1.2rem!important;
+}
 tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
 }
