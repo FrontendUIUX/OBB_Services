@@ -821,26 +821,26 @@ html:not(.designer) .grid-body{
 	border: 1px solid rgb(220 220 220 / 80%)!important;
 	border-radius: 2rem;
 }
-.grid-content-cell-wrapper[title*="Saved"],
-.grid-content-cell-wrapper[title*="Submitted"],
-.grid-content-cell-wrapper[title*="Rejected"],
-.grid-content-cell-wrapper[title*="Open"],
-.grid-content-cell-wrapper[title*="Approve"],
-.grid-content-cell-wrapper[title*="Completed"],
-.grid-content-cell-wrapper[title*="Waiting RM Approval"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Saved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Open"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Approve"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Completed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	vertical-align:middle;
 	height: 4.4rem!important;
 }
-.grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Open"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Approve"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Saved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Open"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Approve"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Completed"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -853,17 +853,17 @@ html:not(.designer) .grid-body{
 	background-color:#DCFCE7;
 	color:#17A34A!important;
 }
-.grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted"] >span.runtime-list-item{
 	background-color:#dcfcfa;
 	color:var(--aqua)!important;
 	padding: 0.6rem 1.2rem!important;
 }
-.grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Rejected"] >span.runtime-list-item{
 	background-color:#F4EBEE;
 	color:#801533!important;
 	padding: 0.6rem 1.2rem!important;
 }
-.grid-content-cell-wrapper[title*="Waiting RM Approval"] >span.runtime-list-item{
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title*="Waiting RM Approval"] >span{
 	color:#a3a628fc!important;
 	background-color:#ebe53f8f!important;
 	padding: 0.6rem 1.2rem!important;
