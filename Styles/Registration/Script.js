@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Menu items
 	
-	var menuItems;
+	let menuItems;
     const currentUrl = window.location.href;
 
 
@@ -82,16 +82,19 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
     ];
 	} else if(currentUrl.includes("Letter")) {
-				menuItems = [
+			if(menuItems){
+                	menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
         { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
-    ];
+                ];
+            }
 	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess"))
 	{
 		if (currentUrl.includes("SAWPInternal")){
-			menuItems = [
+			if(menuItems){
+                menuItems = [
 				{ text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
 				{ text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
                 {
@@ -102,9 +105,11 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 				},
 				{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPInternalInProgressForm/" },
 				{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPInternalCompletedForm/" }
-			];		
+			];	
+            }	
 		}else if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm")){
-			menuItems = [
+			if(menuItems){
+                menuItems = [
 				{ text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
 				{
 					text: "New Request", url: "", children: [
@@ -116,17 +121,21 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 				{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPExternalInProgressForm/" },
 				{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPExternalCompletedForm/" }
 			];
+            }
 		}
 	}else if(currentUrl.includes("Visitor")) {
-				menuItems = [
+				if(menuItems){
+                    menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
         { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
         { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
                 ];
+                }
     }
     else{
 		
-		menuItems = [
+		if(menuItems){
+            menuItems = [
         { text: "Home", url: "" },
         { text: "Tasks List", url: "" },
         {
@@ -149,9 +158,11 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         },
         { text: "Archived", url: "" }
     ];		
+        }
 	}
     // Build menu
-    menuItems.forEach(item => {
+   if(menuItems){
+     menuItems.forEach(item => {
         const hasChildren = Array.isArray(item.children) && item.children.length > 0;
 
         const parentLink = $('<a>')
@@ -185,6 +196,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 
         sidebar.append(itemContainer);
     });
+   }
 
     // Add sidebar to body
     $('body').append(sidebar);
