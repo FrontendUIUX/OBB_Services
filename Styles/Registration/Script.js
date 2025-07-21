@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Menu items
 	
-	let menuItems;
-const currentUrl = window.location.href;
+	var menuItems;
+    const currentUrl = window.location.href;
 
 
 
