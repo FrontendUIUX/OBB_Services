@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    $('body').append(sidebar);
-    $('body').addClass('sidebarVisible');
     const urlPath = window.location.pathname;
     const fullUrl = window.location.href.toLowerCase();
 
@@ -189,7 +187,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     });
 
     // Add sidebar to body
-  
+    $('body').append(sidebar);
+    $('body').addClass('sidebarVisible');
 });
 
 
