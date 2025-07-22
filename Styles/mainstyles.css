@@ -859,8 +859,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -878,8 +878,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -887,11 +887,11 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pend
 	padding: 0.6rem 2rem!important;
 	width:fit-content!important;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span{
 	background-color:#EFEFEF;
 	color:#616161!important;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span{
 	background-color:#FFF3F0;
 	color:#FF8A65!important;
 }
