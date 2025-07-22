@@ -746,7 +746,9 @@ height:fit-content!important;
 html:not(.designer) .theme-entry .popup-header{
     padding:1rem 2rem;
     background-color:#f7f7f7;
-	margin: 0!important;
+    margin: 0!important;
+    position: relative!important;
+    height: fit-content!important;
 }
 html:not(.designer) .theme-entry .popup-body{
 padding:1rem 2rem 0;
