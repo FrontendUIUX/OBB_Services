@@ -791,7 +791,7 @@ background-color:#00a9b550;;
 /* TABLE BRANDING START */
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: transparent!important;
-	border-right: 1px solid rgb(249, 249, 251 / 50%);
+	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
@@ -804,9 +804,6 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-ch
 }
 html:not(.designer) .theme-entry table.grid-column-header-table {
     border-bottom: 1px solid rgb(220 220 220 / 80%);
-   /* border-bottom: none;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem; */
     background-color:transparent!important;
 }
 html:not(.designer) .theme-entry  .grid-column-headers{
@@ -823,7 +820,8 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	padding:1rem 0!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
-	background-color:#F2F2F6!important;
+	/* background-color:#F2F2F6!important; */
+	background-color:#F9F9FB!important;
 }
 html:not(.designer) .grid-body{
 	margin: 1rem!important;
