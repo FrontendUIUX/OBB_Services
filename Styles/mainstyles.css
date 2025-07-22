@@ -256,6 +256,7 @@ html:not(.designer) .grid-content-cell-wrapper a{
 	font-family:var(--regularFont);
 	font-weight:400;
 	transition:all .3s ease-in-out;
+	font-size:8pt;
 }
 html:not(.designer) .grid-content-cell-wrapper a:hover{
 	color:var(--orange-hover);
