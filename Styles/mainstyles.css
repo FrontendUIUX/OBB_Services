@@ -838,7 +838,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -852,13 +854,23 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"] >span.runtime-list-item{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
 	line-height:unset!important;
 	padding: 0.6rem 2rem!important;
 	width:fit-content!important;
+}
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request Closed"] >span.runtime-list-item{
+	background-color:#EFEFEF;
+	color:#616161!important;
+}
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pending recipient action"] >span.runtime-list-item{
+	background-color:#FFF3F0;
+	color:#FF8A65!important;
 }
 .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
 .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item{
