@@ -50,7 +50,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "In Progress", url: "/Runtime/Runtime/Form/RAPInProgressForm/" },
 		{ text: "Archived Requests", url: "/Runtime/Runtime/Form/RAPArchivedForm/" }
     ];
-	} else if (currentUrl.includes("VRM")  ) {
+	} else if (currentUrl.includes("VRM") || currentUrl.includes("ArchivingDoc") || currentUrl.includes("NewDocCreation") || currentUrl.includes("RequestAccess") || currentUrl.includes("VitalRecordManagement")) {
 		menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/VRM.LandingForm/" },
         {
@@ -88,9 +88,9 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
     ];
-	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess"))
+	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess") || currentUrl.includes("RegistrationRequest.ReviewForm"))
 	{
-		if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit")){
+		if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm")){
 			menuItems = [
 				{ text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
 				{ text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
@@ -118,21 +118,13 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 				{ text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
 				{
 					text: "New Request", url: "", children: [
-						{ text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
-						{ text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
-					]
+						{ text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" }					]
 				},
 				{ text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
 				{
 					text: "Site Access", url: "", children: [
 						{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalInProgressForm/" },
 						{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalCompletedForm/" }
-					]
-				},
-				{
-					text: "Work Permit", url: "", children: [
-						{ text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitExternalInProgressForm/" },
-						{ text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitExternalCompletedForm/" }
 					]
 				}
 			];
