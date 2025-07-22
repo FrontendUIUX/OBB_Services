@@ -3,10 +3,15 @@
     --white:#ffffff;
     --aqua:#00A8B5;
     --orange:#E57431;
+	--orange-hover: #a6501d;
     --description:#3E3E3E;
     --borderColor:#E3E3E3;
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
+}
+html:not(.designer) [name*="OBB_button OBB_primary_button"]:hover,
+html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
+	background-color:var(--orange-hover)!important;
 }
 html.no-border-box-support body{
 	margin:0!important;
