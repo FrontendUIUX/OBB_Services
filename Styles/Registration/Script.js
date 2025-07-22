@@ -143,7 +143,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
         { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
                 ];
-    }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm")) {
+    }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility")) {
 				menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/MyRequestForm/" },
 		{ text: "New Request", url: "/Runtime/Runtime/Form/Master+Data/" },
