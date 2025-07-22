@@ -291,6 +291,11 @@ html:not(.designer) .panel-body{
     background-color:transparent!important;
     box-shadow:none!important;
 }
+html:not(.designer) td .grid-content-cell{
+	height:4rem!important;
+	display:flex;
+	align-items:center;
+}
 html:not(.designer) [name*="OBB_textbox"],
 .filterTxt .input-control-m-c,
 .filterTxt input{
