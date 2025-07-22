@@ -849,6 +849,8 @@ html:not(.designer) .grid-body{
 	border-radius: 2rem;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
@@ -897,7 +899,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pend
 html:not(.designer) .grid-content-cell-wrapper{
 	width: 100%!important;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span{
 	background-color:#ECEEF8;
 	color:#3F51B5!important;
 	padding: 0.6rem 1.2rem!important;
