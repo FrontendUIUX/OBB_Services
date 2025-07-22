@@ -151,6 +151,32 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Completed", url: "/Runtime/Runtime/Form/FeasibilityCompletedRequestForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" }
     ];
+	else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
+				menuItems = [
+        { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+		{
+					text: "New Request", url: "", children: [
+						{ text: "Incoming Request", url: "/Runtime/Runtime/Form/NewIncomingRequestCreation.SubmitForm/" },
+						{ text: "Outgoing Request", url: "/Runtime/Runtime/Form/NewOutingRequestCreation.SubmitForm/" }
+					]
+		},
+        {
+					text: "Incoming Correspondence", url: "", children: [
+						{ text: "InProgress", url: "/Runtime/Runtime/Form/IncomingRequest.InProgressRequestForm/" },
+						{ text: "Closed", url: "/Runtime/Runtime/Form/IncomingRequest.ClosedRequestForm/" },
+						{ text: "All Requests", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+						{ text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" },
+					]
+		},
+		{
+					text: "Outgoing Correspondence", url: "", children: [
+						{ text: "InProgress", url: "/Runtime/Runtime/Form/OutgoingRequest.InProgressRequestForm/" },
+						{ text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
+						{ text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
+						{ text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
+					]
+		}
+    ];
 	}else{
 		
 		menuItems = [
@@ -365,5 +391,4 @@ function applyGrayscaleFix4() {
         }
     });
 }
-
 
