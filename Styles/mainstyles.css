@@ -574,6 +574,10 @@ html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
 	background-color:var(--orange)!important;
 	color:white!important;
 }
+html:not(.designer) .timepicker-buttons{
+display:flex;
+align-items:center;
+}
 html:not(.designer) [name*="paddingTop"]{
 	padding-top:1rem !important;
 }
