@@ -151,7 +151,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Completed", url: "/Runtime/Runtime/Form/FeasibilityCompletedRequestForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" }
     ];
-	else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
+	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
 				menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
@@ -177,10 +177,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 					]
 		}
     ];
-	}else{
-		
+}else{
 		menuItems = [
-        
     ];		
 	}
     // Build menu
