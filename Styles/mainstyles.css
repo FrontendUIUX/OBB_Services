@@ -190,7 +190,7 @@ html:not(.designer) [name="OBB_header"]{
 	top: 0;
 	left:0;
 	width:100%;
-	z-index: 3;
+	z-index: 2;
 	height: 4rem;
 	padding: 1rem!important;
 }
@@ -728,9 +728,10 @@ html:not(.designer) .theme-entry .message-box-content,
 html:not(.designer) .theme-entry .dialog .popup-body{
     height: fit-content;
 }
-html:not(.designer) .theme-entry .dialog .popup-body .panel-body-m-c{
+html:not(.designer) .theme-entry .popup.dialog.error-message:not(.runtime-message) .message-box-content .panel-body-m-c{
 	margin: 0;
 }
+.theme-entry .base2.base1.modalizer
 html:not(.designer) .theme-entry .popup-header,
 html:not(.designer) .theme-entry .popup-body,
 html:not(.designer) .theme-entry .popup-footer{
