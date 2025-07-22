@@ -241,6 +241,9 @@ html:not(.designer) .page-title{
     font-family: var(--regularFont);
     color: black;
 }
+html:not(.designer) .theme-entry.runtime-form span.runtime-list-item-wrap{
+	font-family: var(--regularFont);
+}
 html:not(.designer) header{
 	background-color:#F2F2F6;
 	position:fixed;
