@@ -251,6 +251,15 @@ html:not(.designer) header{
 html:not(.designer){
     font-size:12px!important;
 }
+html:not(.designer) .grid-content-cell-wrapper a{
+	color:var(--orange);
+	font-family:var(--regularFont);
+	font-weight:400;
+	transition:all .3s ease-in-out;
+}
+html:not(.designer) .grid-content-cell-wrapper a:hover{
+	color:var(--orange-hover);
+}
 html:not(.designer) body{
     margin:0;
     padding: 1rem;
