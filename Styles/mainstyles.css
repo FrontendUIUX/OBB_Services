@@ -791,7 +791,7 @@ background-color:#00a9b550;;
 /* TABLE BRANDING START */
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: transparent!important;
-	border-right: 1px solid rgb(220 220 220 / 80%);
+	border-right: 1px solid rgb(249, 249, 251 / 50%);
 	cursor: pointer;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
