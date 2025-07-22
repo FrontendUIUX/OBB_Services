@@ -877,6 +877,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Request pend
 	background-color:#DCFCE7;
 	color:#17A34A!important;
 }
+html:not(.designer) .grid-content-cell-wrapper{
+	width: 100%!important;
+}
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item{
 	background-color:#ECEEF8;
 	color:#3F51B5!important;
