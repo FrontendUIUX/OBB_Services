@@ -728,6 +728,9 @@ html:not(.designer) .theme-entry .message-box-content,
 html:not(.designer) .theme-entry .dialog .popup-body{
     height: fit-content;
 }
+html:not(.designer) .theme-entry .dialog .popup-body .panel-body-m-c{
+	margin: 0;
+}
 html:not(.designer) .theme-entry .popup-header,
 html:not(.designer) .theme-entry .popup-body,
 html:not(.designer) .theme-entry .popup-footer{
