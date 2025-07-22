@@ -292,7 +292,8 @@ html:not(.designer) .panel-body{
     box-shadow:none!important;
 }
 html:not(.designer) [name*="OBB_textbox"],
-.filterTxt .input-control-m-c{
+.filterTxt .input-control-m-c,
+.filterTxt input{
     border:1px solid var(--borderColor)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
