@@ -306,7 +306,8 @@ html:not(.designer) body{
     height: calc(100% - 4rem);
     width: calc(100% - 0rem);
 }
-html:not(.designer) tr.selected [src="https://WIN-0Q5T2PALBOF/Runtime/Style/eye.png"]{
+html:not(.designer) tr.selected [src*="/Runtime/Style/eye.png"],
+html:not(.designer) tr.selected [src*="https://ck2-app-tst-1.obc.local//Runtime/Image.ashx"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(183deg) brightness(99%) contrast(91%);
 }
 html:not(.designer) .theme-entry.sidebarAvailable{
