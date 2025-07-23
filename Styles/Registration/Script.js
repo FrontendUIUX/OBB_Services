@@ -211,20 +211,34 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     });
    }
    // Append custom sidebar label if available
-const customLabelInput = document.querySelector('[name*="customsidebarlabel"]');
-if (customLabelInput && customLabelInput.value) {
-    const customLink = $('<a>')
-        .attr('href', '#') // Change this if you have a specific target URL
-        .addClass('sidebar-link nav-link')
-        .append($('<span>').text(customLabelInput.value));
 
-    const customItem = $('<div class="sidebar-item"></div>').append(customLink);
-    sidebar.append(customItem);
-    console.log("custom item: ",customItem)
-}
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
+    function tryAppendCustomSidebarLabel(retries = 10) {
+    const customInput = document.querySelector('[name*="customsidebarlabel"]');
+    
+    if (customInput && customInput.value && customInput.value.trim() !== "") {
+        const labelText = customInput.value;
+
+        const customLink = $('<a>')
+            .attr('href', '#') // Change this if needed
+            .addClass('sidebar-link nav-link')
+            .append($('<span>').text(labelText));
+
+        const customItem = $('<div class="sidebar-item"></div>').append(customLink);
+        $('#sidebar').append(customItem);
+
+        console.log("✅ Custom sidebar item added:", labelText);
+    } else if (retries > 0) {
+        setTimeout(() => tryAppendCustomSidebarLabel(retries - 1), 500);
+    } else {
+        console.warn("⚠️ [customsidebarlabel] input not found or has empty value.");
+    }
+}
+
+tryAppendCustomSidebarLabel(); // Call after sidebar is appended
+
 });
 
 
