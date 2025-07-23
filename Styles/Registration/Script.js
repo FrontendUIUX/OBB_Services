@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
             fqn = SourceCode.Forms.Settings.User.FQN;;
             console.log("Logged-in User FQN:", fqn);
-            checkpermissions()
+            
         } catch (e) {
             console.error("Error retrieving FQN:", e);
         }
@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Menu items
 
-    varenuItems;
+    // varenuItems;
+    var menuItems;
     const currentUrl = window.location.href;
 
     function checkpermissions() {
