@@ -846,6 +846,9 @@ background-color:#00a9b550;;
 	background: transparent;
 }
 /* OBB SERVICES END */
+.theme-entry .popup.id-calendar-control-popup.type-date-time{
+	min-height: unset!important;
+}
 /* TABLE BRANDING START */
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: transparent!important;
