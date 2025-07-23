@@ -210,7 +210,17 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         sidebar.append(itemContainer);
     });
    }
+   // Append custom sidebar label if available
+const customLabelInput = document.querySelector('[name*="customsidebarlabel"]');
+if (customLabelInput && customLabelInput.value) {
+    const customLink = $('<a>')
+        .attr('href', '#') // Change this if you have a specific target URL
+        .addClass('sidebar-link nav-link')
+        .append($('<span>').text(customLabelInput.value));
 
+    const customItem = $('<div class="sidebar-item"></div>').append(customLink);
+    sidebar.append(customItem);
+}
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
