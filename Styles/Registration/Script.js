@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Menu items
 	
-	varenuItems;
+	let menuItems;
     const currentUrl = window.location.href;
 
 if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval") || currentUrl.includes("ArchivingLandingForm")) {
