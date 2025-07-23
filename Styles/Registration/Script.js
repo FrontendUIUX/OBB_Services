@@ -215,9 +215,11 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
-    if($(".tab-box-tabs")){
+    $(window).on("load", function () {
+    if ($(".tab-box-tabs").length) {
         $('body').addClass('topbarExists');
     }
+});
 
 
     const customInput = document.querySelector('[name*="customsidebarlabel"]');
