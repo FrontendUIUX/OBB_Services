@@ -36,7 +36,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var fqn = null;
     
-    Sys.Application.add_load(function () {
+    // Sys.Application.add_load(function () {
+    //     try {
+    //         fqn = SourceCode.Forms.Settings.User.FQN;;
+    //         console.log("Logged-in User FQN:", fqn);
+    //     } catch (e) {
+    //         console.error("Error retrieving FQN:", e);
+    //     }
+    // });
+    function checkAccess(){
+        Sys.Application.add_load(function () {
         try {
             fqn = SourceCode.Forms.Settings.User.FQN;;
             console.log("Logged-in User FQN:", fqn);
@@ -44,12 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error retrieving FQN:", e);
         }
     });
-
-    // Menu items
-	
-	let menuItems;
+    }
+    checkAccess(function(){
+        let menuItems;
     const currentUrl = window.location.href;
-
 if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval") || currentUrl.includes("ArchivingLandingForm")) {
 	   menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
@@ -228,6 +235,190 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 		menuItems = [
     ];		
 	}
+    })
+    // Menu items
+	
+	// let menuItems;
+    // const currentUrl = window.location.href;
+
+// if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval") || currentUrl.includes("ArchivingLandingForm")) {
+// 	   menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
+//         { text: "Tasks List", url: "/Runtime/Runtime/Form/RAPTaskListForm/" },
+
+//         { text: "Completed", url: "/Runtime/Runtime/Form/RAPCompletedForm/" },
+//         { text: "In Progress", url: "/Runtime/Runtime/Form/RAPInProgressForm/" },
+// 		{ text: "Archived Requests", url: "/Runtime/Runtime/Form/RAPArchivedForm/" }
+//     ];
+// 	} else if (currentUrl.includes("VRM") || currentUrl.includes("ArchivingDoc") || currentUrl.includes("NewDocCreation") || currentUrl.includes("RequestAccess") || currentUrl.includes("VitalRecordManagement")) {
+// 		menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/VRM.LandingForm/" },
+//         {
+// 					text: "New Request", url: "", children: [
+// 						{ text: "New Document", url: "/Runtime/Runtime/Form/NewDocCreation.SubmitForm/" },
+// 						{ text: "Archiving Document", url: "/Runtime/Runtime/Form/ArchivingDoc.SubmitForm/" }
+// 					]
+// 				},
+//         { text: "Tasks List", url: "/Runtime/Runtime/Form/VRMTaskListForm/" },
+//         {
+// 					text: "New Document", url: "", children: [
+// 						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMNewDocCompletedForm/" },
+// 						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMNewDocInProgressForm/" }
+// 					]
+// 				},
+//         {
+// 					text: "Archiving Document", url: "", children: [
+// 						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMArchivingCompletedForm/" },
+// 						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMArchivingInProgressForm/" }
+// 					]
+// 				},
+//         {
+// 					text: "Request Access", url: "", children: [
+// 						{ text: "Completed", url: "/Runtime/Runtime/Form/VRMRequestAccessCompletedForm/" },
+// 						{ text: "In Progress", url: "/Runtime/Runtime/Form/VRMRequestAccessInProgressForm/" }
+// 					]
+// 				},
+
+//         { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
+//     ];
+// 	} else if(currentUrl.includes("Letter")) {
+// 				menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
+//         { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
+//         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
+//         { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
+//     ];
+// 	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess") || currentUrl.includes("RegistrationRequest.ReviewForm"))
+// 	{
+//         if(fqn){
+//             if (fqn.toLowerCase().includes("K2SQL".toLowerCase())){
+//             if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SiteAccessRequest")){
+//                 menuItems = [
+//                     { text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
+//                     {
+//                         text: "New Request", url: "", children: [
+//                             { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" }					]
+//                     },
+//                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
+//                     {
+//                         text: "Site Access", url: "", children: [
+//                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalInProgressForm/" },
+//                             { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalCompletedForm/" }
+//                         ]
+//                     }
+//                 ];
+//                 }
+//             }else{
+//                 if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest")){
+//                 menuItems = [
+//                     { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+//                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+//                     {
+//                         text: "New Request", url: "", children: [
+//                             { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+//                             { text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+//                         ]
+//                     },
+//                     {
+//                         text: "Site Access", url: "", children: [
+//                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
+//                             { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" }
+//                         ]
+//                     },
+//                     {
+//                         text: "Work Permit", url: "", children: [
+//                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
+//                             { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" }
+//                         ]
+//                     }
+//                 ];		
+//             }}
+//         }else{
+//             if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm") || currentUrl.includes("SAWPSiteAccess")){
+//                 menuItems = [
+//                     { text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
+//                     {
+//                         text: "New Request", url: "", children: [
+//                             { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" }					]
+//                     },
+//                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPExternalTaskListForm/" },
+//                     {
+//                         text: "Site Access", url: "", children: [
+//                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalInProgressForm/" },
+//                             { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalCompletedForm/" }
+//                         ]
+//                     }
+//                 ];
+//                 }else if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm")){
+//                     menuItems = [
+//                         { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+//                         { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+//                         {
+//                             text: "New Request", url: "", children: [
+//                                 { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+//                                 { text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+//                             ]
+//                         },
+//                         {
+//                             text: "Site Access", url: "", children: [
+//                                 { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
+//                                 { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" }
+//                             ]
+//                         },
+//                         {
+//                             text: "Work Permit", url: "", children: [
+//                                 { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
+//                                 { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" }
+//                             ]
+//                         }
+//                     ];		
+//             }
+//         }
+        
+// 	}else if(currentUrl.includes("Visitor")) {
+// 				menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
+//         { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
+//         { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
+//                 ];
+//     }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility")) {
+// 				menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/MyRequestForm/" },
+// 		{ text: "New Request", url: "/Runtime/Runtime/Form/Master+Data/" },
+//         { text: "Tasks List", url: "/Runtime/Runtime/Form/My__task__Form/" },
+//         { text: "Completed", url: "/Runtime/Runtime/Form/FeasibilityCompletedRequestForm/" },
+//         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" }
+//     ];
+// 	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
+// 				menuItems = [
+//         { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+// 		{
+// 					text: "New Request", url: "", children: [
+// 						{ text: "Incoming Request", url: "/Runtime/Runtime/Form/NewIncomingRequestCreation.SubmitForm/" },
+// 						{ text: "Outgoing Request", url: "/Runtime/Runtime/Form/NewOutingRequestCreation.SubmitForm/" }
+// 					]
+// 		},
+//         {
+// 					text: "Incoming Correspondence", url: "", children: [
+// 						{ text: "InProgress", url: "/Runtime/Runtime/Form/IncomingRequest.InProgressRequestForm/" },
+// 						{ text: "Closed", url: "/Runtime/Runtime/Form/IncomingRequest.ClosedRequestForm/" },
+// 						{ text: "All Requests", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+// 						{ text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" },
+// 					]
+// 		},
+// 		{
+// 					text: "Outgoing Correspondence", url: "", children: [
+// 						{ text: "InProgress", url: "/Runtime/Runtime/Form/OutgoingRequest.InProgressRequestForm/" },
+// 						{ text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
+// 						{ text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
+// 						{ text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
+// 					]
+// 		}
+//     ];
+// }else{
+// 		menuItems = [
+//     ];		
+// 	}
     // Build menu
    if(menuItems){
      menuItems.forEach(item => {
