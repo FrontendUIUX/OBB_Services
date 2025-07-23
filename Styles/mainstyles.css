@@ -985,6 +985,9 @@ html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Open"] >span{
 tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
 }
+body.theme-entry.topbarExists {
+    margin-top: 12rem;
+}
 /* TABLE BRANDING END */
 @media(min-width:1600px){
 .sidebar {
