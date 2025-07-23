@@ -486,6 +486,10 @@ html:not(.designer) .select-box[name*="OBB_calendar"] *,
     background-repeat: no-repeat;
     height: 1rem;
 }
+.theme-entry .top-calendar a.top-calendar-right,
+.theme-entry .top-calendar a.top-calendar-left{
+height:unset;
+}
 .theme-entry .week{
 display:flex;
 }
