@@ -966,26 +966,36 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >
 	color:#801533!important;
 	padding: 0.6rem 1.2rem!important;
 }
-html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span{
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approval"]{
 	color:#FF9800!important;
 	background-color:#FFF5E5!important;
 	padding: 0.6rem 1.2rem!important;
 }
-html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span{
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting Return"]{
 	color:#D19D00!important;
 	background-color:#FAF5E5!important;
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Approve"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] > span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] > span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
 	color:#009688!important;
 	background-color:#E5F4F3!important;
 	padding: 0.6rem 1.2rem!important;
 }
-html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Open"] >span{
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Open"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"]{
 	color:#2196F3!important;
 	background-color:#E9F4FE!important;
 	padding: 0.6rem 1.2rem!important;
+}
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+	border-radius:2rem; margin-left:1rem;
 }
 tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
