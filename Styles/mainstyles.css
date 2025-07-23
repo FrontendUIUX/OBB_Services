@@ -1021,6 +1021,7 @@ body.theme-entry.topbarExists {
 /* TABLE BRANDING END */
 .worklistToolbarHeaderTextWrapper .headerTxt{
 	font-size:1.5rem;
+	font-family: var(--regularFont);
 }
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
