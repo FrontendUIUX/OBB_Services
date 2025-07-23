@@ -13,6 +13,31 @@ html:not(.designer) [name*="OBB_button OBB_primary_button"]:hover,
 html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
 	background-color:var(--orange-hover)!important;
 }
+html:not(.designer) .tab-box-tabs{
+	padding: 0;
+	background-color:white;
+	margin-bottom:2rem;
+	border-bottom:1px solid var(--borderColor)!important;
+	position:fixed!important;
+	top: 6rem;
+	width: calc(100vw - 25.6rem);
+	z-index: 2;
+	left: 25.6rem;
+}
+html:not(.designer) .tab-box-tabs li .tab{
+	position:relative;
+	padding: 2rem 0 2rem !important;
+	display: block!important;
+}
+html:not(.designer) .tab-box-tabs li .tab.selected::after{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:.3rem;
+	background-color:var(--orange);
+	bottom:0;
+	left:0;
+}
 html.no-border-box-support body{
 	margin:0!important;
 }
@@ -969,7 +994,7 @@ tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 html:not(.designer) body.sidebarVisible {
     margin-left: 16vw !important;
     width: calc(100vw - 17vw) !important;
-    padding: 1vw;
+    padding: 0 1vw 1vw 1vw;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
     left: 16vw;
