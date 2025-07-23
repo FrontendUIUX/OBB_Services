@@ -220,6 +220,7 @@ if (customLabelInput && customLabelInput.value) {
 
     const customItem = $('<div class="sidebar-item"></div>').append(customLink);
     sidebar.append(customItem);
+    console.log("custom item: ",customItem)
 }
     // Add sidebar to body
     $('body').append(sidebar);
