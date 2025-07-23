@@ -101,7 +101,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     ];
 	}else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess") || currentUrl.includes("RegistrationRequest.ReviewForm"))
 	{
-        if (fqn.toLowerCase().includes("K2SQL".toLowerCase())){
+        if(fqn){
+            if (fqn.toLowerCase().includes("K2SQL".toLowerCase())){
             if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SiteAccessRequest")){
                 menuItems = [
                     { text: "Home", url: "/Runtime/Runtime/Form/SAWP.LandingForm/" },
@@ -118,7 +119,9 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                     }
                 ];
                 }
-            }else if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest")){
+            }
+        }
+            else if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest")){
                 menuItems = [
                     { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
