@@ -215,33 +215,26 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
-    function tryAppendCustomSidebarLabel(retries = 10) {
+
+
     const customInput = document.querySelector('[name*="customsidebarlabel"]');
-    
-    if (customInput && customInput.value && customInput.value.trim() !== "") {
-        const labelText = customInput.value;
+if (customInput && customInput.value.trim() !== "") {
+    const label = customInput.value.trim();
 
-        const customLink = $('<a>')
-            .attr('href', '#') // Change this if needed
-            .addClass('sidebar-link nav-link')
-            .append($('<span>').text(labelText));
+    const customItem = `
+        <div class="sidebar-item">
+            <a href="#" class="sidebar-link nav-link">
+                <span>${label}</span>
+            </a>
+        </div>
+    `;
 
-        const customItem = $('<div class="sidebar-item"></div>').append(customLink);
-        $('#sidebar').append(customItem);
-
-        console.log("✅ Custom sidebar item added:", labelText);
-    } else if (retries > 0) {
-        setTimeout(() => tryAppendCustomSidebarLabel(retries - 1), 500);
-    } else {
-        console.warn("⚠️ [customsidebarlabel] input not found or has empty value.");
-    }
+    $('#sidebar').append(customItem);
 }
-
-
 
 });
 
-tryAppendCustomSidebarLabel(); // Call after sidebar is appended
+
 
 
 
