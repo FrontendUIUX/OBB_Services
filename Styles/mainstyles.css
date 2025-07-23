@@ -14,15 +14,15 @@ html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
 	background-color:var(--orange-hover)!important;
 }
 html:not(.designer) .tab-box-tabs{
-	padding: 0;
+	padding: 0 1rem;
 	background-color:white;
 	margin-bottom:2rem;
 	border-bottom:1px solid var(--borderColor)!important;
 	position:fixed!important;
 	top: 6rem;
-	width: calc(100vw - 25.6rem);
+	width: calc(100vw - 18rem);
 	z-index: 2;
-	left: 25.6rem;
+	left: 15rem;
 }
 html:not(.designer) .tab-box-tabs li .tab{
 	position:relative;
@@ -986,7 +986,7 @@ tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
 }
 body.theme-entry.topbarExists {
-    margin-top: 12rem;
+    margin-top: 13rem;
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
