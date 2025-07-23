@@ -27,7 +27,6 @@ html:not(.designer) .tab-box-tabs{
 html:not(.designer) .tab-box-tabs li .tab{
 	position:relative;
 	padding: 2rem 0 2rem !important;
-	display: block!important;
 	color:#565656!important;
 	font-family:var(--regularFont);
 }
