@@ -215,6 +215,9 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
+    if($(".tab-box-tabs")){
+        $('body').addClass('topbarExists');
+    }
 
 
     const customInput = document.querySelector('[name*="customsidebarlabel"]');
