@@ -1019,6 +1019,9 @@ body.theme-entry.topbarExists {
     margin-top: 13rem;
 }
 /* TABLE BRANDING END */
+.worklistToolbarHeaderTextWrapper .headerTxt{
+	font-size:1.5rem;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
