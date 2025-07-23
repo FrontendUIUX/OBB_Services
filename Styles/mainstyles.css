@@ -872,7 +872,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -894,7 +895,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >sp
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -909,7 +911,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >sp
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span{
 	background-color:#FFF3F0;
 	color:#FF8A65!important;
 }
