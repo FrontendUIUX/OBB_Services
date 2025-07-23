@@ -990,6 +990,13 @@ body.theme-entry.topbarExists {
 }
 /* TABLE BRANDING END */
 @media(min-width:1600px){
+	html:not(.designer) .tab-box-tabs{
+	padding: 0 1vw;
+	margin-bottom:2vw;
+	top: 3.8vw;
+	width: calc(100vw - 18.8vw);
+	left: 16vw;
+}
 .sidebar {
     width: 12vw;
     padding: 2vw;
