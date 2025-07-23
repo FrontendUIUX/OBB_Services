@@ -28,6 +28,11 @@ html:not(.designer) .tab-box-tabs li .tab{
 	position:relative;
 	padding: 2rem 0 2rem !important;
 	display: block!important;
+	color:#565656!important;
+	font-family:var(--regularFont);
+}
+html:not(.designer) .tab-box-tabs li .tab.selected{
+	color:#131313!important;
 }
 html:not(.designer) .tab-box-tabs li .tab.selected::after{
 	content:"";
@@ -1005,6 +1010,9 @@ html:not(.designer) body.sidebarVisible {
     margin-left: 16vw !important;
     width: calc(100vw - 17vw) !important;
     padding: 0 1vw 1vw 1vw;
+}
+	body.theme-entry.topbarExists {
+    margin-top: 9vw;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
     left: 16vw;
