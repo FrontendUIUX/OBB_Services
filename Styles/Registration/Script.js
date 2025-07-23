@@ -237,11 +237,11 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     }
 }
 
-tryAppendCustomSidebarLabel(); // Call after sidebar is appended
+
 
 });
 
-
+tryAppendCustomSidebarLabel(); // Call after sidebar is appended
 
 
 
