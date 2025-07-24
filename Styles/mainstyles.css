@@ -1037,6 +1037,9 @@ html:not(.designer) .filterContainer{
 html:not(.designer) [name*="UserName"]{
 	font-family:var(--regularFont);
 }
+.filterChosen.filter{
+	display: none!important;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
