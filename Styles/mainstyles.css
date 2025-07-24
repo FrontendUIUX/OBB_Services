@@ -941,13 +941,13 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending revi
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span{
-	font-size: 0.8rem;
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
 	line-height:unset!important;
 	padding: 0.6rem 2rem!important;
 	width:fit-content!important;
+	font-size: 8pt;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span{
 	background-color:#EFEFEF;
