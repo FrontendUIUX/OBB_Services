@@ -1019,6 +1019,9 @@ tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
 body.theme-entry.topbarExists {
     margin-top: 13rem;
 }
+html:not(.designer) .grid-column-header-cell{
+	background-color:#f6f6f6;
+}
 /* TABLE BRANDING END */
 .worklistToolbarHeaderTextWrapper .headerTxt{
 	font-size:1.5rem;
