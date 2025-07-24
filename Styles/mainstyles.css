@@ -1075,7 +1075,7 @@ html:not(.designer) [name*="UserName"]{
 .quickSearch.filter{
 	position:relative;
 }
-html:not(.designer) [name="Cancel Button"]{
+html:not(.designer) [name*="Cancel Button"]{
 	color: var(--orange)!important;
 	border: var(--borderColor)!important;
 	background-color: transparent!important;
