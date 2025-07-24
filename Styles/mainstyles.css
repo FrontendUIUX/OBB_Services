@@ -1028,6 +1028,10 @@ html:not(.designer) .grid-column-header-cell{
 	font-size:1.5rem;
 	font-family: var(--regularFont);
 }
+html:not(.designer) .filterContainer{
+	display: flex;
+	justify-content: space-between;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
