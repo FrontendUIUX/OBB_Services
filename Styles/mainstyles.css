@@ -606,7 +606,7 @@ html:not(.designer) [name*="OBB_Collapse"] .panel-header{
 html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper,
 html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
 	padding:1rem 2rem;
-	background-color:white;
+	background-color: var(--aqua);
 	width: calc(100% - 4rem);
 	height:100%;
 }
@@ -621,6 +621,7 @@ html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper .g
 html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text > span,
 html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper .grid-header-text> span{
 	min-height: 3rem;
+	color: #ffffff;
 }
 html:not(.designer) [name*="OBB_Collapse"] .panel-body{
 	padding: 1rem 2rem;
