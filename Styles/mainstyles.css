@@ -1077,7 +1077,7 @@ html:not(.designer) [name*="UserName"]{
 }
 html:not(.designer) [name*="Cancel Button"]{
 	color: var(--orange)!important;
-	border: var(--borderColor)!important;
+	border:1px solid var(--borderColor)!important;
 	background-color: transparent!important;
 }
 html:not(.designer) .theme-entry .toolbars.double .toolbar table td{
