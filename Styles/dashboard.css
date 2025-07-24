@@ -1,9 +1,7 @@
-html:not(.designer) body{
+html:not(.designer) body,
+html:not(.designer) body .form{
     background-color:#F4F4F4!important;
 }
 html:not(.designer) [name="OBB_header"]{
     background-color:#ffffff;
-}
-html:not(.designer) .row:first-child{
-    /* display: none!important; */
 }
