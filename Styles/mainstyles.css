@@ -30,6 +30,9 @@ html:not(.designer) .tab-box-tabs li .tab{
 	color:#565656!important;
 	font-family:var(--regularFont);
 }
+html:not(.designer) body *{
+	font-family:var(--regularFont)!important;
+}
 html:not(.designer) .tab-box-tabs li .tab.selected{
 	color:#131313!important;
 }
@@ -1039,6 +1042,33 @@ html:not(.designer) [name*="UserName"]{
 }
 .filterChosen.filter{
 	display: none!important;
+}
+.quickSearch.filter .filterLabel{
+	position:relative;
+	display:none;
+}
+.quickSearch.filter::before{
+	content:"Search by:";
+	position:relative;
+	left:0;
+	width:fit-content;
+	color:#131313;
+	font-size:1rem;
+	font-family:var(--regularFont)!important;
+}
+.filterTxt{
+	width: 21rem!important;
+}
+.filterTxt .input-control-wrapper{
+	width:100%!important;
+}
+.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh{
+	position:absolute;
+	right:1.5rem;
+	top:.6rem;
+}
+.quickSearch.filter{
+	position:relative;
 }
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
