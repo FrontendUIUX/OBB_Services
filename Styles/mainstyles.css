@@ -1032,6 +1032,9 @@ html:not(.designer) .filterContainer{
 	display: flex;
 	justify-content: space-between;
 }
+html:not(.designer) [name*="UserName"]{
+	font-family:var(--regularFont);
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
