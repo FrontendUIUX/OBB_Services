@@ -861,7 +861,7 @@ background-color:#00a9b550;;
 }
 /* TABLE BRANDING START */
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
-	background-color: transparent!important;
+	background-color: #f6f6f6;
 	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
 }
