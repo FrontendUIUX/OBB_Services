@@ -6,7 +6,5 @@ html:not(.designer) [name="OBB_header"]{
     background-color:#ffffff;
 }
 div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Table {
-    /* display: flex!important; */
-    /* justify-content: flex-start; */
     grid-auto-columns: auto;
 }
