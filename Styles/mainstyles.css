@@ -824,8 +824,8 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
 /* POPUP BRANDING END */
 /* OBB SERVICES START */
 .SFC[name*="OBB_Service"]{
-	height:14rem;
-	width:14rem;
+	height: 16rem;
+	width: 27rem;
 	border-radius:1rem;
 	cursor: pointer;
 	background-color:#f1f1f1;
