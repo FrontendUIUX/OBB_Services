@@ -35,21 +35,28 @@ document.addEventListener("DOMContentLoaded", function () {
     sidebar.append(`<div class="sidebar-section topic">${isArabic ? "القائمة" : "MENU"}</div>`);
 
     var fqn = null;
-    
-    Sys.Application.add_load(function () {
-        try {
-            fqn = SourceCode.Forms.Settings.User.FQN;;
-            console.log("Logged-in User FQN:", fqn);
-        } catch (e) {
-            console.error("Error retrieving FQN:", e);
-        }
-    });
-
-    // Menu items
+        // Menu items
 	
 	let menuItems;
     const currentUrl = window.location.href;
 
+$(document).ready(function () {
+    setTimeout(function () {
+        try {
+            fqn = SourceCode.Forms.Settings.User.FQN;
+            console.log("Logged-in User FQN:" + fqn);
+            menuBar();
+          
+        } catch (e) {
+            console.error("Error retrieving FQN:", e);
+        }
+    }, 1000);
+});
+
+
+function menuBar(){
+
+    
 if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval") || currentUrl.includes("ArchivingLandingForm")) {
 	   menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
@@ -275,6 +282,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     }
 
 })
+};
+
 });
 
 

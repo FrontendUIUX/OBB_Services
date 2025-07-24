@@ -284,7 +284,7 @@ html:not(.designer) header{
 	width:calc(100% - 20rem);
 }
 html:not(.designer){
-    font-size:12px!important;
+    font-size:14px!important;
 }
 html:not(.designer) .grid-content-cell-wrapper a{
 	color:var(--orange);
