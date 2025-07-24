@@ -251,14 +251,14 @@ html:not(.designer) [name="OBB_header"] > div{
 	justify-content:space-between;
 	width:100%;
 }
-html:not(.designer) [name="HeaderTitleContainer"]{
+html:not(.designer) [name*="HeaderTitleContainer"]{
 width:80%;}
-html:not(.designer) [name="HeaderTitleContainer"] [name="HeaderTitle"]{
+html:not(.designer) [name*="HeaderTitleContainer"] [name*="HeaderTitle"]{
 	font-size: 1.7rem;
 	font-family:var(--regularFont);
 	color:black;
 }
-html:not(.designer) [name="HeaderDescriptionContainer"] [name="HeaderDescription"]{
+html:not(.designer) [name*="HeaderDescriptionContainer"] [name*="HeaderDescription"]{
 	font-size:1rem;
 	color:var(--description);
 	font-family:var(--regularFont);
