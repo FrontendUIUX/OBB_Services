@@ -1,3 +1,6 @@
 html:not(.designer) body{
-    background-color:F4F4F4!important;
+    background-color:#F4F4F4!important;
+}
+html:not(.designer) [name="OBB_header"]{
+    background-color:#ffffff;
 }
