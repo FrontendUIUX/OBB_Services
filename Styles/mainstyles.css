@@ -824,8 +824,8 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
 /* POPUP BRANDING END */
 /* OBB SERVICES START */
 .SFC[name*="OBB_Service"]{
-	height: 16rem;
-	width: 27rem;
+	height:14rem;
+	width: 25rem;
 	border-radius:1rem;
 	cursor: pointer;
 	background-color:#f1f1f1;
@@ -834,6 +834,7 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
 	align-items:center;
 	justify-content:center;
 	transition:all .3s ease-in-out;
+	padding: 1rem;
 }
 [name*="OBB_Service"]:hover{
 background-color:#00a9b550;;
