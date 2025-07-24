@@ -4,3 +4,6 @@ html:not(.designer) body{
 html:not(.designer) [name="OBB_header"]{
     background-color:#ffffff;
 }
+html:not(.designer) .row:first-child{
+    display: none!important;
+}
