@@ -1075,6 +1075,11 @@ html:not(.designer) [name*="UserName"]{
 .quickSearch.filter{
 	position:relative;
 }
+html:not(.designer) [name="Cancel Button"]{
+	color: var(--orange)!important;
+	border: var(--borderColor)!important;
+	background-color: transparent!important;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
