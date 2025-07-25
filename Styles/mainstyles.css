@@ -822,6 +822,11 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
     background-position:center;
 }
 /* POPUP BRANDING END */
+/* */
+html:not(.designer) .worklist-grid-column-header-cell-text,
+html:not(.designer) .WorklistItemGridCell span{
+font-size:8pt!important;
+}
 /* OBB SERVICES START */
 .SFC[name*="OBB_Service"]{
 	height:14rem;
