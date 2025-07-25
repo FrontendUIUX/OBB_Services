@@ -860,7 +860,7 @@ font-size:8pt!important;
 	justify-content:center;
 	transition:all .3s ease-in-out;
 	padding: 1rem;
-	margin: 1rem;
+	/* margin: 1rem; */
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/backgroundimage.png");
 	background-size: 116%;
 	background-repeat:no-repeat;
