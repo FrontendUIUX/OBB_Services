@@ -850,7 +850,7 @@ font-size:8pt!important;
 /* OBB SERVICES START */
 .SFC[name*="OBB_Service"]{
 	height:14rem;
-	width: 25rem;
+	width: 25.6rem;
 	border-radius:1rem;
 	cursor: pointer;
 	background-color: #ffffff;
@@ -866,12 +866,13 @@ font-size:8pt!important;
 	background-repeat:no-repeat;
 	background-position:center;
 	transition:all .3s ease-in-out;
+	/* margin: 0 auto!important; */
 }
 .SFC[name*="OBB_Service"]:hover{
 	background-size:126%;
 }
 .SFC[name*="OBB_Service"]:nth-child(3n+1){
-	margin-left:0;
+	/* margin-left:0; */
 }
 /* [name*="OBB_Service"]:hover{
 background-color:#00a9b550;;
