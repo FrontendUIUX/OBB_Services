@@ -703,6 +703,28 @@ html:not(.designer) [name*="marginTop"]{
 html:not(.designer) [name*="marginBottom"]{
 	margin-bottom:1rem!important;
 }
+html:not(.designer) [name*="exportbtn"]{
+	position:relative;
+	right:1rem;
+	left:auto;
+	float:right;
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/Export.png");
+	background-size:2rem;
+	background-repeat:no-repeat;
+	background-position:1rem center;
+	padding-left: 3.4rem;
+	background-color: transparent!important;
+	color: var(--orange)!important;
+	border: 2px solid var(--orange);
+}
+html:not(.designer) [name*="exportbtn"]:hover{
+	background-color:transparent!important;
+	color:var(--orange)!important;
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/Export.png");
+	background-size:2rem;
+	background-repeat:no-repeat;
+	background-position:1rem center;
+}
 html:not(.designer) [name="RFQTenderCreation_Button  OBB_button OBB_primary_button"]{
 	margin:0;
 }
