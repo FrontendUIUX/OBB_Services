@@ -280,7 +280,7 @@ html:not(.designer) .page-title{
 }
 html:not(.designer) .theme-entry.runtime-form span.runtime-list-item-wrap{
 	font-family: var(--regularFont);
-	padding: 1rem 1.4rem;
+	/* padding: 1rem 1.4rem; */
 }
 html:not(.designer) header{
 	background-color:#F2F2F6;
@@ -881,10 +881,13 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	cursor: pointer;
 	padding: 0 1rem;
 }
+html:not(.designer) .theme-entry .grid table td{
+	padding: 0 1rem!important;
+}
 html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
 	font-weight: 300!important;
-	padding: 1.3rem 1.3rem!important;
+	padding: 0!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
 	border:none!important;
