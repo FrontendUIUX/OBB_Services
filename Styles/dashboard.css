@@ -38,3 +38,9 @@ html:not(.designer) [name*="OBB_header"] {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
+div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Table {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    gap: 2rem;
+}
