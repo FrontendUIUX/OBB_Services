@@ -1043,7 +1043,7 @@ body.theme-entry.topbarExists {
     margin-top: 13rem;
 }
 html:not(.designer) .grid-column-header-cell{
-	background-color:#f6f6f6;
+	background-color: transparent;
 }
 /* TABLE BRANDING END */
 .worklistToolbarHeaderTextWrapper .headerTxt{
