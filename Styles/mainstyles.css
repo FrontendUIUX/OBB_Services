@@ -326,6 +326,7 @@ html:not(.designer) .runtime-content{
 }
 html:not(.designer) [name*="OBB_asterik"]{
     color:var(--aqua)!important;
+    padding: 0;
 }
 html:not(.designer) [name*="OBB_label"]{
     color:var(--black)!important;
