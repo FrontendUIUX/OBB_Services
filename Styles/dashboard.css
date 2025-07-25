@@ -14,6 +14,6 @@ div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Ta
     align-items:center!important;
 }
 [name*="service-name"]{
-    width:80%!important;
+    /* width:80%!important; */
     background-color:transparent!important;
 }
