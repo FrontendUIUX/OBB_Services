@@ -879,6 +879,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: #f6f6f6;
 	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
+	padding: 0 1rem;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
@@ -899,7 +900,7 @@ html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont);
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
-	padding:1rem 1.4rem;
+	padding: 0;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
