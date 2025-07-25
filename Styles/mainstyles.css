@@ -900,7 +900,8 @@ html:not(.designer) .theme-entry  .grid-column-headers{
 background-color:transparent!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
-	font-family:var(--regularFont);
+	font-family:var(--regularFont)!important;
+	max-width: fit-content!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
