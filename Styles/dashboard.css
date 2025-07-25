@@ -26,7 +26,6 @@ html:not(.designer) [name*="HeaderTitleContainer"]{
     width:100%!important;
 }
 html:not(.designer) [name*="OBB_header"] {
-    background-color: #F2F2F6;
     position: fixed;
     top: 0;
     left: 0;
