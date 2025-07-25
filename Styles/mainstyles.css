@@ -247,8 +247,9 @@ html:not(.designer) [name="OBB_header"]{
 	z-index: 2;
 	height: 6rem;
 	padding: 0 1rem!important;
-	/* display: flex!important; */
-	justify-content: s;
+	display: flex!important;
+	align-items: center!important;
+	justify-content: space-between;
 }
 html:not(.designer) [name*= "p-0"]{
 	padding:0!important;
