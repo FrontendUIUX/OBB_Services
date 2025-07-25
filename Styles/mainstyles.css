@@ -900,8 +900,8 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	cursor: pointer;
 	/* padding: 0 1rem; */
 }
-html:not(.designer) .theme-entry .grid table td{
-	/* padding: 0 1rem!important; */
+html:not(.designer) .theme-entry .grid-body-content table td{
+	padding: 0 1rem!important;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
