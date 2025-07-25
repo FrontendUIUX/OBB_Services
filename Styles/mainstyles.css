@@ -1158,6 +1158,9 @@ html:not(.designer) [name*="toolbarButton"] .button-c,
 html:not(.designer) [name*="toolbarButton"] .button-c .button-text{
  padding:0!important;
 }
+html:not(.designer) img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_8c40e4b4-a56c-2593-e555-118c658111a0_Picture {
+    width: 10rem !important;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
