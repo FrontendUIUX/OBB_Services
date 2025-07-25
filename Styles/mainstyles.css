@@ -251,6 +251,9 @@ html:not(.designer) [name="OBB_header"]{
 	align-items: center!important;
 	justify-content: space-between;
 }
+html:not(.designer) [name="Account Picture"]{
+	margin-right:.5rem;
+}
 html:not(.designer) [name*= "p-0"]{
 	padding:0!important;
 }
