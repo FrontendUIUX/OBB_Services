@@ -33,6 +33,9 @@ html:not(.designer) .topbarExists .tab-box-tabs li .tab{
 html:not(.designer) body *{
 	font-family:var(--regularFont)!important;
 }
+html:not(.designer) .grid-column-header-cell-content{
+	padding:0 1rem;
+}
 html:not(.designer) .grid-column-header-cell-content[style*="text-align:center"] {
 	display:flex;
 	align-items:center;
@@ -40,6 +43,14 @@ html:not(.designer) .grid-column-header-cell-content[style*="text-align:center"]
 	text-align:center;
 	/* max-width:100%!important; */
 	/* margin:0 -2rem; */
+	padding:0;
+}
+html:not(.designer) .grid-column-header-cell-content[style*="text-align:center"] .grid-column-header-text{
+	font-family:var(--regularFont)!important;
+	/* max-width: fit-content!important; */
+	width: fit-content!important;
+	margin:0 auto;
+	
 }
 html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected{
 	color:#131313!important;
@@ -887,10 +898,10 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: #f6f6f6;
 	border-right: 1px solid rgb(220 220 220 / 80%);
 	cursor: pointer;
-	padding: 0 1rem;
+	/* padding: 0 1rem; */
 }
 html:not(.designer) .theme-entry .grid table td{
-	padding: 0 1rem!important;
+	/* padding: 0 1rem!important; */
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
@@ -910,11 +921,11 @@ background-color:transparent!important;
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	/* max-width: fit-content!important; */
-	/* width: fit-content!important; */
+	width: fit-content!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
-	/* width: fit-content!important; */
+	width: 100%!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
