@@ -934,7 +934,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draf
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
-html:not(.designer)  [name*="OBB_statusContainer"] [title="Preparing document"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"]{
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -960,7 +960,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending revi
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span,
-html:not(.designer)  [name*="OBB_statusContainer"] [title="Preparing document"] span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span{
 	border-radius:2rem;
 	min-height:unset!important;
 	height:unset!important;
@@ -1011,7 +1011,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Docu
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting Return"],
-html:not(.designer)  [name*="OBB_statusContainer"] [title="Preparing document"] span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span{
 	color:#D19D00!important;
 	background-color:#FAF5E5!important;
 	padding: 0.6rem 1.2rem!important;
