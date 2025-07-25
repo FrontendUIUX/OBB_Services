@@ -902,11 +902,11 @@ background-color:transparent!important;
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	max-width: fit-content!important;
-	width: fit-content!important;
+	/* width: fit-content!important; */
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
-	width: fit-content!important;
+	/* width: fit-content!important; */
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
