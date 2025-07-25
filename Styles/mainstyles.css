@@ -280,7 +280,7 @@ html:not(.designer) .page-title{
 }
 html:not(.designer) .theme-entry.runtime-form span.runtime-list-item-wrap{
 	font-family: var(--regularFont);
-	/* padding: 1rem 1.4rem; */
+	padding: 0;
 }
 html:not(.designer) header{
 	background-color:#F2F2F6;
