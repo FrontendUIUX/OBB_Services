@@ -8,10 +8,8 @@ html:not(.designer) [name="OBB_header"]{
 div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Table {
     grid-auto-columns: auto;
 }
-[name="service-lower-section"]{
-    display:flex!important;
-    justify-content:space-between!important;
-    align-items:center!important;
+[name*="service-lower-section"]{
+    margin-top: 4rem;
 }
 [name*="service-name service-name-width"]{
     width:80%!important;
