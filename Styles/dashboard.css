@@ -17,3 +17,10 @@ div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Ta
     width:80%!important;
     background-color:transparent!important;
 }
+[name*="tile"]{
+    padding:0!important;
+    width:fit-content!important;
+}
+div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Table span{
+    padding:0!important
+}
