@@ -25,3 +25,17 @@ div#eb3917e9-9fe9-47f0-fef0-e556b757401e_91a4b712-521d-ddb3-f674-480e5b1abe5a_Ta
 html:not(.designer) [name*="HeaderTitleContainer"]{
     width:100%!important;
 }
+html:not(.designer) [name*="OBB_header"] {
+    background-color: #F2F2F6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 0 4rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
