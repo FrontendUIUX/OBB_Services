@@ -195,7 +195,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 				menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
         { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
-        { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
+        { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" },
+		{ text: "Old Data", url: "/Runtime/Runtime/Form/VisitorRegistration.MainForm/" }
                 ];
     }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility")) {
 				menuItems = [
