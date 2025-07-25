@@ -36,10 +36,10 @@ html:not(.designer) body *{
 html:not(.designer) .grid-column-header-cell-content[style*="text-align:center"] {
 	display:flex;
 	align-items:center;
-	justify-content:center;
+	/* justify-content:center; */
 	text-align:center;
-	max-width:100%!important;
-	margin:0 -2rem
+	/* max-width:100%!important; */
+	/* margin:0 -2rem; */
 }
 html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected{
 	color:#131313!important;
@@ -909,7 +909,7 @@ background-color:transparent!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
-	max-width: fit-content!important;
+	/* max-width: fit-content!important; */
 	/* width: fit-content!important; */
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
