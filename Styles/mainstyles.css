@@ -374,7 +374,7 @@ html:not(.designer) [name*="OBB_label"]{
 }
 html:not(.designer) [name*="OBB_Title"]{
 	 color:var(--black)!important;
-    font-size:2rem!important;
+    font-size:1.5rem!important;
     font-family: var(--regularFont);
 }
 html:not(.designer) [name="SignUpButton"]{
