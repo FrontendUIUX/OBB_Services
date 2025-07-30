@@ -208,7 +208,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
     ];
 	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
 				menuItems = [
-        { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+        // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
 					text: "New Request", url: "", children: [
 						{ text: "Incoming Request", url: "/Runtime/Runtime/Form/NewIncomingRequestCreation.SubmitForm/" },

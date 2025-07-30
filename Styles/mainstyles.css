@@ -1213,6 +1213,8 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
     justify-content: flex-end;
 }
 /* Table Toolbar Buttons Alignment End */
+/* BUTTONS BRANDING START */
+
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
