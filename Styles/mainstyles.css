@@ -1203,6 +1203,14 @@ html:not(.designer) img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_8c40e4b4-a56c-25
 html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-e555-118c658111a0_Picture{
     width: 10rem !important;
 }
+/* Table Toolbar Buttons Alignment Start */
+/* VMS.AdministrationForm */
+td#\39 9e0a7a0-73d3-eba6-9232-e7c5509f59df {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Table Toolbar Buttons Alignment End */
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
