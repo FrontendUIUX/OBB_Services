@@ -453,3 +453,35 @@ function applyGrayscaleFix4() {
     });
 }
 
+// POC 
+document.addEventListener('DOMContentLoaded', function () {
+  // Loop through all td elements with data-options attribute
+  document.querySelectorAll('td[data-options]').forEach(function (td) {
+    let dataOptions = td.getAttribute('data-options');
+
+    try {
+      let options = JSON.parse(dataOptions);
+      let value = options.value;
+
+      if (value === "Rejected" || value === "Approved") {
+        // Get the <tr> (row) this <td> belongs to
+        let row = td.parentElement;
+
+        // Find sibling <td> that has <i> with GetAction1 in onclick
+        let targetTd = Array.from(row.children).find(cell => {
+          let iTag = cell.querySelector('i[onclick*="GetAction1"]');
+          return iTag !== null;
+        });
+
+        if (targetTd) {
+          let iTag = targetTd.querySelector('i[onclick*="GetAction1"]');
+          if (iTag) {
+            iTag.classList.add('notClickable');
+          }
+        }
+      }
+    } catch (err) {
+      console.warn("Could not parse data-options:", dataOptions);
+    }
+  });
+});
