@@ -1229,9 +1229,11 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	height: 2rem;
 	width: 2rem;
 	margin: auto;
+	cursor:pointer;
 }
 .returnIcon rect,.viewIcon rect{
 	fill:#fff;
+	transition:all .3s ease-in-out;
 }
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
