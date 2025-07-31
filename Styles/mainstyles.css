@@ -1212,10 +1212,23 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
     align-items: center;
     justify-content: flex-end;
 }
+.grid-content-cell-wrapper,.grid-content-cell-wrapper .runtime-list-item,.grid-content-cell-wrapper .runtime-list-item i{
+	height:100%;
+}
+.grid-content-cell-wrapper .runtime-list-item i{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
 /* Table Toolbar Buttons Alignment End */
 /* BUTTONS BRANDING START */
 [name="LetterPendingFormCopy Area Item OBB_Collapse"] table col{
 	width: auto!important;
+}
+.returnIcon,.viewIcon{
+	height: 2rem;
+	width: 2rem;
+	margin: auto;
 }
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
