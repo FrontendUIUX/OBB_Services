@@ -1230,6 +1230,9 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	width: 2rem;
 	margin: auto;
 }
+.returnIcon rect,.viewIcon rect{
+	fill:#fff;
+}
 @media(min-width:1600px){
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
