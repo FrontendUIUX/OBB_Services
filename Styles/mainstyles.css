@@ -977,6 +977,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-ch
 html:not(.designer) .theme-entry table.grid-column-header-table {
     border-bottom: 1px solid rgb(220 220 220 / 80%);
     background-color:transparent!important;
+	width:100%!important;
 }
 html:not(.designer) .theme-entry  .grid-column-headers{
 background-color:transparent!important;
