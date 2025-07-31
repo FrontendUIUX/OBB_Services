@@ -963,7 +963,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	cursor: pointer;
 	/* padding: 0 1rem; */
 }
-html:not(.designer) .theme-entry .grid-body-content table td{
+html:not(.designer) .theme-entry .grid-body-content table td:not(.center-align){
 	padding: 0 1rem!important;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
