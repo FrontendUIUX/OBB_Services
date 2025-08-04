@@ -9,6 +9,9 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+html:not(.designer) .theme-entry .message-box-content.confirmation:before{
+	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/general.png");
+}
 html:not(.designer) [name*="OBB_button OBB_primary_button"]:hover,
 html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
 	background-color:var(--orange-hover)!important;
