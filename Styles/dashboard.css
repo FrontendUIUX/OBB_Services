@@ -46,7 +46,20 @@ div#de0e3ed3-be19-14e4-b6a7-79b1e078ec73_0de9b0a2-11a0-4776-ac77-4e37d1e4367b_Ta
     gap: 2rem;
 }
 @media(min-width:1600px){
+    html:not(.designer) [name*="OBB_header"] {
+    padding: 0 4vw !important;
+    padding-top: 1vw !important;
+    padding-bottom: 1vw !important;
+    height: 7vw;
+}
     [name*="service-lower-section"]{
     margin-top: 16vw;
+}
+    html:not(.designer) body {
+    padding: 1vw;
+    margin-top: 6vw;
+    height: calc(100% - 4vw);
+    width: calc(100% - 0vw);
+    margin-top:7vw!important;
 }
 }

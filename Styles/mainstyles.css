@@ -1244,6 +1244,35 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	transition:all .3s ease-in-out;
 }
 @media(min-width:1600px){
+	img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_4d7b0716-c062-42c0-955a-2a862394fdd2_Picture{
+		height:2vw!important;
+		width:2vw!important;
+	}
+	html:not(.designer) [name="UserName"]{
+	font-size: 1vw;
+}
+	html:not(.designer) .theme-entry span[name*="profilePhoto"]{
+	border-radius:2vw;
+	padding: 0.4vw 1.6vw;
+	height: 3vw!important;
+}
+	html:not(.designer) [name*="HeaderContent"] {
+    padding-left: 2vw;
+    margin-left: 4vw;
+}
+	html:not(.designer) [name*="HeaderDescriptionContainer"] [name*="HeaderDescription"]{
+	font-size:1vw;
+	color:var(--description);
+	font-family:var(--regularFont);
+	padding-top: 0;
+}
+	html:not(.designer) [name*="HeaderTitleContainer"] [name*="HeaderTitle"]{
+	font-size: 1.7vw;
+}
+	html:not(.designer) img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_8c40e4b4-a56c-2593-e555-118c658111a0_Picture ,
+html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-e555-118c658111a0_Picture{
+    width: 10vw !important;
+}
 	html:not(.designer) [name*="OBB_label"]{
     font-size:1vw!important;
 }
