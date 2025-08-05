@@ -1244,6 +1244,20 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	transition:all .3s ease-in-out;
 }
 @media(min-width:1600px){
+		html:not(.designer) [name*="OBB_textbox"],
+.filterTxt .input-control-m-c,
+.filterTxt input{
+    font-size:1vw!important;
+    border-radius: .5vw!important;
+    padding: .4vw 1vw!important;
+    min-height: 3vw!important;
+    height: 3vw!important;
+}
+html:not(.designer) [name*="OBB_textarea"]{
+    font-size:1vw!important;
+    border-radius: .5vw!important;
+    padding: .4vw 1vw!important;
+}
 	img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_4d7b0716-c062-42c0-955a-2a862394fdd2_Picture{
 		height:2vw!important;
 		width:2vw!important;
