@@ -1422,9 +1422,10 @@ html:not(.designer) body.sidebarVisible {
     margin-top: 9vw;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
-    left: 16vw;
-    width: calc(100vw - 17vw);
-}
+        left: 16vw;
+        width: calc(100vw - 16vw);
+        padding: 1vw !important;
+    }
 .navbarBrand a{
 	width: 9vw;
 }
