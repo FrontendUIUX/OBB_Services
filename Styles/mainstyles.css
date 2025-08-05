@@ -1184,8 +1184,8 @@ html:not(.designer) [name*="UserName"]{
 }
 .quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh{
 	position:absolute;
-	right:1.5rem;
-	top: 0.4rem;
+	right: 0.9rem;
+	top: 0.5rem;
 	height: 3rem;
 	display: flex;
 	align-items:center;
@@ -1276,7 +1276,7 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 }
 .quickSearch a.refresh{
 	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/search.png");
-	background-size:4rem;
+	background-size: 1.5rem;
 	background-repeat:no-repeat;
 	background-position:center;
 	height:4rem;
