@@ -1251,7 +1251,18 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 		min-height:unset!important;
 		height:unset!important;
 	}
+	html:not(.designer) .theme-entry .grid td.last.center-align .grid-content-cell {
+    height: 4rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
 @media(min-width:1600px){
+	html:not(.designer) .theme-entry .grid td.last.center-align .grid-content-cell {
+    height: 4vw !important;
+    
+}
 .searchDdl{
 		max-width:20vw!important;
 	}
