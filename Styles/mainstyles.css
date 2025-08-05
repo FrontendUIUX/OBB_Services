@@ -1327,6 +1327,14 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.file-label,.file-wrapper.showinfo{
+		font-size:1vw!important;
+		height: unset!important;
+	}
+	.theme-entry .input-control.text-input .input-control-watermark{
+		font-size:1vw!important;
+		padding:1vw!important;
+	}
 	.file-wrapper{
 		height:3vw!important;
 		min-height: 3vw!important;
