@@ -1651,9 +1651,10 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 	td#f2e23e01-1af2-41fd-97cc-9730d4f6115f,
 	td#bf03b281-d3c3-41b0-8945-e5a02ceefc01,
 	td#be7cdaa6-ffc9-44d7-98fb-181c6a4145f7,
-	td#\39 6683783-f5cd-4537-bb2c-dce3d7f0778a{
-		height:3vw;
-		padding:0 1vw;
+	td#\39 6683783-f5cd-4537-bb2c-dce3d7f0778a,
+	td#\34 82dfe77-114e-0236-3c0c-ee0bd9cf0725{
+		height:3vw!important;
+		padding:0 1vw!important;
 	}
 	.action-row{
 		font-size:1vw!important;
@@ -1833,7 +1834,6 @@ html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-
 	top: 5.8vw;
 	width: calc(100vw - 18.8vw);
 	left: 16vw;
-	/* height: 4vw!important; */
 }
 .sidebar {
     width: 12vw;
