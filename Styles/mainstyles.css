@@ -1673,10 +1673,11 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 		height:1vw;
 		width:1vw;
 	}
-	html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a>span>span{
+	html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
 		background-size:2vw;
 		height: 2vw;
 		width: 2vw;
+		margin-right: .5vw;
 	}
 	.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh {
     position: absolute;
