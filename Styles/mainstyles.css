@@ -1353,6 +1353,11 @@ span#\31 ecebf49-26f0-58f2-469b-31ed8a66be00 {
 }
 }
 @media(min-width:1600px){
+	.theme-entry a.SourceCode-Forms-Controls-Web-Button{
+		padding:.4vw 1vw;
+		font-size:1vw;
+		min-width:8vw;
+	}
 	html:not(.designer) .topbarExists .tab-box-tabs li .tab {
     position: relative;
     padding: 1vw 0 1vw !important;
