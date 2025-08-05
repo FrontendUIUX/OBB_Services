@@ -1321,6 +1321,25 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.worklistToolbarHeaderTextWrapper .headerTxt {
+    font-size: 1.5vw;
+}
+	.theme-entry .SourceCodeFormsControlsWorklist .nav,
+	.theme-entry .SourceCodeFormsControlsWorklist table.nav>tbody>tr:first-child{
+		height:3vw;
+	}
+	.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Worklist .nav .worklistToolbarHeaderTextWrapper {
+    height: 3vw;
+}
+	.theme-entry .SourceCodeFormsControlsWorklist .headerTxt{
+		padding:0 1vw;
+	}
+	html:not(.designer) .worklist-grid-column-header-cell-text, html:not(.designer) .WorklistItemGridCell span{
+		font-size:.8vw!important;
+	}
+	.theme-entry .SourceCodeFormsControlsWorklist .WorklistItemGridRow{
+		height:3vw;
+	}
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
