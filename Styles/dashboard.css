@@ -45,3 +45,8 @@ div#de0e3ed3-be19-14e4-b6a7-79b1e078ec73_0de9b0a2-11a0-4776-ac77-4e37d1e4367b_Ta
     padding: 0 3rem;
     gap: 2rem;
 }
+@media(min-width:1600px){
+    [name*="service-lower-section"]{
+    margin-top: 16vw;
+}
+}

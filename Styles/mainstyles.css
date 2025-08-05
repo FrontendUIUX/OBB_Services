@@ -939,7 +939,7 @@ font-size:8pt!important;
 background-color:#00a9b550;;
 } */
 [name*="OBB_ServiceIcon"]{
-	width:4rem!important;
+	width:5rem!important;
 	height:auto!important;
 	position:relative!important;
 	border-radius: 0;
@@ -1244,6 +1244,18 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	transition:all .3s ease-in-out;
 }
 @media(min-width:1600px){
+	html:not(.designer) [name*="OBB_label"]{
+    font-size:1vw!important;
+}
+	.SFC[name*="OBB_Service"]{
+	height:14vw;
+	width: 23.9vw;
+	border-radius:1vw;
+	padding: 1vw;
+}
+	[name*="OBB_ServiceIcon"]{
+	width: 5vw!important;
+}
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
 	/* margin-bottom:2vw; */
