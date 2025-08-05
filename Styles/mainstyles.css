@@ -1258,6 +1258,9 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
     justify-content: center;
     margin: auto;
 }
+.theme-entry .grid table.grid-content-table>tbody>tr>td, .theme-entry .grid table.grid-content-table>tr>td {
+    vertical-align: middle;
+}
 @media(min-width:1600px){
 	html:not(.designer) .theme-entry .grid td.last.center-align .grid-content-cell {
     height: 4vw !important;
