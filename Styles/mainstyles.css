@@ -1296,6 +1296,34 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 	display:none;
 }
 @media(min-width:1600px){
+	td#\38 2768387-d3cc-4b05-a3d6-a9f87777385f,
+	td#d3158496-f759-4d1e-8c85-11ad62cbed03,
+	td#fcfc5ec5-96d0-485a-a05c-46f54abb0cd4,
+	td#\35 580c92d-31ef-404f-8a7f-b600255883f0,
+	td#\30 bccc128-4e23-402d-a713-283d0a33fc64,
+	td#\39 fb835cf-bafa-4e82-b4d5-e4251060d81d,
+	td#\31 6454f9e-72e0-41c0-8073-2435193e524f,
+	td#\34 5f7ee20-c46f-460f-8f94-31d8123c726b,
+	td#\38 6d24746-e329-43b5-a812-2912447aec58,
+	td#\38 fb9d21b-4077-45df-b708-2e8c2d1aa677,
+	td#f2e23e01-1af2-41fd-97cc-9730d4f6115f,
+	td#bf03b281-d3c3-41b0-8945-e5a02ceefc01,
+	td#be7cdaa6-ffc9-44d7-98fb-181c6a4145f7,
+	td#\39 6683783-f5cd-4537-bb2c-dce3d7f0778a{
+		height:3vw;
+		padding:0 1vw;
+	}
+	.action-row{
+		font-size:1vw!important;
+		padding:.5vw!important;
+	}
+	.theme-entry a.toolbar-button span.button-c span.button-text{
+		font-size:1vw;
+	}
+	.theme-entry a.toolbar-button svg{
+		height:1vw;
+		width:1vw;
+	}
 	html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a>span>span{
 		background-size:2vw;
 		height: 2vw;
