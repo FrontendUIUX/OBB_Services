@@ -123,3 +123,10 @@ html:not(.designer) [name="LoginButton"].SourceCode-Forms-Controls-Web-Button{
     background-color:transparent!important;
     color:var(--orange)!important;
 }
+@media(min-width:992px){
+    html:not(.designer) body.sidebarVisible {
+    margin-left: 15rem !important;
+    width: calc(-17rem + 100vw) !important;
+    padding: 0px 1rem;
+}
+}
