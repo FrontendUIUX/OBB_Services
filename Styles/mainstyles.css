@@ -262,6 +262,8 @@ html:not(.designer) [name*="OBB_header"]{
 }
 html:not(.designer) [name="Account Picture"]{
 	margin-right:.5rem;
+	height: 2rem;
+	width: 2rem;
 }
 html:not(.designer) [name*= "p-0"]{
 	padding:0!important;
@@ -1250,6 +1252,11 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 		height:unset!important;
 	}
 @media(min-width:1600px){
+	html:not(.designer) [name="Account Picture"]{
+	margin-right:.5vw;
+	height: 2vw!important;
+	width: 2vw!important;
+}
 	.returnIcon, .viewIcon {
     height: 2vw;
     width: 2vw;
@@ -1361,7 +1368,6 @@ html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-
 }
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
-	/* margin-bottom:2vw; */
 	top: 3.7vw;
 	width: calc(100vw - 18.8vw);
 	left: 16vw;
