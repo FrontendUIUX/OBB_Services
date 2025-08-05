@@ -1327,6 +1327,18 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	html:not(.designer) .topbarExists .tab-box-tabs li .tab {
+    position: relative;
+    padding: 1vw 0 1vw !important;
+    color: #565656 !important;
+    font-family: var(--regularFont);
+}
+	html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected::after {
+    height: .3vw;
+}
+	.theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text{
+		font-size:1vw;
+	}
 	.file-label,.file-wrapper.showinfo{
 		font-size:1vw!important;
 		height: unset!important;
@@ -1669,9 +1681,10 @@ html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-
 }
 	html:not(.designer) .tab-box-tabs{
 	padding: 0 1vw;
-	top: 3.7vw;
+	top: 5.8vw;
 	width: calc(100vw - 18.8vw);
 	left: 16vw;
+	/* height: 4vw!important; */
 }
 .sidebar {
     width: 12vw;
@@ -1683,8 +1696,8 @@ html:not(.designer) body.sidebarVisible {
     width: calc(100vw - 16vw) !important;
     padding: 0 1vw 1vw 1vw!important;
 }
-	body.theme-entry.topbarExists {
-    margin-top: 9vw;
+html:not(.designer)	body.theme-entry.topbarExists {
+    margin-top: 9vw!important;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"] {
         left: 16vw;
