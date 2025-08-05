@@ -1296,6 +1296,9 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 	display:none;
 }
 @media(min-width:1600px){
+	.sidebar .nav-link {
+    margin-bottom: 1vw;
+}
 	td#\38 2768387-d3cc-4b05-a3d6-a9f87777385f,
 	td#d3158496-f759-4d1e-8c85-11ad62cbed03,
 	td#fcfc5ec5-96d0-485a-a05c-46f54abb0cd4,
