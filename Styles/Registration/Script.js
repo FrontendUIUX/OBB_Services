@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Only add button for screens < 992px
   if (window.innerWidth < 992 && sidebar) {
+    console.log("mobile view");
     const toggleButton = document.createElement('button');
     toggleButton.id = 'toggleSidebarBtn';
     toggleButton.innerHTML = `
