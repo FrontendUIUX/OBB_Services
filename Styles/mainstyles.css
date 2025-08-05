@@ -1203,7 +1203,13 @@ html:not(.designer) [name*="UserName"]{
 .quickSearch.filter{
 	position:relative;
 }
-html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a>span>span{
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg")!important;
 	background-size:2rem;
 	background-repeat: no-repeat;
