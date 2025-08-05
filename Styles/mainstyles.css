@@ -1195,6 +1195,14 @@ html:not(.designer) [name*="UserName"]{
 .quickSearch.filter{
 	position:relative;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a>span>span{
+	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg")!important;
+	background-size:2rem;
+	background-repeat: no-repeat;
+	background-position:center;
+	height: 2rem;
+	width: 2rem;
+}
 html:not(.designer) [name*="Cancel Button"],
 html:not(.designer) [name*="Cancel Button"]:hover{
 	color: var(--orange)!important;
@@ -1274,6 +1282,11 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 	display:none;
 }
 @media(min-width:1600px){
+	html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a>span>span{
+		background-size:2vw;
+		height: 2vw;
+		width: 2vw;
+	}
 	.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh {
     position: absolute;
     right: .5vw;
