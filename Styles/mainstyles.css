@@ -1320,6 +1320,88 @@ body>form{
 }
 }
 @media(min-width:1600px){
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"]{
+	height: 4.4vw!important;
+}
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "] span{
+	border-radius:2vw;
+	padding: 0.6vw 2vw!important;
+	font-size: .8vw;
+}
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting Return"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Approve"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] > span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Open"] >span,
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"]{
+	padding: 0.6vw 1.2vw!important;
+}
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+	border-radius:2vw; 
+	margin-left:1vw;
+}
 	.quickSearch.filter{
 		padding:1vw 0;
 	}
