@@ -16,6 +16,16 @@ html:not(.designer) .theme-entry .message-box-content.info:before{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+html:not(.designer) body.theme-entry a.collapse-vertical {
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+    background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chevronDownWhite.svg")!important;
+    background-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+}
 html:not(.designer) [name*="OBB_button OBB_primary_button"]:hover,
 html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
 	background-color:var(--orange-hover)!important;
