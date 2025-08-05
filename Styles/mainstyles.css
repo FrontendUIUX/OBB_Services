@@ -1303,6 +1303,9 @@ body>form{
 .theme-entry .SourceCodeFormsControlsWorklist .nav input[type=button], .theme-entry .SourceCodeFormsControlsWorklist .nav a.toolbar-button {
     background-color: transparent!important;
 }
+.file-wrapper.showinfo.readonly.read-only{
+	background-color: #f7f7f7;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
@@ -1324,6 +1327,11 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.file-wrapper{
+		height:3vw!important;
+		min-height: 3vw!important;
+	}
+	
 	html:not(.designer) [name*="OBB_Collapse"] .panel-body {
     padding: 1vw 2vw;
 }
