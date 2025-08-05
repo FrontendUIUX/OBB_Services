@@ -1321,11 +1321,17 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.theme-entry .SourceCodeFormsControlsWorklist .nav input[type=button], .theme-entry .SourceCodeFormsControlsWorklist .nav a.toolbar-button {
+    width: 2.8vw;
+    height: 2.8vw;
+	background-size:1vw;
+}
 	.worklistToolbarHeaderTextWrapper .headerTxt {
     font-size: 1.5vw;
 }
 	.theme-entry .SourceCodeFormsControlsWorklist .nav,
-	.theme-entry .SourceCodeFormsControlsWorklist table.nav>tbody>tr:first-child{
+	.theme-entry .SourceCodeFormsControlsWorklist table.nav>tbody>tr:first-child,
+	.theme-entry .SourceCodeFormsControlsWorklist .WorkListItemTableHeader th{
 		height:3vw;
 	}
 	.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Worklist .nav .worklistToolbarHeaderTextWrapper {
