@@ -1324,6 +1324,14 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.theme-entry .grid-header-wrapper, .theme-entry .panel-header, .theme-entry .panel-header-c, .theme-entry .panel-header-wrapper {
+    height: 3vw;
+    line-height: 3vw;
+    min-height: 3vw;
+}
+	html:not(.designer) [name*="OBB_Title"] {
+    font-size: 1.5vw !important;
+}
 	.theme-entry .SourceCodeFormsControlsWorklist .nav input[type=button], .theme-entry .SourceCodeFormsControlsWorklist .nav a.toolbar-button {
     width: 2.8vw;
     height: 2.8vw;
