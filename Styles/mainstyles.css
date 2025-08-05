@@ -1262,6 +1262,10 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
     vertical-align: middle;
 }
 @media(min-width:1600px){
+	.theme-entry .input-control.select-box .input-control-buttons a{
+		height:2vw;
+		width:2vw;
+	}
 	html:not(.designer) .grid-column-header-cell-content {
     padding: 0 1vw;
 }
@@ -1320,6 +1324,7 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 	}
 	html:not(.designer) body.theme-entry{
 		font-size:1vw;
+		line-height:1.5vw;
 	}
 	html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text > span, html:not(.designer) [name*="OBB_Collapse"] .grid-header .grid-header-wrapper .grid-header-text> span {
     min-height: 3vw;
