@@ -1261,7 +1261,29 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 .theme-entry .grid table.grid-content-table>tbody>tr>td, .theme-entry .grid table.grid-content-table>tr>td {
     vertical-align: middle;
 }
+.quickSearch a.refresh{
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/search.png");
+	background-size:4rem;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:4rem;
+	width:4rem;
+}
+.quickSearch a.refresh svg{
+	display:none;
+}
 @media(min-width:1600px){
+	.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh {
+    position: absolute;
+    right: .5vw;
+    top: 0vw;
+    height: 3vw;
+}
+	.quickSearch a.refresh{
+		backgorund-size:4vw;
+		height:4vw;
+		width:4vw;
+	}
 	.theme-entry .input-control.select-box .input-control-buttons a{
 		height:2vw;
 		width:2vw;
