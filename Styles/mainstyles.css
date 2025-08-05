@@ -1199,9 +1199,13 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg")!important;
 	background-size:2rem;
 	background-repeat: no-repeat;
-	background-position:center;
+	background-position: center!important;
 	height: 2rem;
 	width: 2rem;
+	background-color: transparent!important;
+}
+.theme-entry .input-control.select-box .input-control-buttons a{
+	background-color:transparent!important;
 }
 html:not(.designer) [name*="Cancel Button"],
 html:not(.designer) [name*="Cancel Button"]:hover{
