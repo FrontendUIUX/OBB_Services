@@ -1252,6 +1252,15 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 		height:unset!important;
 	}
 @media(min-width:1600px){
+.searchDdl{
+		max-width:20vw!important;
+	}
+	.theme-entry .filterContainer .input-control.dropdown-box {
+    min-width: 12vw;
+}
+	.filterTxt{
+	width: 21vw!important;
+}
 	html:not(.designer) [name="Account Picture"]{
 	margin-right:.5vw;
 	height: 2vw!important;
