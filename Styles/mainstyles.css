@@ -1300,6 +1300,9 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 body>form{
 	position:relative;
 }
+.theme-entry .SourceCodeFormsControlsWorklist .nav input[type=button], .theme-entry .SourceCodeFormsControlsWorklist .nav a.toolbar-button {
+    background-color: transparent!important;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
