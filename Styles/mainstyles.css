@@ -1306,6 +1306,19 @@ body>form{
 .file-wrapper.showinfo.readonly.read-only{
 	background-color: #f7f7f7;
 }
+span#\33 598dbff-b24f-26aa-4c08-221c75fd8cb0,
+span#e3006dd7-7aca-d685-969d-7589998b9f32,
+span#\36 3cb8663-9fa8-a1cd-6511-0d3af1d2cb4d ,
+span#dd3ed003-3231-468e-cae5-ecd9e52e5cf5,
+span#ea0e6702-2d95-a016-8432-e147165f4c95,
+span#\31 ecebf49-26f0-58f2-469b-31ed8a66be00,
+span#bc98a4e3-8a0d-5da4-75fb-be3ab6709c7e,
+span#\35 6257eea-c553-5f74-3d30-3010a6883cde,
+span#\34 c44735d-d137-ba79-162b-0dbab869b7db,
+span#\30 b4bf5e4-4f1f-7f57-ed18-b776655e3c9d,
+span#a690ff30-f0dc-13dc-0afb-5513b031504b{
+    display: none;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
