@@ -1320,6 +1320,12 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.quickSearch.filter{
+		padding:1vw 0;
+	}
+	.styling-font{
+		/* line-height:1.5vw!important; */
+	}
 	.sidebar .nav-link {
     margin-bottom: 1vw;
 }
@@ -1363,12 +1369,12 @@ body>form{
 	.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh {
     position: absolute;
     right: .5vw;
-    top: 0vw;
+    top: -0.4vw;
     height: 3vw;
 }
 	.quickSearch a.refresh{
-		backgorund-size:4vw;
-		height:4vw;
+		background-size: 1.5vw!important;
+		height: 4vw!important;
 		width:4vw;
 	}
 	.theme-entry .input-control.select-box .input-control-buttons a{
@@ -1427,6 +1433,9 @@ body>form{
 }
 	.styling-font {
     font-size: 1vw;
+    min-height: unset!important;
+    height: unset!important;
+    line-height: unset!important;
 }
 	.quickSearch.filter::before{
 		font-size:1vw;
