@@ -1262,6 +1262,14 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
     vertical-align: middle;
 }
 @media(min-width:1600px){
+	html:not(.designer) .grid-column-header-cell-content {
+    padding: 0 1vw;
+}
+	.theme-entry .grid table.grid-column-header-table td{height: 3vw!important;}
+	.theme-entry .grid .grid-footer .toolbars a.toolbar-button{
+		min-height: 1vw;
+		height: 1vw;
+	}
 	html:not(.designer) .theme-entry .grid td.last.center-align .grid-content-cell {
     height: 4vw !important;
     
