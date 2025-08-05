@@ -1324,6 +1324,12 @@ body>form{
 }
 }
 @media(min-width:1600px){
+	.theme-entry .dropdown-box.input-control .input-control-wrapper>a>span{
+		font-size:1vw!important;
+	}
+	div#\32 cf4d70c-3e60-4be2-ac59-13ec81c0515d_db77a37d-3c9f-4157-ae8d-0a522e3ebf8d_Table {
+    margin-top: 3vw;
+}
 	.theme-entry .grid-header-wrapper, .theme-entry .panel-header, .theme-entry .panel-header-c, .theme-entry .panel-header-wrapper {
     height: 3vw;
     line-height: 3vw;
@@ -1331,6 +1337,7 @@ body>form{
 }
 	html:not(.designer) [name*="OBB_Title"] {
     font-size: 1.5vw !important;
+    margin: 1vw 0!important;
 }
 	.theme-entry .SourceCodeFormsControlsWorklist .nav input[type=button], .theme-entry .SourceCodeFormsControlsWorklist .nav a.toolbar-button {
     width: 2.8vw;
