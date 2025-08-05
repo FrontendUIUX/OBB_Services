@@ -1297,6 +1297,7 @@ html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-
     padding: 2vw;
 }
 html:not(.designer) body.sidebarVisible {
+    margin-top: 5vw!important;
     margin-left: 16vw !important;
     width: calc(100vw - 17vw) !important;
     padding: 0 1vw 1vw 1vw;
