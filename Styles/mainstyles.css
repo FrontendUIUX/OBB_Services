@@ -1695,6 +1695,8 @@ html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-
 }
 	html:not(.designer) [name*="OBB_label"]{
     font-size:1vw!important;
+    padding-bottom: .5vw;
+    padding-top: .5vw;
 }
 	.SFC[name*="OBB_Service"]{
 	height:14vw;

@@ -104,6 +104,12 @@ a#\30 0000000-0000-0000-0000-000000000000_37b4955b-5f5f-98b1-ded0-b101dc7c3e21 {
     margin-bottom: 1rem;
 }
 @media(min-width:1600px){
+    html:not(.designer) .theme-entry .panel>.panel-body .panel-body-wrapper{
+        margin-top: 3vw!important;
+    }
+    .grid-content-cell-wrapper{
+        font-size:1vw!important;
+    }
     html:not(.designer) body.sidebarVisible{
     margin-left: 15rem!important;
     width: calc(100vw - 17rem)!important;
