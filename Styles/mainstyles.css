@@ -11,6 +11,9 @@
 }
 html:not(.designer) .theme-entry .message-box-content.confirmation:before{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/general.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 html:not(.designer) [name*="OBB_button OBB_primary_button"]:hover,
 html:not(.designer) .SourceCode-Forms-Controls-Web-Button:hover{
@@ -863,6 +866,7 @@ html:not(.designer) .theme-entry .popup-header{
     margin: 0!important;
     position: relative!important;
     height: fit-content!important;
+    left: 0;
 }
 html:not(.designer) .theme-entry .popup-body{
 padding:1rem 2rem 0;
