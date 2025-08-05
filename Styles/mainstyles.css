@@ -973,6 +973,7 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 }
 html:not(.designer) .theme-entry .grid-body-content table td:not(.center-align){
 	padding: 0 1rem!important;
+	vertical-align: middle;
 }
 html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
@@ -1011,7 +1012,7 @@ html:not(.designer) .grid-body{
 	margin: 1rem!important;
 	width: calc(100% - 2rem);
 	border: 1px solid rgb(220 220 220 / 80%)!important;
-	border-radius: 2rem;
+	border-radius: .7rem;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
@@ -1244,7 +1245,57 @@ td#\30 64aa9f2-8dc0-4e3d-b02f-7e1ee8742977,
 	fill:#fff;
 	transition:all .3s ease-in-out;
 }
+html:not(.designer) .theme-entry .grid .grid-content-cell{
+		min-height:unset!important;
+		height:unset!important;
+	}
 @media(min-width:1600px){
+	.returnIcon, .viewIcon {
+    height: 2vw;
+    width: 2vw;
+    margin: auto;
+    cursor: pointer;
+}
+	html:not(.designer) .theme-entry .grid-body-content table td:not(.center-align) {
+    padding: 0 1vw !important;
+    /* min-height:3vw; */
+    height:3vw;
+    vertical-align: middle;
+}
+	
+	html:not(.designer) .theme-entry .grid .grid-column-header-cell .grid-column-header-text{
+		font-size:.8vw!important;
+	}
+	html:not(.designer) .theme-entry.runtime-form .grid-content-cell span{
+		font-size:.7vw!important;
+	}
+	html:not(.designer) .grid-body{
+	margin: 1vw!important;
+	width: calc(100% - 2vw);
+	border-radius: .7vw;
+}
+	.styling-font {
+    font-size: 1vw;
+}
+	.quickSearch.filter::before{
+		font-size:1vw;
+	}
+	html:not(.designer) body.theme-entry{
+		font-size:1vw;
+	}
+	html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text > span, html:not(.designer) [name*="OBB_Collapse"] .grid-header .grid-header-wrapper .grid-header-text> span {
+    min-height: 3vw;
+   
+}
+	html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper .panel-header-text, html:not(.designer) [name*="OBB_Collapse"] .grid-header .grid-header-wrapper .grid-header-text {
+    font-size: 1.6vw!important;
+    line-height: 3vw;
+}
+	html:not(.designer) [name*="OBB_Collapse"] .panel-header .panel-header-c .panel-header-wrapper,
+html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
+	padding:1vw 2vw;
+	width: calc(100% - 4vw);
+}
 		html:not(.designer) [name*="OBB_textbox"],
 .filterTxt .input-control-m-c,
 .filterTxt input{
@@ -1274,6 +1325,14 @@ html:not(.designer) [name*="OBB_textarea"]{
 	html:not(.designer) [name*="HeaderContent"] {
     padding-left: 2vw;
     margin-left: 4vw;
+}
+html:not(.designer) [name*="OBB_dropdown"] .select-box,
+html:not(.designer) .select-box[name*="OBB_calendar"],
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
+.searchDdl .select-box{
+    border-radius:.5vw!important;
+    height:2.9vw;
+    min-height:2.9vw;
 }
 	html:not(.designer) [name*="HeaderDescriptionContainer"] [name*="HeaderDescription"]{
 	font-size:1vw;
