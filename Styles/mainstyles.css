@@ -289,10 +289,10 @@ html:not(.designer) .dropdown-box .input-control-m-c{
 	align-items:center;
 }
 html:not(.designer) .sidebarVisible [name="OBB_header"]{
-	left: 15rem;
-	width: calc(100vw - 15rem);
-	padding-top:1rem!important;
-	padding-bottom:1rem
+	/* left: 15rem; */
+	/* width: calc(100vw - 15rem); */
+	/* padding-top:1rem!important; */
+	/* padding-bottom:1rem; */
 }
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
@@ -361,13 +361,13 @@ html:not(.designer) .grid-content-cell-wrapper a:hover{
 	color:var(--orange-hover);
 }
 html:not(.designer) body{
-    margin:0;
+    /* margin:0; */
     padding: 1rem;
     font-family: var(--regularFont);
     background-color: white;
-    margin-top: 6rem;
+    margin-top: 4rem;
     height: calc(100% - 4rem);
-    width: calc(100% - 0rem);
+    /* width: calc(100% - 0rem); */
 }
 html:not(.designer) tr.selected [src*="/Runtime/Style/eye.png"],
 html:not(.designer) tr.selected [src*="https://ck2-app-tst-1.obc.local//Runtime/Image.ashx"]{
@@ -575,6 +575,7 @@ display:flex;
 	background-color:transparent!important;
 }
 .sidebar {
+	transform:translateX(-100%);
     position: fixed;
     top: 0;
     left: 0;
@@ -1294,6 +1295,29 @@ html:not(.designer) .theme-entry .grid .grid-content-cell{
 }
 .quickSearch a.refresh svg{
 	display:none;
+}
+body>form{
+	position:relative;
+}
+@media(min-width:992px){
+	html:not(.designer) body{
+    margin:0;
+    padding: 1rem;
+    font-family: var(--regularFont);
+    background-color: white;
+    margin-top: 6rem;
+    height: calc(100% - 4rem);
+    width: calc(100% - 0rem);
+}
+	html:not(.designer) .sidebarVisible [name="OBB_header"]{
+	left: 15rem;
+	width: calc(100vw - 15rem);
+	padding-top:1rem!important;
+	padding-bottom:1rem
+}
+.sidebar {
+    transform:translateX(0);
+}
 }
 @media(min-width:1600px){
 	.sidebar .nav-link {
