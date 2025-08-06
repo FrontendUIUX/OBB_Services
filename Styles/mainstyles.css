@@ -446,11 +446,11 @@ html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup
 	height:2rem;
 	width:2rem;
 }
-html:not(.designer) .theme-entry .id-picker-search .image-button{
+html:not(.designer) .theme-entry .picker-search .image-button{
 	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/popup.png")!important;
 	background-repeat:no-repeat;
 	background-position: center!important;
-	background-size: 1.5rem!important;
+	background-size: 1.1rem!important;
 	height:2rem;
 	width:2rem;
 }
