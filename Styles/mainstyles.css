@@ -1980,8 +1980,11 @@ html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-c
     min-height:3vw!important;
     line-height:3vw!important;
 }
-	.theme-entry .input-control.checkbox.style-aware svg {
+html:not(.designer)	.theme-entry .input-control.checkbox.style-aware svg {
 		height: 1.8vw;
 		margin: .3vw;
+	}
+	.theme-entry .tab-box ul.tab-box-tabs li{
+		margin-right:.3vw;
 	}
 }
