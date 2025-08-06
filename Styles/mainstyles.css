@@ -1119,7 +1119,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team"] > span
 {
 	background-color:#ECEEF8;
 	color:#3F51B5!important;
@@ -1582,6 +1583,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team "],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
@@ -1614,6 +1616,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
@@ -1645,7 +1648,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team"] > span{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item{
