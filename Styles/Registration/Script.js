@@ -169,7 +169,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                 ];
                 }
             }else{
-                if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest")){
+                if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest") || currentUrl.includes("SiteAccess.MainForm")){
                 menuItems = [
                     { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
@@ -242,15 +242,16 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" },
 		{ text: "Old Data", url: "/Runtime/Runtime/Form/VisitorRegistration.MainForm/" }
                 ];
-    }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility")) {
+    }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility") || currentUrl.includes("FSSP.MainForm")) {
 				menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/MyRequestForm/" },
 		{ text: "New Request", url: "/Runtime/Runtime/Form/Master+Data/" },
         { text: "Tasks List", url: "/Runtime/Runtime/Form/My__task__Form/" },
         { text: "Completed", url: "/Runtime/Runtime/Form/FeasibilityCompletedRequestForm/" },
-        { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" }
+        { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" },
+        { text: "Old Data", url: "/Runtime/Runtime/Form/FSSP.MainForm/" }
     ];
-	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing")) {
+	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing") || currentUrl.includes("ICMS.DataDashboard") || currentUrl.includes("OCMS.DataDashboard")) {
 				menuItems = [
         // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
@@ -265,6 +266,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 						{ text: "Closed", url: "/Runtime/Runtime/Form/IncomingRequest.ClosedRequestForm/" },
 						{ text: "All Requests", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 						{ text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" },
+                        { text: "Old Data", url: "/Runtime/Runtime/Form/ICMS.DataDashboard/" }
+
 					]
 		},
 		{
@@ -273,6 +276,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 						{ text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
 						{ text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
 						{ text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
+                        { text: "Old Data", url: "/Runtime/Runtime/Form/OCMS.DataDashboard/" }
 					]
 		}
     ];
