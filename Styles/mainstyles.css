@@ -237,8 +237,7 @@ html:not(.Designer) .active[name="btnIncoming"]:focus .button-text{
 	color:var(--aqua)!important;
 }
 html:not(.designer) .SourceCodeFormsControlsWorklist{
-	border-radius:1rem!important;
-	overflow:hidden;
+	border-radius: 0.7rem!important;
 }
 html:not(.designer) [name="UserName"]{
 	font-size: 1rem;
@@ -1355,6 +1354,9 @@ span#\31 ecebf49-26f0-58f2-469b-31ed8a66be00 {
 }
 }
 @media(min-width:1600px){
+	html:not(.designer) .SourceCodeFormsControlsWorklist{
+	border-radius:.7vw!important;
+}
 	/* PADDINGS */
 /* PADDING 1rem - top, bottom, left, right */
 [name*="pt-1"]{
