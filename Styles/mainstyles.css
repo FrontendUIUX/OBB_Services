@@ -1016,11 +1016,15 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	/* background-color:#F2F2F6!important; */
 	background-color:#F9F9FB!important;
 }
-html:not(.designer) .grid-body{
+html:not(.designer) .grid .grid-body{
 	margin: 1rem!important;
 	width: calc(100% - 2rem);
 	border: 1px solid rgb(220 220 220 / 80%)!important;
 	border-radius: .7rem;
+}
+html:not(.designer) [name="Master Data Area Item5 "] .grid-body,
+html:not(.designer) [name="Master Data Area Item6 "] .grid-body{
+	margin:1rem 0 0 0!important
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
