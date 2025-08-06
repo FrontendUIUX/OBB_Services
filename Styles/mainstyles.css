@@ -1016,15 +1016,23 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	/* background-color:#F2F2F6!important; */
 	background-color:#F9F9FB!important;
 }
-html:not(.designer) .grid .grid-body{
+html:not(.designer) .grid-body{
 	margin: 1rem!important;
 	width: calc(100% - 2rem);
 	border: 1px solid rgb(220 220 220 / 80%)!important;
 	border-radius: .7rem;
 }
-html:not(.designer) [name="Master Data Area Item5 "] .grid-body,
-html:not(.designer) [name="Master Data Area Item6 "] .grid-body{
-	margin:1rem 0 0 0!important
+html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"]{
+	border-radius:2rem;
+	text-align:center;
+	vertical-align:middle!important;
+}
+html:not(.designer) .runtime-list-item{
+vertical-align:middle;
+}
+html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runtime-list-item{
+	height:100%;
+	vertical-align:middle;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
@@ -1360,6 +1368,22 @@ span#\35 6257eea-c553-5f74-3d30-3010a6883cde,
 span#a3915d4c-056b-0e12-2203-d7c99ea5961b,
 span#\31 ecebf49-26f0-58f2-469b-31ed8a66be00 {
     display: none;
+}
+html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"]{
+	border-radius:2rem;
+	text-align:center;
+	vertical-align:middle!important;
+}
+html:not(.designer) .runtime-list-item{
+vertical-align:middle;
+}
+html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runtime-list-item{
+	height:100%;
+	vertical-align:middle;
+}
+html:not(.designer) [name="Master Data Area Item5 "] .grid-body,
+html:not(.designer) [name="Master Data Area Item6 "] .grid-body{
+	margin:1rem 0 0 0!important
 }
 @media(min-width:992px){
 	html:not(.designer) body{
