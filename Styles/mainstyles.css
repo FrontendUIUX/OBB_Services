@@ -1220,6 +1220,9 @@ html:not(.designer) .theme-entry .input-control.select-box.read-only .input-cont
 .theme-entry .input-control.select-box .input-control-buttons a{
 	background-color:transparent!important;
 }
+.theme-entry .input-control.select-box .input-control-buttons a.picker-resolve.border-left-only:hover{
+	background-color: var(--aqua)!important;
+}
 html:not(.designer) [name*="Cancel Button"],
 html:not(.designer) [name*="Cancel Button"]:hover{
 	color: var(--orange)!important;
