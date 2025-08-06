@@ -1874,6 +1874,7 @@ html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-but
 }
 	html:not(.designer) [name*="HeaderTitleContainer"] [name*="HeaderTitle"]{
 	font-size: 1.7vw;
+	line-height: 2.7vw;
 }
 	html:not(.designer) img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_8c40e4b4-a56c-2593-e555-118c658111a0_Picture ,
 html:not(.designer) img#aaa2922e-a9d6-57b9-4b35-a5e16e1477be_8c40e4b4-a56c-2593-e555-118c658111a0_Picture{
@@ -1916,6 +1917,7 @@ html:not(.designer) .sidebarVisible [name="OBB_header"] {
         left: 16vw;
         width: calc(100vw - 16vw);
         padding: 1vw !important;
+        height: 6vw;
     }
 .navbarBrand a{
 	width: 9vw;
