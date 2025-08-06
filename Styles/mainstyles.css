@@ -1984,9 +1984,9 @@ html:not(.designer)	.theme-entry .input-control.checkbox.style-aware svg {
 		height: 1.8vw;
 		margin: .3vw;
 	}
-html:not(.designer)	.theme-entry .tab-box ul.tab-box-tabs li{
-		margin-right:.3vw;
-	}
+html:not(.designer) .theme-entry .tab-box ul.tab-box-tabs li a {
+        margin-right: 1vw;
+    }
 	textarea#\36 7017fd8-7973-4a9a-8375-296c489cecad_0bfd267c-46c8-490e-bb6e-63d9c336f699_TextArea {
     height: 3vw;
     padding: 1vw!important;
