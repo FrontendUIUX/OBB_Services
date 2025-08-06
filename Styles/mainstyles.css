@@ -582,7 +582,7 @@ display:flex;
     background-size: cover;
     background-position: top;
 }
-.navbarBrand a{width: 9rem;display: block;margin: auto;}
+.navbarBrand a{width: 11rem;display: block;margin: auto;}
 .navbarBrand a img{
 	height:100%;
 	width:100%;
