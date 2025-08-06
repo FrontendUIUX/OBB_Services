@@ -615,7 +615,7 @@ display:flex;
 }
 .sidebar .nav-link.has-children::after{
 	content:"";
-	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg");
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/chevronDownWhite.svg");
 	height: 1rem;
 	width:1rem;
 	background-repeat:no-repeat;
@@ -1515,7 +1515,7 @@ span#\31 ecebf49-26f0-58f2-469b-31ed8a66be00 {
 		padding-left:1vw!important;
 	}
 	div#\32 cf4d70c-3e60-4be2-ac59-13ec81c0515d_db77a37d-3c9f-4157-ae8d-0a522e3ebf8d_Table {
-    margin-top: 3vw;
+    margin-top: 2vw;
 }
 	.theme-entry .grid-header-wrapper, .theme-entry .panel-header, .theme-entry .panel-header-c, .theme-entry .panel-header-wrapper {
     height: 3vw;
