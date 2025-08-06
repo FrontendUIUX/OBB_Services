@@ -413,8 +413,9 @@ html:not(.designer) td .grid-content-cell{
 	align-items:center;
 }
 html:not(.designer) [name*="OBB_textbox"],
-.filterTxt .input-control-m-c,
-.filterTxt input{
+html:not(.designer) .filterTxt .input-control-m-c,
+html:not(.designer) .filterTxt input,
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
     border:1px solid var(--borderColor)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
@@ -426,6 +427,24 @@ html:not(.designer) [name*="OBB_textbox"],
     width: 100%;
     min-height: 3rem!important;
     height: 3rem!important;
+}
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
+	width:calc(100% - 3rem);
+	margin:auto;
+}
+.theme-entry .id-picker-search .input-control-m-c.styling-inner-wrapper{
+	border:none!important;
+}
+.theme-entry  .id-picker-search .input-control.select-box .input-control-buttons{
+	border:none;
+}
+.theme-entry  .id-picker-search .input-control.select-box .input-control-buttons span > span{
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/search.png")!important;
+	background-repeat:no-repeat;
+	background-position: center!important;
+	background-size: 1.5rem!important;
+	height:2rem;
+	width:2rem;
 }
 html:not(.designer) [name*="OBB_textarea"]{
 	  border:1px solid var(--borderColor)!important;
@@ -1253,6 +1272,7 @@ html:not(.designer) .theme-entry .input-control.select-box.read-only .input-cont
 }
 .theme-entry .input-control.select-box .input-control-buttons a{
 	background-color:transparent!important;
+	height: 3rem;
 }
 .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve.border-left-only:hover{
 	background-color: var(--aqua)!important;
@@ -1392,6 +1412,9 @@ textarea#\36 7017fd8-7973-4a9a-8375-296c489cecad_0bfd267c-46c8-490e-bb6e-63d9c33
     height: 3rem;
     padding: 1rem!important;
 }
+.picker-resolve{
+	opacity:0;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
@@ -1417,6 +1440,10 @@ div#ce045044-4a61-4772-8c12-5ba0256a6b1e_ecc9809f-74f6-dff6-41d3-356d042063ea_Ta
 }
 }
 @media(min-width:1600px){
+	.theme-entry .input-control.select-box .input-control-buttons a{
+	background-color:transparent!important;
+	height: 3vw;
+}
 	html:not(.designer) .SourceCodeFormsControlsWorklist{
 	border-radius:.7vw!important;
 }
@@ -1875,9 +1902,10 @@ html:not(.designer) [name*="OBB_Collapse"] .grid-header  .grid-header-wrapper{
 	padding:1vw 2vw;
 	width: calc(100% - 4vw);
 }
-		html:not(.designer) [name*="OBB_textbox"],
-.filterTxt .input-control-m-c,
-.filterTxt input{
+html:not(.designer) [name*="OBB_textbox"],
+html:not(.designer) .filterTxt .input-control-m-c,
+html:not(.designer) .filterTxt input,
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
     font-size:1vw!important;
     border-radius: .5vw!important;
     padding: .4vw 1vw!important;
