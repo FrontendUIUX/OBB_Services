@@ -1879,4 +1879,21 @@ html:not(.designer) .sidebarVisible [name="OBB_header"] {
 .navbarBrand a{
 	width: 9vw;
 }
+.theme-entry .input-control.select-box .input-control-watermark {
+    font-size: 1vw!important;
+    height: unset!important;
+    min-height: unset!important;
+    line-height: unset!important;
+    /* position: unset!important; */
+    max-height: 3vw;
+}
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+    height:unset!important;
+    min-height:unset!important;
+}
+.theme-entry .input-control.select-box .input-control-m .input-control-wrapper{
+    height:3vw!important;
+    min-height:3vw!important;
+    line-height:3vw!important;
+}
 }
