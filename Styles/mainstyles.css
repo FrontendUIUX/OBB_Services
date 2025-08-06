@@ -1660,7 +1660,12 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 	td#\34 82dfe77-114e-0236-3c0c-ee0bd9cf0725,
 	td#\30 fdb7d93-8ee0-8454-1616-6777fdce2315,
 	td#c6f64f1c-0cd3-6e59-170f-848502654742,
-	td#\38 6952e22-d9ce-8609-2c6f-07142b0eacae{
+	td#\38 6952e22-d9ce-8609-2c6f-07142b0eacae,
+	td#\34 1ec955f-64b5-a3cf-df07-c6a21e573cad,
+	td#bb60b5de-667d-e115-7d20-d79e820a1359,
+	td#\34 1ec955f-64b5-a3cf-df07-c6a21e573cad,
+	td#ffe9c63d-db1a-406e-e1b5-b1adc8d84b3b,
+	td#e6a76eaa-4359-9a86-29b3-87f7e2fb5028{
 		height:3vw!important;
 		padding:0 1vw!important;
 	}
