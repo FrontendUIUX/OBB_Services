@@ -1057,6 +1057,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >spa
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] >span,
@@ -1082,7 +1083,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "] span{
-	border-radius:2rem;
+	border-radius: 2rem!important;
 	min-height:unset!important;
 	height:unset!important;
 	line-height:unset!important;
@@ -1120,8 +1121,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team  "] > span
-{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span{
 	background-color:#ECEEF8;
 	color:#3F51B5!important;
 	padding: 0.6rem 1.2rem!important;
@@ -1583,7 +1583,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team "],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
@@ -1616,7 +1616,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team "] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
@@ -1649,7 +1649,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Finance Team "] > span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item{
