@@ -83,6 +83,41 @@ $(document).ready(function () {
         }
     }, 1000);
 });
+// function setupNavbarRedirectBasedOnUserFQN() {
+//     let isInternalUser = false;
+
+//     $(document).ready(function () {
+//         setTimeout(function () {
+//             try {
+//                 let fqn = SourceCode.Forms.Settings.User.FQN;
+//                 console.log("Logged-in User FQN: " + fqn);
+
+//                 // Check if user is internal (starts with "obc\")
+//                 if (fqn.toLowerCase().startsWith("obc\\")) {
+//                     isInternalUser = true;
+//                 }
+
+//                 menuBar();
+//             } catch (e) {
+//                 console.error("Error retrieving FQN:", e);
+//             }
+//         }, 1000);
+
+//         // Click event for .navbar-brand
+//         $('.navbar-brand').on('click', function (e) {
+//             e.preventDefault(); // prevent default link behavior
+
+//             if (isInternalUser) {
+//                 window.location.href = "https://www.google.com";
+//             } else {
+//                 window.location.href = "https://www.facebook.com";
+//             }
+//         });
+//     });
+// }
+
+// Call the function
+
 
 
 function menuBar(){
