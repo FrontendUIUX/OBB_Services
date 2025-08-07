@@ -454,6 +454,20 @@ html:not(.designer) .theme-entry .picker-search .image-button{
 	height:2rem;
 	width:2rem;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.date>span span, 
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.date:active>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.date>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.date:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.date:focus>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.disabled .input-control-buttons a.date:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.disabled .input-control-buttons a.date:focus>span span{
+	background-image:url("https://frontenduiux.github.io/OBB_Services/Images/date.png")!important;
+	background-repeat:no-repeat;
+	background-position: center!important;
+	background-size: 1.1rem!important;
+	height:2rem;
+	width:2rem;
+}
 html:not(.designer) [name*="OBB_textarea"]{
 	  border:1px solid var(--borderColor)!important;
     font-size:1rem!important;
