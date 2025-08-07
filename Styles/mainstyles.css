@@ -1285,8 +1285,8 @@ html:not(.designer) .theme-entry .input-control.select-box.active .input-control
 html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
 html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, 
 html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
-	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chevronDown.svg")!important;
-	background-size:2rem;
+	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/chev2.png")!important;
+	background-size:1.3rem;
 	background-repeat: no-repeat;
 	background-position: center!important;
 	height: 2rem;
