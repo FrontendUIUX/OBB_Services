@@ -1945,6 +1945,7 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 	
 	html:not(.designer) .theme-entry .grid .grid-column-header-cell .grid-column-header-text{
 		font-size:.8vw!important;
+		line-height: 3vw;
 	}
 	html:not(.designer) .theme-entry.runtime-form .grid-content-cell span{
 		font-size:.7vw!important;
