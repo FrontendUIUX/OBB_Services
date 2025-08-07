@@ -1480,6 +1480,10 @@ div#ce045044-4a61-4772-8c12-5ba0256a6b1e_ecc9809f-74f6-dff6-41d3-356d042063ea_Ta
 }
 }
 @media(min-width:1600px){
+	.sidebar .nav-link.has-children::after{
+	height: 1vw;
+	width:1vw;
+}
 	.theme-entry .input-control.select-box .input-control-buttons a{
 	background-color:transparent!important;
 	height: 3vw;
@@ -1793,6 +1797,7 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 	}
 	.sidebar .nav-link {
     margin-bottom: 1vw;
+    font-size: .9vw;
 }
 	html:not(.designer) [name*="OBB_Collapse"] {
     border-radius: 1vw !important;
