@@ -1275,6 +1275,7 @@ html:not(.designer) [name*="UserName"]{
 	align-items:center;
 	justify-content:center;
 	background-color: transparent!important;
+	border: none!important;
 }
 .quickSearch.filter{
 	position:relative;
