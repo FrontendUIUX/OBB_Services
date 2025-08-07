@@ -10,7 +10,8 @@
     --transition:all .3s ease-in-out;
 }
 html:not(.designer) .theme-entry .message-box-content.confirmation:before,
-html:not(.designer) .theme-entry .message-box-content.info:before{
+html:not(.designer) .theme-entry .message-box-content.info:before,
+html:not(.designer) .theme-entry .message-box-content.message:before{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/general.png");
 	background-size: contain;
 	background-repeat: no-repeat;
