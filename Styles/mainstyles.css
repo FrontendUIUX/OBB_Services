@@ -2134,4 +2134,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
     html:not(.designer) .theme-entry .popup .panel>.panel-body .panel-body-wrapper .input-control.select-box.lookup-box{
         padding:0!important;
     }
+	html:not(.designer) .theme-entry .grid.full .grid-body-content{
+    top:3vw;
+}
 }
