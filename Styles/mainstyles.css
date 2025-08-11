@@ -1488,6 +1488,9 @@ div#ce045044-4a61-4772-8c12-5ba0256a6b1e_ecc9809f-74f6-dff6-41d3-356d042063ea_Ta
 }
 }
 @media(min-width:1600px){
+	html:not(.designer) .popup.dialog .popup-header .popup-header-text {
+    font-size: 1.4vw;
+}
 	html:not(.designer) .grid-content-cell-wrapper a{
 		font-size: .8vw!important;
 	}
