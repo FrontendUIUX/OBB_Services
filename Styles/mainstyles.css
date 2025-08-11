@@ -2128,4 +2128,10 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	.theme-entry .input-control.select-box input[type=text]{
 		padding-left:1vw;
 	}
+	html:not(.designer) .theme-entry .popup .panel>.panel-body .panel-body-wrapper{
+        margin-top:0!important;
+    }
+    html:not(.designer) .theme-entry .popup .panel>.panel-body .panel-body-wrapper .input-control.select-box.lookup-box{
+        padding:0!important;
+    }
 }
