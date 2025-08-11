@@ -8,13 +8,20 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
-    
+    @font-face {
+    font-family:"Co Headline" ;
+    src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
+}
+	html,body{
+		font-family:"Co Headline";
+	}
 
         * {
             box-sizing: border-box;
         }
-        html, body{
+        html,html:not(.designer) body{
             font-size:14px;
+            background-color: white!important;
         }
         body {
             margin: 0;
