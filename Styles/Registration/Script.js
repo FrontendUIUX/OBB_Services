@@ -315,7 +315,16 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 					]
 		}
     ];
-}else{
+
+}
+else if(currentUrl.includes("Suggestions") || currentUrl.includes("Suggestions.Form") || currentUrl.includes("AllSuggestionsForm") || currentUrl.includes("SuggestionsWorklist.Form")) {
+                menuItems = [
+        { text: "Home", url: "/Runtime/Runtime/Form/AllSuggestionsForm/"},
+        { text: "New Request", url: "/Runtime/Runtime/Form/Suggestions.Form/"},
+        { text: "Tasks List", url: "/Runtime/Runtime/Form/SuggestionsWorklist.Form/"},
+    ];
+    }
+else{
 		menuItems = [
     ];		
 	}
