@@ -12,6 +12,13 @@
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
+ .home-content {
+                    position: unset !important;
+                }
+
+                .home-header {
+                    display: none !important;
+                }
 	html,body{
 		font-family:"Co Headline";
 	}
