@@ -2123,4 +2123,9 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
     height: 2vw;
     width: 2vw;
 }
+.theme-entry .input-control.select-box .input-control-watermark, 
+	.theme-entry .input-control.select-box div.editable-area, 
+	.theme-entry .input-control.select-box input[type=text]{
+		padding-left:1vw;
+	}
 }
