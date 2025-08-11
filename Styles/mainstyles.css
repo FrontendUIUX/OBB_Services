@@ -1456,6 +1456,9 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	top: 42%;
 	/* transform: translateY(-50%); */
 }
+a.SFC.SourceCode-Forms-Controls-Web-Button.button.help{
+	display: none!important;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
