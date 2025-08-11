@@ -454,3 +454,147 @@ input[type="password"]:active{
     border:2px solid var(--aqua)!important;
     outline:none!important;
 }
+.passwordToggle{
+    content: "" !important;
+    background-image: url(https://frontenduiux.github.io/OBB_ETenders/Images/eye-show.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent!important;
+    border:none;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 1rem;
+    height: 1.7rem;
+    width: 1.7rem;
+
+}
+.passwordToggle.hidePassword{
+   content: "" !important;
+    background-image: url(https://frontenduiux.github.io/OBB_ETenders/Images/eye-hide.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+@media (min-width:1600px) {
+    .passwordToggle{
+   
+    right: 1vw;
+    height: 1.7vw;
+    width: 1.7vw;
+
+}
+  html:not(.designer)  .banner-text {
+            
+        font-size: 1vw;
+        margin-bottom: .4vw;
+
+    }
+   html:not(.designer)  .internal-user-banner {
+
+    border-bottom-left-radius: 1vw;
+    padding: .4vw 1vw;
+   
+}
+html:not(.designer) .internal-user-banner img{
+        width: 2.25vw!important;
+    height: 2.25vw!important;
+    margin-right:.5vw!important;
+}
+    html:not(.designer) .loginTitle{
+        font-size: 2.5vw !important;
+    }
+    html:not(.designer) p.description{
+        font-size:1vw;
+        margin-bottom:4vw;
+    }
+    html:not(.designer) label.inputLabel{
+        font-size: 1vw !important;
+        margin-bottom:.5vw;
+    }
+    html:not(.designer) input[type="text"],
+    html:not(.designer) input[type="password"] {
+    font-size: 1vw !important;
+    border-radius: .5vw !important;
+    padding: .4vw 1vw !important;
+    min-height: 3vw !important;
+    height: 3vw !important;
+    margin-bottom: 1vw;
+}
+html:not(.designer) .ContinueLoginContainer button {
+    padding: .8vw 3vw;
+    border-radius: .5vw;
+    font-size: 1vw;
+}
+html:not(.designer) .bottomSection .SignUpOptions .OptionCard {
+    padding: .8vw;
+    border-radius: 1vw;
+    gap: 1vw;
+}
+html:not(.designer) .bottomSection .SignUpOptions .OptionCard .option-corner .option-text .title {
+    font-size: 1.2vw;
+    margin-top: .4vw;
+}
+html:not(.designer) .bottomSection .SignUpOptions .OptionCard .option-corner .option-text .subtitle {
+    font-size: 0.85vw;
+}
+html:not(.designer) .option-corner img{
+    width: 3.4375vw!important;
+    height: 3.4375vw!important;
+}
+html:not(.designer) .signup-content > span {
+    font-size: .95vw;
+    padding-bottom: .3125vw;
+    padding-left: .5vw;
+}
+html:not(.designer) .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn .signup-content{
+    gap:.8vw;
+}
+html:not(.designer) .action-btn-container svg{
+    height:2vw;
+    width:2vw;
+}
+html:not(.designer) .forgotPasswordPopup {
+    width: 49vw;
+    height: 39vw;
+    border-radius: 2vw;
+
+}
+html:not(.designer) .forgotPasswordPopup .popupHeader {
+    padding: 1vw 2vw;
+
+}
+html:not(.designer) .bottomSection button {
+    width: 2.4vw;
+    margin-left: 2.4vw;
+    font-size: 1vw;
+
+}
+html:not(.designer) .forgotPasswordPopup .popupHeader h3{
+    font-size:1.17vw;
+}
+html:not(.designer) .forgotPasswordContainer a, html:not(.designer) .forgotPasswordContainer span{
+    font-size:.9vw!important;
+}
+html:not(.designer) .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn {
+    padding: .5vw .8vw !important;
+    border-radius: 2vw;
+}
+html:not(.designer) .logo svg{
+    width:11vw;
+    height:auto;
+}
+html:not(.designer) .video-container .intro h2 {
+    font-size: 2vw!important;
+    margin-bottom: .5vw !important;
+}
+html:not(.designer) .bottomSection .SignUpHeading .text {
+    font-size: 1vw!important;
+
+}
+html:not(.designer) .video-container .intro{
+    padding:2vw!important;
+}
+}
