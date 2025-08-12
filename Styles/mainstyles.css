@@ -1454,6 +1454,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	vertical-align: middle;
 	display: flex;
 	align-items: center;
+	align-content: center;
 }
 a.SFC.SourceCode-Forms-Controls-Web-Button.button.help{
 	display: none!important;
