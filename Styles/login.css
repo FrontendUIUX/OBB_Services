@@ -269,21 +269,22 @@ input[type="text"], input[type="password"]{
     margin-top: 2rem;
 }
 .bottomSection button{
-   width: 2.4rem;
-    margin-left: 2.4rem;
-    transition: var(--transition);
-    /* background-color: var(--orange) !important; */
-    border: none !important;
-    box-shadow: none !important;
-    font-family: var(--regularFont);
-    color: white !important;
-    min-height: unset;
-    height: unset;
-    /* padding: .8rem 3rem; */
-    /* border-radius: .7rem; */
-    font-size: 1rem;
-    cursor: pointer;
-    font-weight: 500;
+   width: 1.3rem;
+   height: 1.3rem!important;
+   margin-left: 2.4rem;
+   transition: var(--transition);
+   /* background-color: var(--orange) !important; */
+   border: none !important;
+   box-shadow: none !important;
+   font-family: var(--regularFont);
+   color: white !important;
+   min-height: unset;
+   height: unset;
+   /* padding: .8rem 3rem; */
+   /* border-radius: .7rem; */
+   font-size: 1rem;
+   cursor: pointer;
+   font-weight: 500;
 }
 .bottomSection button svg{
     height:100%;
