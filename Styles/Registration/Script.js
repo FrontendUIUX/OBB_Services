@@ -164,18 +164,10 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
     ];
 	} 
-    else if (currentUrl.includes("LetterRegistration.AuditableForm") || currentUrl.includes("LetterRegistration.MainForm") || currentUrl.includes("LetterRegistration.ReadOnlyForm") ) {
-        menuItems = [
-        { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
-        { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
-        { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
-        { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" },
-        { text: "Old Data", url: "/Runtime/Runtime/Form/LetterRegistration.MainForm/"},
-        { text: "Old Logs", url: "/Runtime/Runtime/Form/LetterRegistration.AuditableForm1/"}
-    ];
-    }else if(currentUrl.includes("Letter")) {
+    else if(currentUrl.includes("Letter")) {
                 menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
+        { text: "New Request", url: "/Runtime/Runtime/Form/LetterRegistration.SubmitForm/" },
         { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
         { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" },
