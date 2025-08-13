@@ -485,6 +485,10 @@ input[type="password"]:active{
     width: 1.7rem;
 
 }
+.passwordToggle:hover{
+	background-color:unset!important;
+	color:unset!important
+}
 .passwordToggle.hidePassword{
    content: "" !important;
     background-image: url(https://frontenduiux.github.io/OBB_ETenders/Images/eye-hide.svg);
