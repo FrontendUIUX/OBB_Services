@@ -287,12 +287,6 @@ html:not(.designer) .dropdown-box .input-control-m-c{
 	display: flex;
 	align-items:center;
 }
-html:not(.designer) .sidebarVisible [name="OBB_header"]{
-	/* left: 15rem; */
-	/* width: calc(100vw - 15rem); */
-	/* padding-top:1rem!important; */
-	/* padding-bottom:1rem; */
-}
 html:not(.designer) [name="OBB_header"] > div{
 	display:flex!important;
 	align-items:center;
@@ -981,18 +975,11 @@ font-size:8pt!important;
 	background-repeat:no-repeat;
 	background-position:center;
 	transition:all .3s ease-in-out;
-	/* margin: 0 auto!important; */
 	margin-bottom: 0rem;
 }
 .SFC[name*="OBB_Service"]:hover{
 	background-size:126%;
 }
-.SFC[name*="OBB_Service"]:nth-child(3n+1){
-	/* margin-left:0; */
-}
-/* [name*="OBB_Service"]:hover{
-background-color:#00a9b550;;
-} */
 [name*="OBB_ServiceIcon"]{
 	width:5rem!important;
 	height:auto!important;
@@ -1023,7 +1010,6 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	background-color: rgb(246 246 246 / 55%);
 	border-right: 1px solid rgb(220 220 220 / 43%);
 	cursor: pointer;
-	/* padding: 0 1rem; */
 }
 html:not(.designer) .theme-entry .grid-body-content table td:not(.center-align){
 	padding: 0 1rem!important;
@@ -1047,7 +1033,6 @@ background-color:transparent!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
-	/* max-width: fit-content!important; */
 	width: fit-content!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
@@ -1059,7 +1044,6 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 	padding:1rem 0!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
-	/* background-color:#F2F2F6!important; */
 	background-color:#F9F9FB!important;
 }
 html:not(.designer) .grid-body{
@@ -1496,7 +1480,6 @@ div#ce045044-4a61-4772-8c12-5ba0256a6b1e_ecc9809f-74f6-dff6-41d3-356d042063ea_Ta
 }
 div#\35 eb6f652-1561-182b-da01-098d64357d86_02f1deb9-a172-4c60-b051-cd58f33cef52_SourceCodeFormsControlsWorklist {
     margin: 5rem 1rem 0;
-    /* width: calc(100% - 35rem)!important; */
 }
 
 table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7a7 {
@@ -1675,7 +1658,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	.theme-entry a.SourceCode-Forms-Controls-Web-Button{
 		padding:.4vw 1vw;
 		font-size:1vw;
-		min-width:8vw;
+		min-width:11vw;
 		border-radius: .5vw;
 	}
 	html:not(.designer) .topbarExists .tab-box-tabs li .tab {
@@ -1973,7 +1956,6 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team 
 }
 	html:not(.designer) .theme-entry .grid-body-content table td:not(.center-align) {
     padding: 0 1vw !important;
-    /* min-height:3vw; */
     height:3vw;
     vertical-align: middle;
 }
@@ -2116,7 +2098,6 @@ html:not(.designer) .sidebarVisible [name="OBB_header"] {
     height: unset!important;
     min-height: unset!important;
     line-height: unset!important;
-    /* position: unset!important; */
     max-height: 3vw;
 }
 html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
