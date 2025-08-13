@@ -1467,6 +1467,10 @@ html:not(.designer) .theme-entry .dialog#PickerSearchDialog{
     height: 2rem!important;
     width: 2rem!important;
 }
+.popup.sub-view {
+    height:auto!important;
+    min-height: 20rem!important;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
@@ -1500,6 +1504,10 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 }
 @media(min-width:1600px){
+	.popup.sub-view {
+    height:auto!important;
+    min-height: 20vw!important;
+}
 	html:not(.designer) img.historyIcon {
     height: 2vw!important;
     width: 2vw!important;
