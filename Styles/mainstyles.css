@@ -1488,7 +1488,7 @@ div#ce045044-4a61-4772-8c12-5ba0256a6b1e_ecc9809f-74f6-dff6-41d3-356d042063ea_Ta
 }
 div#\35 eb6f652-1561-182b-da01-098d64357d86_02f1deb9-a172-4c60-b051-cd58f33cef52_SourceCodeFormsControlsWorklist {
     margin: 5rem 1rem 0;
-    width: calc(100% - 35rem)!important;
+    /* width: calc(100% - 35rem)!important; */
 }
 
 table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7a7 {
