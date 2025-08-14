@@ -1507,6 +1507,18 @@ html:not(.designer) .worklist-action-text{
 span#\39 771059c-a765-ba9a-2226-7295161fabc3 {
     min-width: 10vw !important;
 }
+html:not(.designer) [title="Very Urgent"] > span{
+    color:#801533!important;
+}
+html:not(.designer) [title="Urgent"] > span{
+    color:var(--orange)!important;
+}
+html:not(.designer) [title="Normal"]{
+    
+}
+html:not(.designer) [title="Medium"] > span{
+    color:#D19D00!important;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
