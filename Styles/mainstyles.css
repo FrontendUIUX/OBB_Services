@@ -12,10 +12,6 @@
 html:not(.designer) .theme-entry .popup .grid .grid-content-cell-wrapper{
 	white-space: normal;
 }
-
-span#\39 771059c-a765-ba9a-2226-7295161fabc3 {
-    min-width: 10vw !important;
-}
 html:not(.designer) .theme-entry .message-box-content.confirmation:before,
 html:not(.designer) .theme-entry .message-box-content.info:before,
 html:not(.designer) .theme-entry .message-box-content.message:before{
@@ -749,8 +745,17 @@ html:not(.designer) .SourceCode-Forms-Controls-Web-Button{
 	color:white!important;
 }
 html:not(.designer) .timepicker-buttons{
-display:flex;
-align-items:center;
+	display:flex;
+	align-items:center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+html:not(.designer) .timepicker-buttons a{
+	min-width: 3vw!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: .4rem 1rem;
 }
 html:not(.designer) [name*="paddingTop"]{
 	padding-top:1rem !important;
@@ -1497,6 +1502,9 @@ html:not(.designer) .theme-entry .dialog#PickerSearchDialog{
 }
 html:not(.designer) .worklist-action-text{
 	font-size:.85rem!important;
+}
+span#\39 771059c-a765-ba9a-2226-7295161fabc3 {
+    min-width: 10vw !important;
 }
 @media(min-width:992px){
 	html:not(.designer) body{
