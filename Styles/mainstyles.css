@@ -45,7 +45,7 @@ html:not(.designer) .tab-box-tabs{
 	z-index: 2;
 	left: 15rem;
 }
-html:not(.designer) .topbarExists .tab-box-tabs li .tab{
+html:not(.designer)  .tab-box-tabs li .tab{
 	position:relative;
 	padding: 2rem 0 2rem !important;
 	color:#565656!important;
@@ -69,10 +69,10 @@ html:not(.designer) .grid-column-header-cell-content[style*="text-align:center"]
 	margin:0 auto;
 	
 }
-html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected{
+html:not(.designer)  .tab-box-tabs li .tab.selected{
 	color:#131313!important;
 }
-html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected::after{
+html:not(.designer) .tab-box-tabs li .tab.selected::after{
 	content:"";
 	position:absolute;
 	width:100%;
@@ -1695,13 +1695,13 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 		min-width:11vw;
 		border-radius: .5vw;
 	}
-	html:not(.designer) .topbarExists .tab-box-tabs li .tab {
+	html:not(.designer)  .tab-box-tabs li .tab {
     position: relative;
     padding: 1vw 0 1vw !important;
     color: #565656 !important;
     font-family: var(--regularFont);
 }
-	html:not(.designer) .topbarExists .tab-box-tabs li .tab.selected::after {
+	html:not(.designer) .tab-box-tabs li .tab.selected::after {
     height: .3vw;
 }
 	.theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text{
