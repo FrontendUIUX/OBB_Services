@@ -1484,6 +1484,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	display: flex;
 	align-items: center;
 	align-content: center;
+	font-size: 1rem!important;
 }
 a.SFC.SourceCode-Forms-Controls-Web-Button.button.help{
 	display: none!important;
@@ -1606,6 +1607,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	line-height:unset!important;
 	vertical-align: middle;
 	top: 0;
+	font-size: 1vw!important;
 }
 	html:not(.designer) .SourceCodeFormsControlsWorklist{
 	border-radius:.7vw!important;
