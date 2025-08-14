@@ -1507,13 +1507,13 @@ html:not(.designer) .worklist-action-text{
 span#\39 771059c-a765-ba9a-2226-7295161fabc3 {
     min-width: 10vw !important;
 }
-html:not(.designer) [title="Very Urgent"] > span{
+html:not(.designer) td.center-align [title="Very Urgent"] > span{
     color:#801533!important;
 }
-html:not(.designer) [title="Urgent"] > span{
+html:not(.designer) td.center-align [title="Urgent"] > span{
     color:var(--orange)!important;
 }
-html:not(.designer) td:not(.left-align) [title="Normal"] > span{
+html:not(.designer) td.center-align [title="Normal"] > span{
     color:var(--aqua)!important;
 }
 @media(min-width:992px){
