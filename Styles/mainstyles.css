@@ -1761,9 +1761,9 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 	margin-right:4vw!important;
 }
 	.theme-entry a.SourceCode-Forms-Controls-Web-Button{
-		padding: .4vw 1vw .4vw 2vw;
+		padding: .4vw 1vw .4vw 1vw;
 		font-size:1vw;
-		min-width:11vw;
+		min-width: 9vw;
 		border-radius: .5vw;
 	}
 	html:not(.designer)  .tab-box-tabs li .tab {
