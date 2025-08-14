@@ -1551,7 +1551,12 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 }
 @media(min-width:1600px){
-	
+	.theme-entry a.SourceCode-Forms-Controls-Web-Button[name*="exportbtn"]{
+		padding: .4vw 1vw .4vw 2vw;
+		font-size:1vw;
+		min-width: 11vw;
+		border-radius: .5vw;
+	}
 	.theme-entry .top-calendar a.top-calendar-right, .theme-entry .top-calendar a.top-calendar-left{
 		height:1vw;
 	}
