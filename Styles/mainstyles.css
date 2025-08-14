@@ -1046,6 +1046,7 @@ html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	width: fit-content!important;
 	font-size: 8pt;
+	color: #565656;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
