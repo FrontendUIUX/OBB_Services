@@ -1514,7 +1514,7 @@ html:not(.designer) [title="Urgent"] > span{
     color:var(--orange)!important;
 }
 html:not(.designer) [title="Normal"] > span{
-    color:#D19D00!important;
+    color:var(--aqua)!important;
 }
 @media(min-width:992px){
 	html:not(.designer) body{
