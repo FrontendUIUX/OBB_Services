@@ -1513,7 +1513,7 @@ html:not(.designer) [title="Very Urgent"] > span{
 html:not(.designer) [title="Urgent"] > span{
     color:var(--orange)!important;
 }
-html:not(.designer) [title="Normal"] > span{
+html:not(.designer) td:not(.left-align) [title="Normal"] > span{
     color:var(--aqua)!important;
 }
 @media(min-width:992px){
