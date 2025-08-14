@@ -1538,6 +1538,15 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 }
 @media(min-width:1600px){
+	.theme-entry .day {
+    font-size: 1vw;
+    height: 2.5vw !important;
+    width: 2.5vw !important;
+}
+	.theme-entry .popup.id-calendar-control-popup {
+    width: 18vw !important;
+    height: auto !important;
+}
 	html:not(.designer) [name*="exportbtn"]{
 	right:1vw;
 	background-size:1.4vw;
