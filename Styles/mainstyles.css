@@ -1221,6 +1221,36 @@ body.theme-entry.topbarExists {
 html:not(.designer) .grid-column-header-cell{
 	background-color: transparent;
 }
+[title*="Dark Cerulean"]{
+    background-color:rgb(27,79,114) !important;
+}
+[title*="Dark Cerulean"] > span,
+[title*="Medium Sea Green"] > span{
+    color:white!important;
+}
+[title*="Desert Sand"]{
+    background-color: rgb(231,171,145) !important;
+}
+[title*="Lemon Yellow"]{
+    background-color: rgb(245,245,0) !important;
+}
+[title*="Medium Sea Green"]{
+    background-color:rgb(40,180,99) !important;
+}
+[title*="Princeton Orange"]{
+    background-color: rgb(255,111,0) !important;
+}
+[title*="Sky Blue"]{
+    background-color: rgb(133,193,233) !important;
+}
+[title*="Dark Cerulean"] > span,
+[title*="Medium Sea Green"] > span,
+[title*="Sky Blue"] > span,
+[title*="Princeton Orange"] > span,
+[title*="Lemon Yellow"] > span,
+[title*="Desert Sand"] > span{
+    text-align:center;
+}
 /* TABLE BRANDING END */
 .worklistToolbarHeaderTextWrapper .headerTxt{
 	font-size:1.5rem;
