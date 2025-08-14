@@ -1543,6 +1543,9 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 	html:not(.designer) .theme-entry .calendar-outline .timepicker-content .spinner .spinner-input-wrapper {
     height: 2.4vw !important;
 }
+	html:not(.designer) .theme-entry .spinner .spinner-inputs .spinner-text-input{
+		width: 1.9vw;
+	}
 	html:not(.designer) [name*="OBB_asterik"]{
 		font-size:1vw!important;
 	}
