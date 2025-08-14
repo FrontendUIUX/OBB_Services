@@ -12,6 +12,9 @@
 html:not(.designer) .theme-entry .popup .grid .grid-content-cell-wrapper{
 	white-space: normal;
 }
+span#\39 771059c-a765-ba9a-2226-7295161fabc3 {
+    width: fit-content;
+}
 html:not(.designer) .theme-entry .message-box-content.confirmation:before,
 html:not(.designer) .theme-entry .message-box-content.info:before,
 html:not(.designer) .theme-entry .message-box-content.message:before{
