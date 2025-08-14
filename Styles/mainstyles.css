@@ -1539,6 +1539,7 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 }
 @media(min-width:1600px){
+	
 	.theme-entry .top-calendar a.top-calendar-right, .theme-entry .top-calendar a.top-calendar-left{
 		height:1vw;
 	}
@@ -2248,4 +2249,10 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	html:not(.designer) .theme-entry .grid.full .grid-body-content{
     top:3vw;
 }
+}
+@media(min-width:1920px){
+	html:not(.designer) [name*="HeaderContent"] {
+	    padding-left: 2vw;
+	    margin-left: 6vw;
+	}
 }
