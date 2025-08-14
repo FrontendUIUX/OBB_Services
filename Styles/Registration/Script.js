@@ -1,3 +1,9 @@
+$(window).on("load", function () {
+        if ($(".tab-box-tabs").length) {
+            $('body').addClass('topbarExists');
+        }
+
+    })
 document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.querySelector(".sidebar");
 
@@ -361,12 +367,6 @@ else{
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
-    $(window).on("load", function () {
-    if ($(".tab-box-tabs").length) {
-        $('body').addClass('topbarExists');
-    }
-
-})
 };
 
 });
