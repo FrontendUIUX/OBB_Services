@@ -336,24 +336,8 @@ else{
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
 };
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const targets = document.querySelectorAll('.grid-body-content table.grid-content-table tbody');
-
 if (targets.length > 0) {
     targets.forEach((target) => {
         const observer = new MutationObserver(function () {
@@ -366,8 +350,6 @@ if (targets.length > 0) {
         observer.observe(target, { childList: true, subtree: true });
     });
 }
-
-
 function applyGrayscaleFix() {
     $('.grid-body-content table.grid-content-table tbody tr').each(function (index) {
         const $row = $(this);
@@ -400,9 +382,6 @@ function applyGrayscaleFix() {
         }
     });
 }
-
-
-
 function applyGrayscaleFix2() {
     $('.grid-body-content table.grid-content-table tbody tr').each(function (index) {
         const $row = $(this);
@@ -435,8 +414,6 @@ function applyGrayscaleFix2() {
         }
     });
 }
-
-
 function applyGrayscaleFix3() {
     $('.grid-body-content table.grid-content-table tbody tr').each(function (index) {
         const $row = $(this);
@@ -469,8 +446,6 @@ function applyGrayscaleFix3() {
         }
     });
 }
-
-
 function applyGrayscaleFix4() {
     $('.grid-body-content table.grid-content-table tbody tr').each(function (index) {
         const $row = $(this);
@@ -504,7 +479,6 @@ function applyGrayscaleFix4() {
         }
     });
 }
-
 // POC 
 document.addEventListener('DOMContentLoaded', function () {
   // Loop through all td elements with data-options attribute
