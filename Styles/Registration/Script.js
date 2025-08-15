@@ -121,7 +121,7 @@ function setupNavbarRedirectBasedOnUserFQN() {
         });
     });
 }
-$(doucment).ready(function(){
+$(document).ready(function(){
     setupNavbarRedirectBasedOnUserFQN();
 })
 // Call the function
