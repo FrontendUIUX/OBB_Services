@@ -537,32 +537,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-let fqn = null;
-
-// --- Keep all your DOMContentLoaded + menuBar definition here ---
-// (no change to menuBar itself, just leave it where it is now)
-
-// AFTER menuBar is defined:
-$(document).ready(function () {
-    setTimeout(function () {
-        try {
-            fqn = SourceCode.Forms.Settings.User.FQN || "";
-            console.log("Logged-in User FQN:", fqn);
-            menuBar(); // now it works because menuBar is already defined
-        } catch (e) {
-            console.error("Error retrieving FQN:", e);
-        }
-    }, 1000);
-
-    // Click handler for logo
-    $(document).on('click', '.navbarBrand', function (e) {
-        e.preventDefault();
-
-        if (fqn && fqn.toLowerCase().includes("obc\\")) {
-            window.location.href = "https://www.google.com";
-        } else {
-            window.location.href = "https://www.facebook.com";
-        }
-    });
-});
-
