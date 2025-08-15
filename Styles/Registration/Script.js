@@ -537,3 +537,47 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+
+function setupNavbarRedirectBasedOnUserFQN() {
+    $(document).ready(function () {
+        let isInternalUser = false;
+
+        function init() {
+            try {
+                let fqn = SourceCode.Forms.Settings.User.FQN || "";
+                console.log("Logged-in User FQN:", fqn);
+
+                if (fqn.toLowerCase().startsWith("obc\\")) {
+                    isInternalUser = true;
+                }
+            } catch (e) {
+                console.error("Error retrieving FQN:", e);
+            }
+
+            $('.navbar-brand').on('click', function (e) {
+                e.preventDefault();
+                if (isInternalUser) {
+                    window.location.href = "https://www.google.com";
+                } else {
+                    window.location.href = "https://www.facebook.com";
+                }
+            });
+        }
+
+        // If FQN might not be ready immediately, retry until it exists
+        let tries = 0;
+        let interval = setInterval(function () {
+            tries++;
+            if (SourceCode?.Forms?.Settings?.User?.FQN || tries > 5) {
+                clearInterval(interval);
+                init();
+            }
+        }, 300);
+    });
+}
+
+$(document).ready(function(){
+    setupNavbarRedirectBasedOnUserFQN();
+});
