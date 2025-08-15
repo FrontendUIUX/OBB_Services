@@ -537,16 +537,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-// Store FQN globally in this script's scope
 let fqn = null;
 
-// Get FQN after DOM is ready
+// --- Keep all your DOMContentLoaded + menuBar definition here ---
+// (no change to menuBar itself, just leave it where it is now)
+
+// AFTER menuBar is defined:
 $(document).ready(function () {
     setTimeout(function () {
         try {
             fqn = SourceCode.Forms.Settings.User.FQN || "";
             console.log("Logged-in User FQN:", fqn);
-            menuBar(); // still runs your menu logic
+            menuBar(); // now it works because menuBar is already defined
         } catch (e) {
             console.error("Error retrieving FQN:", e);
         }
@@ -563,3 +565,4 @@ $(document).ready(function () {
         }
     });
 });
+
