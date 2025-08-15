@@ -556,14 +556,18 @@ function setupNavbarRedirectBasedOnUserFQN() {
                 console.error("Error retrieving FQN:", e);
             }
 
-            $('.navbar-brand a').on('click', function (e) {
-                e.preventDefault();
-                if (isInternalUser) {
-                    window.location.href = "https://www.google.com";
-                } else {
-                    window.location.href = "https://www.facebook.com";
-                }
-            });
+           $('.navbarBrand a').on('click', function (e) {
+            e.preventDefault();
+            let fqn = SourceCode.Forms.Settings.User.FQN || "";
+            console.log("Logged-in User FQN:", fqn);
+
+            if (fqn.toLowerCase().startsWith("obc\\")) {
+                window.location.href = "https://www.google.com";
+            } else {
+                window.location.href = "https://www.facebook.com";
+            }
+        });
+
         }
 
         // If FQN might not be ready immediately, retry until it exists
