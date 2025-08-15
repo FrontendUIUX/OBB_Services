@@ -537,52 +537,29 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+// Store FQN globally in this script's scope
+let fqn = null;
 
-
-
-function setupNavbarRedirectBasedOnUserFQN() {
-    $(document).ready(function () {
-        let isInternalUser = false;
-
-        function init() {
-            try {
-                let fqn = SourceCode.Forms.Settings.User.FQN || "";
-                console.log("Logged-in User FQN:", fqn);
-
-                if (fqn.toLowerCase().startsWith("obc\\")) {
-                    isInternalUser = true;
-                }
-            } catch (e) {
-                console.error("Error retrieving FQN:", e);
-            }
-
-           $('.navbarBrand a').on('click', function (e) {
-            e.preventDefault();
-            let fqn = SourceCode.Forms.Settings.User.FQN || "";
+// Get FQN after DOM is ready
+$(document).ready(function () {
+    setTimeout(function () {
+        try {
+            fqn = SourceCode.Forms.Settings.User.FQN || "";
             console.log("Logged-in User FQN:", fqn);
-
-            if (fqn.toLowerCase().startsWith("obc\\")) {
-                window.location.href = "https://www.google.com";
-            } else {
-                window.location.href = "https://www.facebook.com";
-            }
-        });
-
+            menuBar(); // still runs your menu logic
+        } catch (e) {
+            console.error("Error retrieving FQN:", e);
         }
+    }, 1000);
 
-        // If FQN might not be ready immediately, retry until it exists
-        let tries = 0;
-        let interval = setInterval(function () {
-            tries++;
-            if (SourceCode?.Forms?.Settings?.User?.FQN || tries > 5) {
-                clearInterval(interval);
-                init();
-            }
-        }, 300);
+    // Click handler for logo
+    $(document).on('click', '.navbarBrand', function (e) {
+        e.preventDefault();
+
+        if (fqn && fqn.toLowerCase().includes("obc\\")) {
+            window.location.href = "https://www.google.com";
+        } else {
+            window.location.href = "https://www.facebook.com";
+        }
     });
-}
-
-
-$(document).ready(function(){
-    setupNavbarRedirectBasedOnUserFQN();
 });
