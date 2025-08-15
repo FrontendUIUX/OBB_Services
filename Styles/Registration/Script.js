@@ -285,34 +285,60 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Old Data", url: "/Runtime/Runtime/Form/FSSP.MainForm/" }
     ];
 	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing") || currentUrl.includes("ICMS.DataDashboard") || currentUrl.includes("OCMS.DataDashboard")) {
-				menuItems = [
-        // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
-		{
-					text: "New Request", url: "", children: [
-						{ text: "Incoming Request", url: "/Runtime/Runtime/Form/NewIncomingRequestCreation.SubmitForm/" },
-						{ text: "Outgoing Request", url: "/Runtime/Runtime/Form/NewOutingRequestCreation.SubmitForm/" }
-					]
-		},
-        {
-					text: "Incoming Correspondence", url: "", children: [
-						{ text: "InProgress", url: "/Runtime/Runtime/Form/IncomingRequest.InProgressRequestForm/" },
-						{ text: "Closed", url: "/Runtime/Runtime/Form/IncomingRequest.ClosedRequestForm/" },
-						{ text: "All Requests", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
-						{ text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" },
-                        { text: "Old Data", url: "/Runtime/Runtime/Form/ICMS.DataDashboard/" }
+				
+        if(currentUrl.includes("IsUser=2")){
+                menuItems = [
+                // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+                {
+                            text: "New Request", url: "", children: [
+                                { text: "Incoming Request", url: "/Runtime/Runtime/Form/NewIncomingRequestCreation.SubmitForm/" },
+                                { text: "Outgoing Request", url: "/Runtime/Runtime/Form/NewOutingRequestCreation.SubmitForm/" }
+                            ]
+                },
+                {
+                            text: "Incoming Correspondence", url: "", children: [
+                                { text: "InProgress", url: "/Runtime/Runtime/Form/IncomingRequest.InProgressRequestForm/" },
+                                { text: "Closed", url: "/Runtime/Runtime/Form/IncomingRequest.ClosedRequestForm/" },
+                                { text: "All Requests", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+                                { text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" },
+                                { text: "Old Data", url: "/Runtime/Runtime/Form/ICMS.DataDashboard/" }
 
-					]
-		},
-		{
-					text: "Outgoing Correspondence", url: "", children: [
-						{ text: "InProgress", url: "/Runtime/Runtime/Form/OutgoingRequest.InProgressRequestForm/" },
-						{ text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
-						{ text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
-						{ text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
-                        { text: "Old Data", url: "/Runtime/Runtime/Form/OCMS.DataDashboard/" }
-					]
-		}
-    ];
+                            ]
+                },
+                {
+                            text: "Outgoing Correspondence", url: "", children: [
+                                { text: "InProgress", url: "/Runtime/Runtime/Form/OutgoingRequest.InProgressRequestForm/" },
+                                { text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
+                                { text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
+                                { text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
+                                { text: "Old Data", url: "/Runtime/Runtime/Form/OCMS.DataDashboard/" }
+                            ]
+                }
+            ];
+        }else if(currentUrl.includes("IsUser=1")){
+            menuItems = [
+                // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
+                {
+                            text: "New Request", url: "", children: [
+                                { text: "Outgoing Request", url: "/Runtime/Runtime/Form/NewOutingRequestCreation.SubmitForm/" }
+                            ]
+                },
+                {
+                            text: "Incoming Correspondence", url: "", children: [
+                                { text: "My Tasks", url: "/Runtime/Runtime/Form/IncomingRequest.Worklist/" }
+                            ]
+                },
+                {
+                            text: "Outgoing Correspondence", url: "", children: [
+                                { text: "InProgress", url: "/Runtime/Runtime/Form/OutgoingRequest.InProgressRequestForm/" },
+                                { text: "My Drafts", url: "/Runtime/Runtime/Form/OutgoingRequest.DraftRequestForm/" },
+                                { text: "All Requests", url: "/Runtime/Runtime/Form/OutgoingRequest.AllRequestsForm/" },
+                                { text: "My Tasks", url: "/Runtime/Runtime/Form/OutgoingRequest.WorklistForm/" },
+                                { text: "Old Data", url: "/Runtime/Runtime/Form/OCMS.DataDashboard/" }
+                            ]
+                }
+            ];
+        }
 
 }
 else if(currentUrl.includes("Suggestions") || currentUrl.includes("Suggestions.Form") || currentUrl.includes("AllSuggestionsForm") || currentUrl.includes("SuggestionsWorklist.Form")) {
@@ -367,6 +393,12 @@ else{
     // Add sidebar to body
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
+    $(window).on("load", function () {
+    if ($(".tab-box-tabs").length) {
+        $('body').addClass('topbarExists');
+    }
+
+})
 };
 
 });
