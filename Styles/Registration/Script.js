@@ -556,7 +556,7 @@ function setupNavbarRedirectBasedOnUserFQN() {
                 console.error("Error retrieving FQN:", e);
             }
 
-            $('.navbar-brand').on('click', function (e) {
+            $('.navbar-brand a').on('click', function (e) {
                 e.preventDefault();
                 if (isInternalUser) {
                     window.location.href = "https://www.google.com";
@@ -577,26 +577,7 @@ function setupNavbarRedirectBasedOnUserFQN() {
         }, 300);
     });
 }
-$(document).ready(function () {
-    $('.navbar-brand').on('click', function (e) {
-        e.preventDefault(); // prevent default link behavior
 
-        try {
-            let fqn = SourceCode.Forms.Settings.User.FQN || "";
-            console.log("Logged-in User FQN:", fqn);
-
-            if (fqn.toLowerCase().startsWith("obc\\")) {
-                window.location.href = "https://www.google.com";
-            } else {
-                window.location.href = "https://www.facebook.com";
-            }
-        } catch (err) {
-            console.error("Error retrieving FQN:", err);
-            // Fallback if FQN not available
-            window.location.href = "https://www.facebook.com";
-        }
-    });
-});
 
 $(document).ready(function(){
     setupNavbarRedirectBasedOnUserFQN();
