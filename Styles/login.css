@@ -12,6 +12,13 @@
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
 }
+.OptionCard .card-header{
+    background-image: url("https://frontenduiux.github.io/OBB_ETenders/Images/cardHeader.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4rem;
+}
  .home-content {
                     position: unset !important;
                 }
