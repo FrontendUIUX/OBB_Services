@@ -17,7 +17,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 4rem;
+    height: 5rem;
 }
  .home-content {
                     position: unset !important;
@@ -337,7 +337,7 @@ input[type="text"], input[type="password"]{
 
 .bottomSection .SignUpOptions .OptionCard {
   /* flex: 1; */
-  padding: .8rem;
+  /* padding: .8rem; */
   border: 1px solid #ccc;
   border-radius: 1rem;
   display: flex;
@@ -345,15 +345,17 @@ input[type="text"], input[type="password"]{
   gap: 1rem;
   position: relative;
   background: url('https://frontenduiux.github.io/IPT-Rana-Fawaz/media/pattt.png') no-repeat center center;
-  width: 17rem;
+  width: 21rem;
+  overflow: hidden;
 }
-.bottomSection .SignUpOptions .OptionCard .option-corner{
-    display:flex;
-    flex-direction:row;
-    gap: 1rem;
-    align-items: flex-end;
+.bottomSection .SignUpOptions .OptionCard .option-corner img{
+	position:absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50% , -139%);
+	height: 4rem;
+	width: 4rem;
 }
-
 .bottomSection .SignUpOptions .OptionCard .option-corner .option-text {
   display: flex;
   flex-direction: column;
