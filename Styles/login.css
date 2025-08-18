@@ -344,15 +344,16 @@ input[type="text"], input[type="password"]{
   flex-direction:column;
   gap: 1rem;
   position: relative;
-  background: url('https://frontenduiux.github.io/IPT-Rana-Fawaz/media/pattt.png') no-repeat center center;
-  width: 21rem;
+  /* background: url('https://frontenduiux.github.io/IPT-Rana-Fawaz/media/pattt.png') no-repeat center center; */
+  width: 23rem;
+  height: 18rem;
   overflow: hidden;
 }
 .bottomSection .SignUpOptions .OptionCard .option-corner img{
 	position:absolute;
 	left:50%;
 	top: 50%;
-	transform: translate(-50% , -139%);
+	transform: translate(-50% , -150%);
 	height: 4rem;
 	width: 4rem;
 }
@@ -361,7 +362,8 @@ input[type="text"], input[type="password"]{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .bottomSection .SignUpOptions .OptionCard .option-corner .option-text .title {
@@ -384,9 +386,11 @@ input[type="text"], input[type="password"]{
 }
 
 .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn {
-  padding: .5rem .8rem !important;
+  padding: 0.3rem 2rem 0.2rem !important;
   border-radius: 2rem;
-  background-color: var(--aqua) !important;
+  background-color: var(--orange);
+  color: white;
+  margin: auto;
 }
 
 .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn .signup-content {
