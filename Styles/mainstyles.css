@@ -27,6 +27,12 @@ html:not(.designer) .theme-entry .message-box-content.message:before,
 	background-repeat: no-repeat;
 	background-position: center;
 }
+html:not(.designer) .theme-entry .message-box-content.warning:before{
+	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/Warning.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 html:not(.designer) body.theme-entry a.collapse-vertical {
     height: 3rem;
     width: 3rem;
