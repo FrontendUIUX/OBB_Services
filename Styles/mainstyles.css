@@ -920,6 +920,7 @@ tr.selected .runtime-list-item-wrap{
 html:not(.designer) .theme-entry .message-box-content,
 html:not(.designer) .theme-entry .dialog .popup-body{
     height: fit-content;
+    min-height: 5rem;
 }
 html:not(.designer) .theme-entry .popup.dialog.error-message:not(.runtime-message) .message-box-content .panel-body-m-c{
 	margin: 0;
@@ -1566,6 +1567,11 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 }
 @media(min-width:1600px){
+	html:not(.designer) .theme-entry .message-box-content,
+html:not(.designer) .theme-entry .dialog .popup-body{
+    height: fit-content;
+    min-height: 5vw;
+}
 	html:not(.designer) .popup .message{
 	font-size: .9vw!important;
 }
