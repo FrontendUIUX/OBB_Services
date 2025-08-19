@@ -88,14 +88,14 @@ $(document).ready(function () {
             console.error("Error retrieving FQN:", e);
         }
     }, 1000);
-    $(".navbarBrand a").click(function(){
-        if(fqn){
-            $(this).attr(href="www.google.com")
+    $(".navbarBrand a").click(function (e) {
+        e.preventDefault(); // stop default link behavior
+        if (fqn) {
+            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
+        } else {
+            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
         }
-        else{
-            $(this).attr(href="www.facebook.com")
-        }
-    })
+    });
 });
 
 // Call the function
