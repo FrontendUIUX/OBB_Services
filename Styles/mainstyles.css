@@ -14,7 +14,8 @@ html:not(.designer) .theme-entry .popup .grid .grid-content-cell-wrapper{
 }
 html:not(.designer) .theme-entry .message-box-content.confirmation:before,
 html:not(.designer) .theme-entry .message-box-content.info:before,
-html:not(.designer) .theme-entry .message-box-content.message:before{
+html:not(.designer) .theme-entry .message-box-content.message:before,
+.theme-entry .message-box-content.message:before{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/general.png");
 	background-size: contain;
 	background-repeat: no-repeat;
