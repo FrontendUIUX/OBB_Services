@@ -9,12 +9,19 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+body.theme-entry.runtime-view{
+	background-color:transparent!important
+}
+iframe.runtime-popup[name="47a2f163-e949-46b2-988d-402f21a79719_1_1755593854531"] {
+    min-height: 16rem;
+}
 html:not(.designer) .theme-entry .popup .grid .grid-content-cell-wrapper{
 	white-space: normal;
 }
 html:not(.designer) .theme-entry .message-box-content.confirmation:before,
 html:not(.designer) .theme-entry .message-box-content.info:before,
-html:not(.designer) .theme-entry .message-box-content.message:before{
+html:not(.designer) .theme-entry .message-box-content.message:before,
+.theme-entry .message-box-content.message:before{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/general.png");
 	background-size: contain;
 	background-repeat: no-repeat;
