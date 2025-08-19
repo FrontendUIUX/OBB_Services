@@ -63,8 +63,9 @@ color:white;
 			width:100%;
 			padding: 3vw 4vw;
 			overflow: auto;
-			/* height: 100vh; */
+			height: calc(100% - 5rem);
 			position: relative;
+			overflow: auto;
 			}
         .login-tabs {
             text-align: center;
@@ -509,6 +510,11 @@ input[type="password"]:active{
     background-repeat: no-repeat;
     background-position: center;
 
+}
+@media(min-width:992px){
+	.login-container{
+		height:100%;
+	}
 }
 @media (min-width:1600px) {
 	.bottomSection .SignUpOptions{
