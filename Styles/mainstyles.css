@@ -1567,7 +1567,7 @@ table#\35 eb6f652-1561-182b-da01-098d64357d86_830fd343-2577-4235-a4dd-ca3f28f1b7
 }
 @media(min-width:1600px){
 	html:not(.designer) .popup .message{
-	font-size: 1vw!important;
+	font-size: .9vw!important;
 }
 	.theme-entry a.SourceCode-Forms-Controls-Web-Button[name*="exportbtn"]{
 		padding: .4vw 1vw .4vw 2vw;
