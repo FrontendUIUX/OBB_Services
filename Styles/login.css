@@ -511,6 +511,9 @@ input[type="password"]:active{
 
 }
 @media (min-width:1600px) {
+	.bottomSection .SignUpOptions{
+		gap:2vw;
+	}
 	.bottomSection .SignUpOptions .OptionCard .option-corner .option-text{
 		height: 6vw;
 	}
@@ -577,10 +580,10 @@ html:not(.designer) .ContinueLoginContainer button {
 }
 html:not(.designer) .bottomSection .SignUpOptions .OptionCard .option-corner .option-text .title {
     font-size: 1.2vw;
-    margin-top: .4vw;
+    margin-top: 1.1vw;
 }
 html:not(.designer) .bottomSection .SignUpOptions .OptionCard .option-corner .option-text .subtitle {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 html:not(.designer) .option-corner img{
     width: 4vw!important;
@@ -592,7 +595,9 @@ html:not(.designer) .signup-content > span {
     padding-left: .5vw;
 }
 html:not(.designer) .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn .signup-content{
-    gap:.8vw;
+    /* gap:.8vw; */
+    font-size: 1vw;
+    padding: .2vw 2vw 0vw;
 }
 html:not(.designer) .action-btn-container svg{
     height:2vw;
