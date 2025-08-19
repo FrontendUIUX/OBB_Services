@@ -88,6 +88,14 @@ $(document).ready(function () {
             console.error("Error retrieving FQN:", e);
         }
     }, 1000);
+    $(".navbarBrand a").click(function(){
+        if(fqn){
+            $(this).attr(href="www.google.com")
+        }
+        else{
+            $(this).attr(href="www.facebook.com")
+        }
+    })
 });
 
 // Call the function
