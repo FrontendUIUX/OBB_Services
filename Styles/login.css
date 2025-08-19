@@ -388,6 +388,7 @@ input[type="text"], input[type="password"]{
   background-color: var(--orange);
   color: white;
   margin: auto;
+  cursor: pointer;
 }
 
 .bottomSection .SignUpOptions .OptionCard .action-btn-container .signup-btn .signup-content {
