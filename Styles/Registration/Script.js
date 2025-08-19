@@ -100,6 +100,8 @@ function menuBar(){
 if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || currentUrl.includes("Retrieval") || currentUrl.includes("ArchivingLandingForm")) {
 	   menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
+        { text: "New Request", url: "/Runtime/Runtime/Form/ArchivingRequest.SubmitForm/" }, 
+//  { text: "Home", url: "/Runtime/Runtime/Form/ArchivingLandingForm/" },
         { text: "Tasks List", url: "/Runtime/Runtime/Form/RAPTaskListForm/" },
 
         { text: "Completed", url: "/Runtime/Runtime/Form/RAPCompletedForm/" },
