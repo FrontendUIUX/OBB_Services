@@ -334,6 +334,7 @@ input[type="text"], input[type="password"]{
   width: 100%;
   flex-wrap:wrap;
 }
+
 .bottomSection .SignUpOptions .OptionCard {
   border: 1px solid #ccc;
   border-radius: 1rem;
@@ -509,6 +510,12 @@ input[type="password"]:active{
 
 }
 @media (min-width:1600px) {
+	html:not(.designer) .video-container {
+    height: 11vw;
+}
+	.OptionCard .card-header{
+height:5vw;
+	}
     .passwordToggle{
    
     right: 1vw;
