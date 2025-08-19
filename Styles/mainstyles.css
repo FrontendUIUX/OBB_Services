@@ -9,6 +9,9 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+body.theme-entry.runtime-view{
+	background-color:transparent!important
+}
 html:not(.designer) .theme-entry .popup .grid .grid-content-cell-wrapper{
 	white-space: normal;
 }
