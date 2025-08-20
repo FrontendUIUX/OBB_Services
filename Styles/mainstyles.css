@@ -486,7 +486,7 @@ html:not(.designer) .theme-entry .input-control.select-box.disabled .input-contr
 	width:2rem;
 }
 html:not(.designer) [name*="OBB_textarea"]{
-	  border:1px solid var(--borderColor)!important;
+	border:1px solid var(--borderColor)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
     padding: .4rem 1rem!important;
@@ -495,6 +495,7 @@ html:not(.designer) [name*="OBB_textarea"]{
     align-items: center;
     font-family: var(--regularFont)!important;
     width: 100%;
+	min-height: 3rem;
 }
 
 html:not(.designer) .input-control.text-input .input-control-m-c{
@@ -2153,6 +2154,7 @@ html:not(.designer) [name*="OBB_textarea"]{
     font-size:1vw!important;
     border-radius: .5vw!important;
     padding: .4vw 1vw!important;
+	min-height: 3vw;
 }
 	img#\30 9a5c432-698e-951e-a5dc-30c1149241b3_4d7b0716-c062-42c0-955a-2a862394fdd2_Picture{
 		height:2vw!important;
