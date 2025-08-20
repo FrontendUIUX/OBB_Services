@@ -77,7 +77,37 @@ document.addEventListener("DOMContentLoaded", function () {
 	let menuItems;
     const currentUrl = window.location.href;
 
+$(document).ready(function () {
+    let fqn = null; // declare properly
 
+    // Try to get user FQN
+    setTimeout(function () {
+        try {
+            fqn = SourceCode.Forms.Settings.User.FQN || null;
+            console.log("Logged-in User FQN:", fqn);
+            menuBar();
+        } catch (e) {
+            console.error("Error retrieving FQN:", e);
+        }
+    }, 1000);
+
+    // Handle navbar click
+    $(document).on("click", ".navbarBrand a", function (e) {
+        e.preventDefault(); // stop default link behavior
+
+        if (fqn) {
+            if (fqn.toLowerCase().includes("OBC".toLowerCase())){
+                 console.log("Internal User");
+                window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
+
+            }
+           else {
+            console.log("External User");
+            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
+        }
+        } 
+    });
+});
 
 
 // Call the function
@@ -328,38 +358,6 @@ else{
     $('body').append(sidebar);
     $('body').addClass('sidebarVisible');
 };
-$(document).ready(function () {
-    let fqn = null; // declare properly
-
-    // Try to get user FQN
-    setTimeout(function () {
-        try {
-            fqn = SourceCode.Forms.Settings.User.FQN || null;
-            console.log("Logged-in User FQN:", fqn);
-            menuBar();
-        } catch (e) {
-            console.error("Error retrieving FQN:", e);
-        }
-    }, 1000);
-
-    // Handle navbar click
-    $(document).on("click", ".navbarBrand a", function (e) {
-        e.preventDefault(); // stop default link behavior
-
-        if (fqn) {
-            if (fqn.toLowerCase().includes("OBC".toLowerCase())){
-                 console.log("Internal User");
-                window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
-
-            }
-           else {
-            console.log("External User");
-            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
-        }
-        } 
-    });
-});
-
 });
 const targets = document.querySelectorAll('.grid-body-content table.grid-content-table tbody');
 if (targets.length > 0) {
