@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Logo section (empty href and src as placeholders)
     const logoContainer = $('<div class="navbarBrand"><a target="_blank"><img src="https://frontenduiux.github.io/OBB_Services/Images/OBBLogo.png" alt="Oman Broad Band"></a></div>');
-    const logoLink = $('<a href="#"></a>');
-    logoContainer.append(logoLink);
+    //const logoLink = $('<a href="#"></a>');
+    //logoContainer.append(logoLink);
     sidebar.append(logoContainer);
 
     // Sidebar title
