@@ -78,17 +78,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentUrl = window.location.href;
 
 $(document).ready(function () {
+    let fqn = null; // declare properly
+
+    // Try to get user FQN
     setTimeout(function () {
         try {
-            fqn = SourceCode.Forms.Settings.User.FQN;
-            console.log("Logged-in User FQN:" + fqn);
+            fqn = SourceCode.Forms.Settings.User.FQN || null;
+            console.log("Logged-in User FQN:", fqn);
             menuBar();
-          
         } catch (e) {
             console.error("Error retrieving FQN:", e);
         }
     }, 1000);
-    $(".navbarBrand a").click(function (e) {
+
+    // Handle navbar click
+    $(".navbarBrand a, .navbar-brand a").on("click", function (e) {
         e.preventDefault(); // stop default link behavior
         if (fqn) {
             window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
@@ -97,6 +101,7 @@ $(document).ready(function () {
         }
     });
 });
+
 
 // Call the function
 
