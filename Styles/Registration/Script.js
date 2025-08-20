@@ -347,12 +347,16 @@ $(document).ready(function () {
         e.preventDefault(); // stop default link behavior
 
         if (fqn) {
-            console.log("Internal User");
-            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
-        } else {
+            if (fqn.toLowerCase().includes("K2SQL".toLowerCase())){
+                 console.log("Internal User");
+                window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
+
+            }
+           else {
             console.log("External User");
             window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
         }
+        } 
     });
 });
 
