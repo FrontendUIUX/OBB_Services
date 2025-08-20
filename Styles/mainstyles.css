@@ -9,6 +9,12 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+html:not(.designer) .scroll-wrapper{
+	overflow-x:hidden;
+}
+html:not(.designer) .popup .scroll-wrapper{
+	overflow-x:auto;
+}
 html:not(.designer) .popup .message{
 	font-size: 1rem!important;
 }
