@@ -92,11 +92,13 @@ $(document).ready(function () {
     }, 1000);
 
     // Handle navbar click
-    $(".navbarBrand a, .navbar-brand a").on("click", function (e) {
+    $(".navbarBrand a").on("click", function (e) {
         e.preventDefault(); // stop default link behavior
         if (fqn) {
+            console.log("Interal User");
             window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
         } else {
+            console.log("External User");
             window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
         }
     });
