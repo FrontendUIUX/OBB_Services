@@ -347,7 +347,7 @@ $(document).ready(function () {
         e.preventDefault(); // stop default link behavior
 
         if (fqn) {
-            if (fqn.toLowerCase().includes("K2SQL".toLowerCase())){
+            if (fqn.toLowerCase().includes("OBC".toLowerCase())){
                  console.log("Internal User");
                 window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
 
