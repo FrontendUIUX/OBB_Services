@@ -9,6 +9,13 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+div#\36 9e2393d-63fc-c909-9cd7-3994b2922714_0e206a50-1ca8-c762-c226-d11a74fc42eb_Table {
+    padding: 1rem 3rem;
+    width: calc(100% - 3rem);
+}
+html:not(.designer) div#\36 9e2393d-63fc-c909-9cd7-3994b2922714_0e206a50-1ca8-c762-c226-d11a74fc42eb_Table [name*="OBB_dropdown"] .select-box{
+    width:99%!important;
+}
 html:not(.designer) .scroll-wrapper{
 	overflow-x:hidden;
 }
