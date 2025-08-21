@@ -1604,7 +1604,12 @@ html:not(.designer) .popup.dialog {
 	html:not(.designer) .theme-entry .spinner .spinner-inputs .spinner-input-wrapper, 
 	html:not(.designer) .theme-entry .calendar-outline .timepicker-content .spinner .spinner-input-wrapper {
     height: 2.4vw !important;
+    display: flex;
+    align-items: center;
 }
+	.spinner-delimiter{
+		height: auto!important;
+	}
 	html:not(.designer) .theme-entry .spinner .spinner-inputs .spinner-text-input{
 		width: 1.5vw;
 		display: flex;
