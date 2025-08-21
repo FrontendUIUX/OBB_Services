@@ -1502,7 +1502,7 @@ textarea#\36 7017fd8-7973-4a9a-8375-296c489cecad_0bfd267c-46c8-490e-bb6e-63d9c33
     height: 3rem;
     padding: 1rem!important;
 }
-.picker-resolve{
+html:not(.designer) .picker-resolve{
 	opacity:0;
 }
 html:not(.designer) body.theme-entry .input-control .input-control-watermark, 
