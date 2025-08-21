@@ -92,27 +92,27 @@ $(document).ready(function () {
     }, 1000);
 
     // Handle navbar click
-    
+    // $(document).on("click", ".navbarBrand a", function (e) {
+    //     e.preventDefault(); // stop default link behavior
+
+    //     if (fqn) {
+    //         if (fqn.toLowerCase().includes("OBC".toLowerCase())){
+    //              console.log("Internal User");
+    //             window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
+
+    //         }
+    //        else {
+    //         console.log("External User");
+    //         window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
+    //     }
+    //     } 
+    // });
 });
 
 
 // Call the function
 
-$(document).on("click", ".navbarBrand a", function (e) {
-        e.preventDefault(); // stop default link behavior
 
-        if (fqn) {
-            if (fqn.toLowerCase().includes("OBC".toLowerCase())){
-                 console.log("Internal User");
-                window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
-
-            }
-           else {
-            console.log("External User");
-            window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHubExternal.Form/";
-        }
-        } 
-    });
 
 function menuBar(){
 
