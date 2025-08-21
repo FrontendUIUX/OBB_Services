@@ -77,28 +77,22 @@ document.addEventListener("DOMContentLoaded", function () {
 	let menuItems;
     const currentUrl = window.location.href;
 
-// $(document).ready(function () {
-//     let fqn = null; // declare properly
+$(document).ready(function () {
+    let fqn = null; // declare properly
 
-//     // Try to get user FQN
-//     setTimeout(function () {
-//         try {
-//             fqn = SourceCode.Forms.Settings.User.FQN || null;
-//             console.log("Logged-in User FQN:", fqn);
-//             menuBar();
-//         } catch (e) {
-//             console.error("Error retrieving FQN:", e);
-//         }
-//     }, 1000);
+    // Try to get user FQN
+    setTimeout(function () {
+        try {
+            fqn = SourceCode.Forms.Settings.User.FQN || null;
+            console.log("Logged-in User FQN:", fqn);
+            menuBar();
+        } catch (e) {
+            console.error("Error retrieving FQN:", e);
+        }
+    }, 1000);
 
-//     // Handle navbar click
-//     
-// });
-
-
-// Call the function
-
-$(document).on("click", ".navbarBrand a", function (e) {
+    // Handle navbar click
+    $(document).on("click", ".navbarBrand a", function (e) {
         e.preventDefault(); // stop default link behavior
 
         if (fqn) {
@@ -113,6 +107,12 @@ $(document).on("click", ".navbarBrand a", function (e) {
         }
         } 
     });
+});
+
+
+// Call the function
+
+
 
 function menuBar(){
 
