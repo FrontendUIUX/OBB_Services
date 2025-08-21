@@ -78,11 +78,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentUrl = window.location.href;
 
 $(document).ready(function () {
+    let fqn_click = null; // declare properly
 
     // Try to get user FQN
     setTimeout(function () {
         try {
             fqn = SourceCode.Forms.Settings.User.FQN || null;
+            fqn_click = fqn;
             console.log("Logged-in User FQN:", fqn);
             menuBar();
         } catch (e) {
@@ -100,8 +102,8 @@ $(document).ready(function () {
 $(document).on("click", ".navbarBrand a", function (e) {
         e.preventDefault(); // stop default link behavior
 
-        if (fqn) {
-            if (fqn.toLowerCase().includes("OBC".toLowerCase())){
+        if (fqn_click) {
+            if (fqn_click.toLowerCase().includes("OBC".toLowerCase())){
                  console.log("Internal User");
                 window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
 
