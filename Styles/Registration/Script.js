@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentUrl = window.location.href;
 
 $(document).ready(function () {
-    let fqn = null; // declare properly
 
     // Try to get user FQN
     setTimeout(function () {
