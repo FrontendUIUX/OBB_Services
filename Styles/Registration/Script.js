@@ -114,7 +114,7 @@ $(document).ready(function () {
 //         }
 //         } 
 //     });
-$(document).on("click", ".navbarBrand-link", function (e) {
+$(document).on("click", ".navbarBrand a", function (e) {
     e.preventDefault();
 
     if (!fqn_click) {
