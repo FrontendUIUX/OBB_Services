@@ -42,12 +42,16 @@ html:not(.designer) .theme-entry .message-box-content.message:before,
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	top: 50%;
+	transform: translateY(-50%);
 }
 html:not(.designer) .theme-entry .message-box-content.warning:before{
 	background-image: url("https://frontenduiux.github.io/OBB_Services/Images/Warning.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	top: 50%;
+	transform: translateY(-50%);
 }
 html:not(.designer) body.theme-entry a.collapse-vertical {
     height: 3rem;
@@ -980,6 +984,8 @@ html:not(.designer) .theme-entry .message-box-content.error:before{
     background-size:3rem;
     background-repeat:no-repeat;
     background-position:center;
+	top: 50%;
+	transform: translateY(-50%);
 }
 /* POPUP BRANDING END */
 html:not(.designer) .theme-entry span[name*="profilePhoto"]{
