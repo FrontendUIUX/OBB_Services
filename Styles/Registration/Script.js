@@ -117,12 +117,12 @@ $(document).ready(function () {
 $(document).on("click", ".navbarBrand a", function (e) {
     e.preventDefault();
 
-    if (!fqn_click) {
+    if (!fqn) {
         console.warn("User FQN not loaded yet.");
         return;
     }
 
-    if (fqn_click.toLowerCase().includes("obc")) {
+    if (fqn.toLowerCase().includes("obc")) {
         console.log("Internal User");
         window.location.href = "https://ck2-app-tst-1.obc.local/Runtime/Runtime/Form/OBBHub.Form/";
     } else {
