@@ -1128,6 +1128,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"],
@@ -1165,6 +1166,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >s
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
@@ -1235,7 +1237,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Divi
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval Access Request"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span{
 	color:#FF9800!important;
 	background-color:#FFF5E5!important;
 	padding: 0.6rem 1.2rem!important;
@@ -1933,7 +1936,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draf
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"]{
 	height: 4.4vw!important;
 }
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
@@ -1951,6 +1955,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >s
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
@@ -1990,7 +1995,8 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approv
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span,
