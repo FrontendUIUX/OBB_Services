@@ -1205,6 +1205,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >s
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span,
