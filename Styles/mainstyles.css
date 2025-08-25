@@ -2007,7 +2007,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Docu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] >span,{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] >span{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting Return"] >span,
