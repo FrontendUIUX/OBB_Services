@@ -182,9 +182,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "New Request", url: "/Runtime/Runtime/Form/LetterRegistration.SubmitForm/" },
         { text: "Tasks List", url: "/Runtime/Runtime/Form/LetterTaskListForm/" },
         { text: "Completed", url: "/Runtime/Runtime/Form/LetterCompletedForm/" },
-        { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" },
-        { text: "Old Data", url: "/Runtime/Runtime/Form/LetterRegistration.MainForm/"},
-        { text: "Old Logs", url: "/Runtime/Runtime/Form/LetterRegistration.AuditableForm1/"}
+        { text: "In Progress", url: "/Runtime/Runtime/Form/LetterPendingForm/" }
     ];
     }
     else if (currentUrl.includes("SAWP") || currentUrl.includes("WorkPermit") || currentUrl.includes("SiteAccess") || currentUrl.includes("RegistrationRequest.ReviewForm"))
@@ -208,7 +206,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                 ];
                 }
             }else{
-                if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest") || currentUrl.includes("SiteAccess.MainForm")){
+                if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest") || currentUrl.includes("SiteAccess.MainForm") || currentUrl.includes("SiteAccess.ReadOnlyForm")){
                 menuItems = [
                     { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
                     { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
