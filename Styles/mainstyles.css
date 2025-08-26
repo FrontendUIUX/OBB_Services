@@ -1227,7 +1227,7 @@ html:not(.designer) .grid-content-cell-wrapper{
 	width: 100%!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Responded"] > span.runtime-list-item,
+html:not(.designer) .theme-entry  [title*="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
