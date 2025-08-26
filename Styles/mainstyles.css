@@ -1122,6 +1122,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"]
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
@@ -1157,6 +1158,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing do
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] >span.runtime-list-item,
@@ -1225,6 +1227,7 @@ html:not(.designer) .grid-content-cell-wrapper{
 	width: 100%!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
@@ -1928,6 +1931,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
@@ -1959,6 +1963,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for R
 }
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
@@ -1998,6 +2003,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 	font-size: .8vw!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
