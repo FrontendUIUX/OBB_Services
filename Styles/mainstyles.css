@@ -1085,9 +1085,10 @@ background-color:transparent!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
-	/* width: fit-content!important; */
+	width: calc(100% - 2rem);
 	font-size: 8pt;
-	color: #565656;
+	/* color: #565656; */
+	text-transform: unset;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
