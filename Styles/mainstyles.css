@@ -1159,6 +1159,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draf
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending reviewer"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for E-Sign"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Review Pending"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"]{
 	display:flex;
@@ -1204,6 +1205,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >sp
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"]> span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending draft letter"] >span,
@@ -2000,7 +2002,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Review Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"],
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"]{
 	height: 4.4vw!important;
 }
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
@@ -2049,7 +2052,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "] span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "] span,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"] > span{
 	border-radius: 2vw!important;
 	padding: 0.6vw 2vw!important;
 	font-size: .8vw!important;
