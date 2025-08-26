@@ -1125,6 +1125,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"]
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
@@ -1145,6 +1146,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Retu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"],
@@ -1174,6 +1176,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
@@ -1194,6 +1197,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Retu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"]> span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"] >span,
@@ -1214,7 +1218,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 	font-size: 8pt;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span{
 	background-color:#EFEFEF;
 	color:#616161!important;
 }
@@ -1255,7 +1260,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted t
 	color:#3F51B5!important;
 	padding: 0.6rem 1.2rem!important;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span{
 	background-color:#F4EBEE;
 	color:#801533!important;
 	padding: 0.6rem 1.2rem!important;
@@ -1953,6 +1959,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
@@ -1972,6 +1979,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Retu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"],
@@ -1998,6 +2006,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span ,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
@@ -2018,6 +2027,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Retu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending Proof of Postal"] >span,
@@ -2045,7 +2055,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span{
 	padding: 0.6vw 1.2vw!important;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] > span{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
