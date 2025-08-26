@@ -1129,6 +1129,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"],
@@ -1177,6 +1178,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"] >span,
@@ -1230,8 +1232,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 	background-color:#FFF3F0;
 	color:#FF8A65!important;
 }
-.grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
-.grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item{
+html:not(.designer) .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
+html:not(.designer) .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
+html:not(.designer) [title="ESign Completed"] > span{
 	background-color:#DCFCE7;
 	color:#17A34A!important;
 }
@@ -1954,6 +1957,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"],
@@ -1998,6 +2002,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"] >span,
