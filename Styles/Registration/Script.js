@@ -288,7 +288,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" },
         { text: "Old Data", url: "/Runtime/Runtime/Form/FSSP.MainForm/" }
     ];
-	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing") || currentUrl.includes("ICMS.DataDashboard") || currentUrl.includes("OCMS.DataDashboard")) {
+	}else if(currentUrl.includes("Incoming") || currentUrl.includes("Outgoing") || currentUrl.includes("Outing") || currentUrl.includes("ICMS.DataDashboard") || currentUrl.includes("OCMS.DataDashboard") || currentUrl.includes("OCMS.RequestReadOnly.Form1") || currentUrl.includes("ICMS.RequestReadOnly.Form")) {
 				menuItems = [
         // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
