@@ -1251,6 +1251,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approval"],
+html:not(.designer)  [title*="Response In-Progress"] >span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Return to Initiator"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to Recipients"] > span,
@@ -1259,7 +1260,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Docu
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval Access Request"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span
+{
 	color:#FF9800!important;
 	background-color:#FFF5E5!important;
 	padding: 0.6rem 1.2rem!important;
