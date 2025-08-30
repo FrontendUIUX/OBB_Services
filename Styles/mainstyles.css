@@ -1120,7 +1120,7 @@ html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runt
 	vertical-align:middle;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
@@ -1172,7 +1172,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >spa
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] >span,
@@ -1256,7 +1256,7 @@ html:not(.designer) .grid-content-cell-wrapper{
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  [title*="Responded"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
@@ -1957,7 +1957,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 		height:3vw;
 	}
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"],
@@ -2010,7 +2010,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for R
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Transport Network O&M Team"] >span,
@@ -2061,7 +2061,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] > span,
