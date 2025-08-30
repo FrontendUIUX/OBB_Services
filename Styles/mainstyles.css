@@ -1123,7 +1123,7 @@ html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runt
 	vertical-align:middle;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
@@ -1133,7 +1133,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"],
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"],
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
@@ -1179,7 +1179,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >spa
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] >span.runtime-list-item,
@@ -1191,7 +1191,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"] >span,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
@@ -1267,7 +1267,7 @@ html:not(.designer) .grid-content-cell-wrapper{
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  [title*="Responded"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
@@ -1314,11 +1314,11 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing do
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Approve"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"] > span,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"]>span,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
-html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Design Team Approved"]{
 	color:#009688!important;
 	background-color:#E5F4F3!important;
 	padding: 0.6rem 1.2rem!important;
@@ -1331,7 +1331,7 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"]{
 }
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"],
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
-html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Design Team Approved"]{
 	border-radius:2rem; margin-left:1rem;
 }
 tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
@@ -1972,7 +1972,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 		height:3vw;
 	}
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"],
@@ -1987,7 +1987,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"],
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"],
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
@@ -2029,7 +2029,7 @@ html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
@@ -2041,7 +2041,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span ,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approve"] >span.runtime-list-item,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"] > span,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
@@ -2084,7 +2084,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Desgin Team"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to PMO Team"] > span,
@@ -2118,11 +2118,11 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing do
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Approve"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Desgin Team Approved"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="FTTX Design Team Approved"] > span,
 html:not(.designer) .theme-entry td.center-align .grid-content-cell-wrapper[title="Approval Ticket Number Generated"] >span,
 html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[title="Access Code Generated"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
-html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Design Team Approved"]{
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Open"] >span,
@@ -2131,7 +2131,7 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"]{
 }
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Open"],
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Approve"],
-html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Desgin Team Approved"]{
+html:not(.designer)  [name*="OBB_statusContainer"] span[title="FTTX Design Team Approved"]{
 	border-radius:2vw; 
 	margin-left:1vw;
 }
