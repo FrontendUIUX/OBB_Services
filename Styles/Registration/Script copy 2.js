@@ -219,15 +219,13 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                     {
                         text: "Site Access", url: "", children: [
                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
-                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" },
-                            { text: "Old Data", url: "/Runtime/Runtime/Form/SiteAccess.MainForm/" }
+                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" }
                         ]
                     },
                     {
                         text: "Work Permit", url: "", children: [
                             { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
-                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" },
-                            { text: "Old Data", url: "/Runtime/Runtime/Form/WorkPermit.MainForm/" }
+                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" }
                         ]
                     }
                 ];		
