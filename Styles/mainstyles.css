@@ -1120,7 +1120,7 @@ html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runt
 	vertical-align:middle;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX Desgin Team"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to FTTX"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
