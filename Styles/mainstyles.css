@@ -327,6 +327,9 @@ html:not(.designer) [name="OBB_header"] > div{
 	width:100%;
 	
 }
+.theme-entry.runtime-form .grid .grid-content-cell-wrapper{
+	align-content: center;
+}
 html:not(.designer) [name*="HeaderTitleContainer"]{
 width:80%;}
 html:not(.designer) [name*="HeaderTitleContainer"] [name*="HeaderTitle"]{
