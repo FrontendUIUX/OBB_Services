@@ -1149,6 +1149,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval Access Request"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
@@ -1203,9 +1204,10 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Draft Align
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Return to Initiator"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to Recipients"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
+html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval Access Request"] > span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
@@ -1296,8 +1298,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Divi
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Waiting RM Approval Access Request"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span
+html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title="Rework for Requestor"] > span
 {
 	color:#FF9800!important;
 	background-color:#FFF5E5!important;
@@ -1999,6 +2002,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for d
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to Recipients"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval Access Request"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
@@ -2017,7 +2021,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Review Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"],
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"],
+html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title="Rework for Requestor"],
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"]{
 	height: 4.4vw!important;
 }
@@ -2049,10 +2053,11 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign In Pro
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Draft Alignment In Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to Recipients"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
+html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Return to Initiator"]> span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval Access Request"] > span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
@@ -2100,8 +2105,9 @@ html:not(.designer)  [name*="OBB_statusContainer"] span[title="Return to Initiat
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM draft approval"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from GM Service Assurance"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Upload Draft Document"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
+html:not(.designer) .theme-entry .center-align .grid-content-cell-wrapper[title="Rework for Requestor"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Resent for draft letter"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Forwarded to Recipients"]> span{
 	padding: 0.6vw 1.2vw!important;
