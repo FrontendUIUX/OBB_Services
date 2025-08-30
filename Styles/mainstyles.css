@@ -1130,6 +1130,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"]
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
@@ -1193,6 +1194,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to GM Team"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span,
@@ -1294,6 +1296,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted t
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"] >span{
 	background-color:#F4EBEE;
@@ -1999,6 +2002,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"],
@@ -2058,6 +2062,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Electro Mechanical Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted to Finance Team"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Open"] >span ,
@@ -2120,6 +2125,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Submitted t
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Rejected"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Rejected"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Rejected"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected"] > span{
 	padding: 0.6vw 1.2vw!important;
