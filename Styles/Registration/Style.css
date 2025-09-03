@@ -1,6 +1,10 @@
 html:not(.designer) body.sidebarVisible{
     width: 100%;
     padding: 0 1rem!important;
+
+} 
+html:not(.designer) .validation-error{
+    font-size: 1rem;
 }
 html:not(.designer) span[name*="SignUpTitle"] span[name="HeaderTitle"] {
     font-size: 2.5rem !important;
@@ -104,6 +108,9 @@ a#\30 0000000-0000-0000-0000-000000000000_37b4955b-5f5f-98b1-ded0-b101dc7c3e21 {
     margin-bottom: 1rem;
 }
 @media(min-width:1600px){
+    html:not(.designer) .validation-error{
+    font-size: 1vw;
+}
     html:not(.designer) .theme-entry .panel>.panel-body .panel-body-wrapper{
         margin-top: 3vw!important;
     }
