@@ -541,6 +541,7 @@ html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-but
     height:2.9rem;
     min-height:2.9rem;
     overflow: hidden;
+    box-sizing: border-box;
 }
 html:not(.designer) .input-control.text-input.control-group-container .input-control-m-c{
 	border:1px solid var(--borderColor)!important;
