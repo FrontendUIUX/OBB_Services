@@ -207,30 +207,53 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                 }
             }else{
                 if (currentUrl.includes("SAWPInternal") || currentUrl.includes("SAWPSiteAccess") || currentUrl.includes("SAWPWorkPermit") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("WorkPermit.") || currentUrl.includes("WorkPermitRequest") || currentUrl.includes("SiteAccess.MainForm") || currentUrl.includes("SiteAccess.ReadOnlyForm")){
-                menuItems = [
-                    { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
-                    { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
-                    {
-                        text: "New Request", url: "", children: [
-                            { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
-                            { text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
-                        ]
-                    },
-                    {
-                        text: "Site Access", url: "", children: [
-                            { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
-                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" },
-                            { text: "Old Data", url: "/Runtime/Runtime/Form/SiteAccess.MainForm/" }
-                        ]
-                    },
-                    {
-                        text: "Work Permit", url: "", children: [
-                            { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
-                            { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" },
-                            { text: "Old Data", url: "/Runtime/Runtime/Form/WorkPermit.MainForm/" }
-                        ]
-                    }
-                ];		
+                    if (currentUrl.includes("UserId=1")){
+                        menuItems = [
+                            { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+                            { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+                            {
+                                text: "New Request", url: "", children: [
+                                    { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+                                    { text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+                                ]
+                            },
+                            {
+                                text: "Site Access", url: "", children: [
+                                    { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
+                                    { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" },
+                                    { text: "Old Data", url: "/Runtime/Runtime/Form/SiteAccess.MainForm/" }
+                                ]
+                            },
+                            {
+                                text: "Work Permit", url: "", children: [
+                                    { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
+                                    { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" },
+                                    { text: "Old Data", url: "/Runtime/Runtime/Form/WorkPermit.MainForm/" }
+                                ]
+                            }
+                        ];
+                    }else{
+                        menuItems = [
+                            { text: "Home", url: "/Runtime/Runtime/Form/SAWPInternal.LandingForm/" },
+                            { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPInternalTaskListForm/" },
+                            {
+                                text: "New Request", url: "", children: [
+                                    { text: "Site Access", url: "/Runtime/Runtime/Form/SiteAccessRequest.SubmitForm/" },
+                                    { text: "Work Permit", url: "/Runtime/Runtime/Form/WorkPermit.SubmitForm/" }
+                                ]
+                            },
+                            {
+                                text: "Site Access", url: "", children: [
+                                    { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalInProgressForm/" },
+                                    { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalCompletedForm/" }                                ]
+                            },
+                            {
+                                text: "Work Permit", url: "", children: [
+                                    { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalInProgressForm/" },
+                                    { text: "Completed", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalCompletedForm/" }                                ]
+                            }
+                        ];
+                    }	
             }}
         }else{
             if (currentUrl.includes("SAWPExternal") || currentUrl.includes("SAWP.LandingForm") || currentUrl.includes("SAWPSiteAccess")){
@@ -275,12 +298,20 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         }
         
 	}else if(currentUrl.includes("Visitor")) {
-				menuItems = [
-        { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
-        { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
-        { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" },
-		{ text: "Old Data", url: "/Runtime/Runtime/Form/VisitorRegistration.MainForm/" }
-                ];
+        if (currentUrl.includes("UserId=1")){
+            menuItems = [
+                { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
+                { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
+                { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" },
+                { text: "Old Data", url: "/Runtime/Runtime/Form/VisitorRegistration.MainForm/" }
+            ];
+        }else{
+            menuItems = [
+                { text: "Home", url: "/Runtime/Runtime/Form/VisitorLandingForm/" },
+                { text: "New Request", url: "/Runtime/Runtime/Form/VisitorRegistration.SubmitForm/" },
+                { text: "History", url: "/Runtime/Runtime/Form/VisitorHistory.Form/" }
+            ];
+            }
     }else if(currentUrl.includes("Feasability") || currentUrl.includes("Master+Data") || currentUrl.includes("My__task__Form") || currentUrl.includes("MyRequestForm") || currentUrl.includes("Feasibility") || currentUrl.includes("FSSP.MainForm")) {
 				menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/MyRequestForm/" },
