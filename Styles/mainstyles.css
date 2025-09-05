@@ -1124,6 +1124,7 @@ html:not(.designer) .grid-content-cell-wrapper[style*="background-color:"] .runt
 	vertical-align:middle;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Created"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
@@ -1163,6 +1164,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Approval Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Approval Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"],
@@ -1183,6 +1186,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing do
 	height: 4.4rem!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Created"] > span
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] > span,
@@ -1227,6 +1231,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Approval Pending"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Approval Pending"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"] >span,
@@ -1257,6 +1262,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span
 	color:#616161!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Approval Pending"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Approval Pending"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"] >span,
@@ -1273,6 +1279,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 	color:#FF8A65!important;
 }
 html:not(.designer) .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Created"] > span,
 html:not(.designer) .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) [title="ESign Completed"] > span{
 	background-color:#DCFCE7;
@@ -1994,6 +2001,7 @@ html:not(.designer) .theme-entry .input-control.select-box.picker-input[data-max
 		height:3vw;
 	}
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Created"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to FTTX Design and Planning Team"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted to Pricing Team"],
@@ -2037,6 +2045,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Approval Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Approval Pending"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"],
@@ -2054,6 +2063,7 @@ html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title
 	height: 4.4vw!important;
 }
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Created"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Submitted"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Sent"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Responded"] >span,
@@ -2098,6 +2108,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility 
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Commercial Details Approval Pending"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Approval Pending"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title*="Correspondence Details Pending"] >span,
