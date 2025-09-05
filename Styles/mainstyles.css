@@ -2066,7 +2066,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Review Pendi
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for user to missing data"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"],
 html:not(.designer) .theme-entry  .center-align .grid-content-cell-wrapper[title="Rework for Requestor"],
-	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"]{
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Return to Initiator"]{
 	height: 4.4vw!important;
 }
 	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Saved"] >span.runtime-list-item,
