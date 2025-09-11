@@ -1159,6 +1159,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM A
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Draft"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility Closed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
@@ -1227,6 +1228,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM A
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Draft"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility Closed"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
@@ -1256,12 +1258,13 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awa
 	width:fit-content!important;
 	font-size: 8pt;
 }
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility Closed"] > span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] >span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] >span{
-	background-color:#EFEFEF;
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="NULL"] > span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Draft"] > span{
+	background-color:#EFEFEF!important;
 	color:#616161!important;
 }
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending recipient action"] >span,
@@ -2045,6 +2048,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM A
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"],
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Draft"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility Closed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"],
@@ -2110,6 +2114,7 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM A
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Return"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Closed"] >span,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Draft"] span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Not Feasible"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Feasibility Closed"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Expired"] > span,
