@@ -14,6 +14,13 @@
     flex-direction:column;
     gap: 0.5rem;
 }
+#b073a149-5aeb-a566-cdd4-d99ce6155cdb,
+#\34 78ca2b0-7c61-f900-9801-2bd810a7470d,
+#\36 39643ca-27fd-86d1-d2ed-d4d221408610,
+#bfc96c51-e459-23ec-c37b-990ede1ac252,
+#\30 be95265-0d73-bc8b-5a3f-db9d0597c27f{
+    display:none;
+}
 div#\36 9e2393d-63fc-c909-9cd7-3994b2922714_0e206a50-1ca8-c762-c226-d11a74fc42eb_Table {
     padding: 1rem 3rem;
     width: calc(100% - 3rem);
