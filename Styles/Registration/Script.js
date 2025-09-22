@@ -582,8 +582,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // test
 document.querySelectorAll('[name*="tile"]').forEach(tile => {
-  const hiddenChild = tile.querySelector('[style*="display:none"]');
-  if (hiddenChild) {
+  const obb = tile.querySelector('[name*="OBB_Service"]');
+  if (obb && obb.getAttribute("style")?.includes("display:none")) {
     tile.style.display = "none";
     tile.style.width = "0";
   }
