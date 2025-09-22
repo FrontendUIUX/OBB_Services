@@ -579,3 +579,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+// test
+document.querySelectorAll('[name*="tile"]').forEach(tile => {
+  const hiddenChild = tile.querySelector('[style*="display:none"]');
+  if (hiddenChild) {
+    tile.style.display = "none";
+    tile.style.width = "0";
+  }
+});
