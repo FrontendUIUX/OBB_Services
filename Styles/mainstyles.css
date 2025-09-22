@@ -1264,7 +1264,8 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Pending for 
 html:not(.designer) .theme-entry .center-align .grid-content-cell-wrapper[title="Approval Awaiting from NOC Engineer"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Preparing document"] span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Approval Awaiting from NOC Lead "] span,
-html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] span{
+html:not(.designer) .theme-entry  [title="Waiting RM Signed Approval"] > span,
+html:not(.designer) .theme-entry  [title="Waiting RM Signed Approval"]{
 	border-radius: 2rem!important;
 	min-height:unset!important;
 	height:unset!important;
