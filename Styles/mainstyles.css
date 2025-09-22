@@ -16,6 +16,7 @@
 	}
 	html:not(.designer) .video-container .intro{
 		align-items: center;
+		height: 100vh;
 	}
 	html:not(.designer) .video-container .intro h2{
 		display:none;
