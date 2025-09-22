@@ -1155,6 +1155,7 @@ html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[tit
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign In Progress"],
@@ -1224,6 +1225,7 @@ html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[tit
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] > span
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign In Progress"] >span,
@@ -1332,7 +1334,9 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected
 	padding: 0.6rem 1.2rem!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approval"],
+html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"],
 html:not(.designer)  [title*="Response In-Progress"] >span,
 html:not(.designer)  [title*="Physical Delivery In Progress"] >span,
 html:not(.designer)  [title*="ESign In Progress"] >span,
@@ -2045,6 +2049,7 @@ html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[tit
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"],
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"],
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign In Progress"],
@@ -2110,6 +2115,7 @@ html:not(.designer) .theme-entry  td.center-align .grid-content-cell-wrapper[tit
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Completed"] >span.runtime-list-item,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign Completed"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Approval"] >span.runtime-list-item,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Response In-Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Physical Delivery In Progress"] >span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="ESign In Progress"] >span,
@@ -2172,8 +2178,10 @@ html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="PMO Rejected
 	padding: 0.6vw 1.2vw!important;
 }
 html:not(.designer) .theme-entry .grid-content-cell-wrapper[title="Waiting RM Approval"] >span,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Waiting RM Approval"] > span,
+	html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting RM Signed Approval"] > span,
 html:not(.designer)  [name*="OBB_statusContainer"] span[title="Return to Initiator"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Division Head"] > span,
 html:not(.designer) .theme-entry  .grid-content-cell-wrapper[title="Waiting Document Signature"] > span,
