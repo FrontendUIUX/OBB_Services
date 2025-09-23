@@ -176,7 +176,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "Archived Records", url: "/Runtime/Runtime/Form/VRMArchivedRecsForm/" }
     ];
 	} 
-    else if(currentUrl.includes("Letter")) {
+    else if(currentUrl.includes("LetterLandingForm") || currentUrl.includes("LetterRegistration") || currentUrl.includes("LetterTaskListForm") || currentUrl.includes("LetterCompletedForm") || currentUrl.includes("LetterPendingForm")) {
                 menuItems = [
         { text: "Home", url: "/Runtime/Runtime/Form/LetterLandingForm/" },
         { text: "New Request", url: "/Runtime/Runtime/Form/LetterRegistration.SubmitForm/" },
