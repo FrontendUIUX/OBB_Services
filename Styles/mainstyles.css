@@ -9,6 +9,9 @@
     --regularFont:"Co Headline";
     --transition:all .3s ease-in-out;
 }
+html:not(.designer) .video-container .intro{
+height:100%!important;
+}
 [name*="tile"]:has([name*="OBB_Service"][style*="display:none"]) {
   display: none !important;
   width: 0 !important;
