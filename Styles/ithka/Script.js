@@ -343,6 +343,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
 		{
 					text: "Outgoing Correspondence", url: "", children: [
 						{ text: "InProgress", url: "/Runtime/Runtime/Form/ITHCA.OutgoingRequest.InProgressRequestForm/" },
+                        { text: "Closed", url: "/Runtime/Runtime/Form/ITHCA.OutgoingRequest.ClosedRequestForm/" },
 						{ text: "All Requests", url: "/Runtime/Runtime/Form/ITHCA.OutgoingRequest.AllRequestsForm/" },
 						{ text: "My Tasks", url: "/Runtime/Runtime/Form/ITHCA.OutgoingRequest.WorklistForm/" },
                         { text: "Old Data", url: "/Runtime/Runtime/Form/OCMS.DataDashboard1/" }
