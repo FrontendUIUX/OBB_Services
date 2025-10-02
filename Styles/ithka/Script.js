@@ -321,7 +321,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" },
         { text: "Old Data", url: "/Runtime/Runtime/Form/FSSP.MainForm/" }
     ];
-	}else if(currentUrl.includes("ITHCA.Incoming") || currentUrl.includes("ITHCA.Outgoing") || currentUrl.includes("ITHCA.Outing") || currentUrl.includes("ITHCA.ICMS.DataDashboard") || currentUrl.includes("ITHCA.OCMS.DataDashboard") || currentUrl.includes("ITHCA.OCMS.RequestReadOnly.Form1") || currentUrl.includes("ITHCA.ICMS.RequestReadOnly.Form") || currentUrl.includes("ITHCA.NewIncomingRequestCreation.SubmitForm")) {
+	}else if(currentUrl.includes("ITHCA.Incoming") || currentUrl.includes("ITHCA.Outgoing") || currentUrl.includes("ITHCA.Outing") || currentUrl.includes("ITHCA.ICMS.DataDashboard") || currentUrl.includes("ITHCA.OCMS.DataDashboard") || currentUrl.includes("ITHCA.OCMS.RequestReadOnly.Form1") || currentUrl.includes("ITHCA.ICMS.RequestReadOnly.Form") || currentUrl.includes("ITHCA.NewIncomingRequestCreation.SubmitForm") || currentUrl.includes("ITHCA.NewOutingRequestCreation.SubmitForm")) {
 				menuItems = [
         // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
