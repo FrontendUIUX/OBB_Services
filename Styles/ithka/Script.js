@@ -321,7 +321,15 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         { text: "In Progress", url: "/Runtime/Runtime/Form/FeasibilityPendingRequestForm/" },
         { text: "Old Data", url: "/Runtime/Runtime/Form/FSSP.MainForm/" }
     ];
-	}else if(currentUrl.includes("ITHCA.Incoming") || currentUrl.includes("ITHCA.Outgoing") || currentUrl.includes("ITHCA.Outing") || currentUrl.includes("ICMS.DataDashboard1") || currentUrl.includes("OCMS.DataDashboard1") || currentUrl.includes("OCMS.RequestReadOnly.Form1") || currentUrl.includes(".ICMS.RequestReadOnly.Form1") || currentUrl.includes("ITHCA.NewIncomingRequestCreation.SubmitForm") || currentUrl.includes("ITHCA.NewOutingRequestCreation.SubmitForm")) {
+	}else if(currentUrl.includes("ITHCA.Incoming") || currentUrl.includes("ITHCA.Outgoing") || currentUrl.includes("ITHCA.Outing")
+	 || currentUrl.includes("ICMS.DataDashboard1") || currentUrl.includes("OCMS.DataDashboard1") || currentUrl.includes("OCMS.RequestReadOnly.Form1")
+	 || currentUrl.includes(".ICMS.RequestReadOnly.Form1") || currentUrl.includes("ITHCA.NewIncomingRequestCreation.SubmitForm")
+	 || currentUrl.includes("ITHCA.NewOutingRequestCreation.SubmitForm") 
+	 
+	 || currentUrl.includes("ICMS.RequestReadOnly.Form1") || currentUrl.includes("ITHCA.CorrespondenceManagementSystem.AdministrationForm")
+     || currentUrl.includes("ITHCA.NewIncomingRequestCreation.ReadOnlyForm") || currentUrl.includes("ITHCA.NewIncomingRequestCreation.ReviewForm")
+     || currentUrl.includes("ITHCA.NewOutingRequestCreation.DocumentControllerForm") || currentUrl.includes("ITHCA.NewOutingRequestCreation.ReadOnlyForm")
+	 || currentUrl.includes("ITHCA.NewOutingRequestCreation.ReviewerForm") || currentUrl.includes("ITHCA.NewOutingRequestCreation.ReviewForm")) {
 				menuItems = [
         // { text: "Home", url: "/Runtime/Runtime/Form/IncomingRequest.AllRequestsForm/" },
 		{
