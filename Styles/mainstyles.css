@@ -1712,7 +1712,7 @@ html:not(.designer) td.center-align [title="Normal"] > span{
     font-family: var(--regularFont);
     background-color: white;
     margin-top: 6rem;
-    height: calc(100% - 4rem);
+    height: calc(100% - 0rem);
     width: calc(100% - 0rem);
 }
 	html:not(.designer) .sidebarVisible [name="OBB_header"]{
