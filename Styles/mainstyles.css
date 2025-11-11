@@ -2559,6 +2559,12 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	html:not(.designer) .theme-entry .grid.full .grid-body-content{
     top:3vw;
 }
+	.option-corner{
+	padding:.8vw .8vw 0
+}
+.action-btn-container{
+	padding:.0 .8vw .8vw
+}
 }
 @media(min-width:1920px){
 	html:not(.designer) [name*="HeaderContent"] {
