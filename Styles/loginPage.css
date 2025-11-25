@@ -1,3 +1,7 @@
+.stsMain{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Change autocomplete styles in WebKit */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
