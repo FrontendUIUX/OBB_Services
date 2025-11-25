@@ -355,9 +355,9 @@ html body
     background-position: center;
 
 }
-@media(min-width:992px){
-    .video-container{
-        height: 100vh;
+@media(min-width: 992px){
+    html:not(.designer) .video-container{
+        height: 100vh!important;
     }
 }
 @media (min-width:1600px) {
