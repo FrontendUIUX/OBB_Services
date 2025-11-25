@@ -8,7 +8,6 @@
 input::placeholder{
     font-style:normal!important;
 }
-/* Change autocomplete styles in WebKit */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus 
@@ -18,18 +17,6 @@ input:-webkit-autofill:focus
     -webkit-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
     transition: background-color 5000s ease-in-out 0s;
 }
-/* .bottomSection .SignUpOptions .OptionCard:last-child{
-    opacity:.7;
-        filter:grayscale(100%);
-}
-.bottomSection .SignUpOptions .OptionCard:last-child .action-btn-container .signup-btn{
-    filter:grayscale(100%);
-    pointer-events:none;
-} */
-/* @font-face {
-        font-family:"Co Headline" ;
-        src: url("https://frontenduiux.github.io/OBB_ETenders/fonts/Co%20Headline.otf");
-    } */
 @font-face {
     font-family:"Co Headline" ;
     src: url("https://frontenduiux.github.io/OBB_Services/fonts/Co%20Headline.otf");
@@ -40,7 +27,7 @@ input:-webkit-autofill:focus
 html
 {
     font-size:62.5%;
-    bakground-color:white!important;
+    background-color:white!important;
 }
 
 html body 
@@ -55,7 +42,6 @@ html body
     position: absolute;
     margin-left: -35px;
     left: 50%;
-    /*Same height as top-bar*/
     z-index: 3000;
     background-repeat: no-repeat;
 }
@@ -69,7 +55,6 @@ html body
     font-family: "Open-Sans", "Segoe UI Regular", "Helvetica", "Sans-serif";
 }
 
-/* Don't show IE's clear andd reveal buttons */
 .stsLoginInPanel input[type=text]::-ms-clear,
 .stsLoginInPanel input::-ms-reveal
 {
@@ -95,8 +80,6 @@ html body
     flex: 1;
     overflow: auto;
 }
-
-/* css layout for a div table */
 .layout-table
 {
     display:table;
@@ -119,14 +102,9 @@ html body
 {
     display:inline-block;
 }
-/* end css layout for a div table */
-
 .stsLoginInPanel .stsMain .stsLoginDetails
 {
-    /* height: auto; */
     width: 100%;
-    /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
 }
 
 .stsLoginInPanel .stsLoginUserName,
@@ -191,20 +169,20 @@ html body
 }
 
 .input-control::placeholder
-{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+{
     color: #9ca3ac;
     font-style: italic;
-    opacity: 1; /* Firefox */
+    opacity: 1;
 }
 
 .input-control:-ms-input-placeholder
-{ /* Internet Explorer 10-11 */
+{ 
     color: #9ca3ac;
     font-style: italic;
 }
 
 .input-control::-ms-input-placeholder
-{ /* Microsoft Edge */
+{
     color: #9ca3ac;
     font-style: italic;
 }
@@ -256,16 +234,10 @@ html body
     box-sizing: border-box;
     margin: 0 auto;
     float: none;
-    /* width: 80px; */
-    /* height: 30px; */
-    /* line-height: 28px; */
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
     border-color: transparent;
     border-style: solid;
     border-width: 1.2px;
     box-shadow: none;
-    /* border-radius: 2px; */
 }
 
 .stsSignInButton .button:hover
@@ -339,7 +311,7 @@ html body
 {
     display: none;
 }
-.passwordToggle{
+.passwordToggle,.passwordToggle:hover{
     content: "" !important;
     background-image: url(https://frontenduiux.github.io/OBB_ETenders/Images/eye-show.svg);
     background-size: contain;
@@ -492,7 +464,6 @@ html:not(.designer) .video-container .intro{
     padding:2vw!important;
 }
 }
-/* Screen 1650px: Dimensions for big screen size */
 @media only screen and (min-width:1650px)
 {
     .legacyIE .input-control-watermark
@@ -572,7 +543,6 @@ html:not(.designer) .video-container .intro{
     }
 }
 
-/*Images - normal*/
 @media only screen and (max-resolution: 1.5dppx) and (max-width: 1650px), 
     (max-resolution: 144dpi) and (max-width: 1650px), 
     (-webkit-max-device-pixel-ratio: 1.5) and (max-width: 1650px), 
@@ -690,8 +660,7 @@ html:not(.designer) .video-container .intro{
     }
 }
 
-/*Images@2x - hi-dpi*/
-@media only screen and (min-resolution: 1.5dppx) and (max-width: 1650px), /*this is for retina graphics, apple/samsung devices*/
+@media only screen and (min-resolution: 1.5dppx) and (max-width: 1650px),
     (min-resolution: 144dpi) and (max-width: 1650px), 
     (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1650px), 
     (-o-min-device-pixel-ratio: 3/2) and (max-width: 1650px)
@@ -749,7 +718,7 @@ html:not(.designer) .video-container .intro{
     }
 }
 
-@media only screen and (min-resolution: 1.5dppx) and (min-width: 1650px), /*this is for retina graphics, apple/samsung devices*/
+@media only screen and (min-resolution: 1.5dppx) and (min-width: 1650px),
     (min-resolution: 144dpi) and (min-width: 1650px), 
     (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1650px),
     (-o-min-device-pixel-ratio: 3/2) and (min-width: 1650px)
@@ -805,5 +774,3 @@ html:not(.designer) .video-container .intro{
         background-image: url("Platinum2/images/Icons/DesignerLogin/LoadingControl_2196f3_24@2x.gif");
     }
 }
-
-
