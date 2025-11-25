@@ -252,16 +252,16 @@ html body
     box-sizing: border-box;
     margin: 0 auto;
     float: none;
-    width: 80px;
-    height: 30px;
-    line-height: 28px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* width: 80px; */
+    /* height: 30px; */
+    /* line-height: 28px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
     border-color: transparent;
     border-style: solid;
     border-width: 1.2px;
     box-shadow: none;
-    border-radius: 2px;
+    /* border-radius: 2px; */
 }
 
 .stsSignInButton .button:hover
@@ -412,7 +412,8 @@ html:not(.designer) .internal-user-banner img{
     height: 3vw !important;
     margin-bottom: 1vw;
 }
-html:not(.designer) .ContinueLoginContainer button {
+html:not(.designer) .ContinueLoginContainer button,
+    html:not(.designer) .ContinueLoginContainer a{
     padding: .8vw 3vw;
     border-radius: .5vw;
     font-size: 1vw;
