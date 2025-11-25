@@ -34,12 +34,13 @@ input:-webkit-autofill:focus
 html
 {
     font-size:62.5%;
+    bakground-color:white!important;
 }
 
 html body 
 {
     font-size: 1.1rem;
-
+    background-color: white!important;
 }
 
 .stsMainLogo
@@ -116,10 +117,10 @@ html body
 
 .stsLoginInPanel .stsMain .stsLoginDetails
 {
-    height: auto;
-    width: 300px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* height: auto; */
+    width: 100%;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
 }
 
 .stsLoginInPanel .stsLoginUserName,
@@ -148,7 +149,7 @@ html body
     background-color: transparent;
     box-sizing: border-box;
     min-height: 24px;
-    width: 300px;
+    width: 100%;
     font-size: 1.2rem;
     padding: 0px;
     padding-bottom: 4px;
