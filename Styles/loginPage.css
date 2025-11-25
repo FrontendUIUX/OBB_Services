@@ -355,6 +355,11 @@ html body
     background-position: center;
 
 }
+@media(min-width:992px){
+    .video-container{
+        height: 100vh;
+    }
+}
 @media (min-width:1600px) {
     .validation-error {
             font-size: 1vw!important;
