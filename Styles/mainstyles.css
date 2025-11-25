@@ -1702,6 +1702,9 @@ html:not(.designer) td.center-align [title="Urgent"] > span{
 html:not(.designer) td.center-align [title="Normal"] > span{
     color:var(--aqua)!important;
 }
+.bottomSection .SignUpOptions .OptionCard{
+	background-size: cover!important;
+}
 @media(min-width:992px){
 	html:not(.designer) body{
     margin:0;
@@ -1709,7 +1712,7 @@ html:not(.designer) td.center-align [title="Normal"] > span{
     font-family: var(--regularFont);
     background-color: white;
     margin-top: 6rem;
-    height: calc(100% - 4rem);
+    height: calc(100% - 0rem);
     width: calc(100% - 0rem);
 }
 	html:not(.designer) .sidebarVisible [name="OBB_header"]{
@@ -2558,6 +2561,12 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
     }
 	html:not(.designer) .theme-entry .grid.full .grid-body-content{
     top:3vw;
+}
+	.option-corner{
+	padding:.8vw .8vw 0
+}
+.action-btn-container{
+	padding:.0 .8vw .8vw
 }
 }
 @media(min-width:1920px){
