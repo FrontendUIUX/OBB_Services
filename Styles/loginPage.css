@@ -5,6 +5,9 @@
 .stsLoginInPanel{
     background-color: white!important;
 }
+input::placeholder{
+    font-style:normal!important;
+}
 /* Change autocomplete styles in WebKit */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -160,6 +163,7 @@ html body
     border-bottom-color: rgba(55, 71, 79, 0.5);
     border-left-width: 0px;
     border-right-width: 0px;
+    height: 3rem!important;
 }
 
 .stsLoginDetails .validation-error
