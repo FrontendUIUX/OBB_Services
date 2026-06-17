@@ -199,8 +199,8 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                 ];
                 }
             }else{
-                if (currentUrl.includes("SAWPSiteAccessInternal") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("SiteAccessInternal.LandingForm") || currentUrl.includes("SiteAccess.MainForm") || currentUrl.includes("SiteAccess.ReadOnlyForm")){
-                    if (currentUrl.includes("UserId=1") || currentUrl.includes("userid=1") || currentUrl.includes("SiteAccess.MainForm") || currentUrl.includes("SiteAccess.ReadOnlyForm")){
+                if (currentUrl.includes("SAWPSiteAccessInternal") || currentUrl.includes("RegistrationRequest.ReviewForm") || currentUrl.includes("SiteAccessRequest") || currentUrl.includes("SiteAccessInternal.LandingForm")){
+                    if (currentUrl.includes("UserId=1") || currentUrl.includes("userid=1")){
                         menuItems = [
                             { text: "Home", url: "/Runtime/Runtime/Form/SiteAccessInternal.LandingForm/" },
                             { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalTaskListForm/" },
@@ -227,7 +227,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
                     { text: "In Progress", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalInProgressForm/" },
                     { text: "Completed", url: "/Runtime/Runtime/Form/SAWPSiteAccessExternalCompletedForm/" }
                 ];
-            }else if (currentUrl.includes("SiteAccessInternal") || currentUrl.includes("RegistrationRequest.ReviewForm")){
+                }else if (currentUrl.includes("SiteAccessInternal") || currentUrl.includes("RegistrationRequest.ReviewForm")){
                     menuItems = [
                         { text: "Home", url: "/Runtime/Runtime/Form/SiteAccessInternal.LandingForm/" },
                         { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPSiteAccessInternalTaskListForm/" },
@@ -239,7 +239,7 @@ if (currentUrl.includes("ArchivingRequest") ||  currentUrl.includes("RAP") || cu
         }
         
 	}else if (currentUrl.includes("WorkPermit")){
-        if (currentUrl.includes("UserId=1") || currentUrl.includes("userid=1") || currentUrl.includes("WorkPermit.MainForm") || currentUrl.includes("WorkPermit.MainReadOnlyForm")){
+        if (currentUrl.includes("UserId=1") || currentUrl.includes("userid=1")){
             menuItems = [
                 { text: "Home", url: "/Runtime/Runtime/Form/WorkPermitInternal.LandingForm/" },
                 { text: "Tasks List", url: "/Runtime/Runtime/Form/SAWPWorkPermitInternalTaskListForm/" },
